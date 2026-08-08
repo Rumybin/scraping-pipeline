@@ -10,12 +10,13 @@ uses, since reading a text file does not need JS execution.
 from __future__ import annotations
 
 import asyncio
+import contextlib
 from collections.abc import Awaitable, Callable
 from dataclasses import dataclass
 from datetime import UTC, datetime
 from urllib.parse import urlsplit
 
-from playwright.async_api import Browser, BrowserContext
+from playwright.async_api import Browser, BrowserContext, Page
 from playwright.async_api import Error as PlaywrightError
 from playwright.async_api import Response as PlaywrightResponse
 
@@ -29,6 +30,8 @@ from pipeline.fetchers.robots import RobotsChecker
 _DEFAULT_CONTEXT_POOL_SIZE = 4
 _DEFAULT_NAVIGATION_TIMEOUT_MS = 30_000.0
 _XHR_RESOURCE_TYPES = frozenset({"xhr", "fetch"})
+_SCROLL_WAIT_TIMEOUT_MS = 5_000.0
+_SCROLL_SETTLE_MS = 300.0
 
 
 @dataclass(frozen=True)
@@ -130,11 +133,12 @@ class BrowserFetcher:
 
         context = await self._context_pool.acquire()
         try:
-            return await self._navigate(context, target.url)
+            return await self._navigate(context, target)
         finally:
             await self._context_pool.release(context)
 
-    async def _navigate(self, context: BrowserContext, url: str) -> RawResponse:
+    async def _navigate(self, context: BrowserContext, target: Target) -> RawResponse:
+        url = target.url
         page = await context.new_page()
         xhr_captures: list[XhrCapture] = []
         capture_tasks: list[asyncio.Task[None]] = []
@@ -170,6 +174,9 @@ class BrowserFetcher:
             if response is None:
                 raise BrowserFetchError(f"no response received navigating to {url}")
 
+            if target.max_scroll_rounds > 0:
+                await self._scroll_to_bottom_repeatedly(page, target.max_scroll_rounds)
+
             if capture_tasks:
                 await asyncio.gather(*capture_tasks, return_exceptions=True)
             self.last_xhr_responses = xhr_captures
@@ -185,6 +192,28 @@ class BrowserFetcher:
             )
         finally:
             await page.close()
+
+    async def _scroll_to_bottom_repeatedly(self, page: Page, max_rounds: int) -> None:
+        """Scroll to the bottom of `page` up to `max_rounds` times, for infinite-scroll content.
+
+        Stops early once a scroll no longer grows the page (no more content loaded), rather than
+        always spending the full `max_rounds` budget. Waits for network idle *and* a short fixed
+        settle time after each scroll — some infinite-scroll pages load more via a detectable
+        XHR/fetch call (network idle alone suffices), others just synchronously mutate the DOM
+        from a scroll-event listener with no network activity for Playwright to key off of at
+        all, where only the fixed wait gives the DOM time to update before the next measurement.
+        """
+        previous_height = await page.evaluate("document.body.scrollHeight")
+        for _ in range(max_rounds):
+            await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+            # no further network activity is not a failure -- just nothing more to load
+            with contextlib.suppress(PlaywrightError):
+                await page.wait_for_load_state("networkidle", timeout=_SCROLL_WAIT_TIMEOUT_MS)
+            await page.wait_for_timeout(_SCROLL_SETTLE_MS)
+            new_height = await page.evaluate("document.body.scrollHeight")
+            if new_height <= previous_height:
+                break
+            previous_height = new_height
 
     async def _effective_rate_limit(self, url: str, config: RateLimitConfig) -> RateLimitConfig:
         """Narrow `config.rps` to the origin's robots.txt `Crawl-delay`, when it is more strict."""

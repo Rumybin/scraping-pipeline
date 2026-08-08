@@ -139,3 +139,13 @@ async def test_js_rendered_serves_a_shell_with_a_placeholder_div(
 
     assert response.status_code == 200
     assert '<div id="root">loading...</div>' in response.text
+
+
+async def test_infinite_scroll_serves_only_the_first_item_up_front(
+    client: httpx.AsyncClient,
+) -> None:
+    response = await client.get("/infinite-scroll")
+
+    assert response.status_code == 200
+    assert "item-0" in response.text
+    assert "item-1" not in response.text

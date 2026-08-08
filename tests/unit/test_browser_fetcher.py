@@ -92,6 +92,41 @@ async def test_fetch_captures_xhr_responses_made_during_page_load(browser: Brows
     assert captured[0].status_code == 200
 
 
+async def test_fetch_scrolls_to_reveal_all_infinite_scroll_items(browser: Browser) -> None:
+    async with hostile_server() as base_url:
+        fetcher = BrowserFetcher(
+            browser=browser,
+            user_agent=_USER_AGENT,
+            robots_checker=_permissive_robots_checker(),
+        )
+
+        raw = await fetcher.fetch(
+            Target(url=f"{base_url}/infinite-scroll", max_scroll_rounds=10),
+            rate_limit=_GENEROUS_RATE_LIMIT,
+        )
+
+    body = raw.body.decode("utf-8")
+    for n in range(5):
+        assert f"item-{n}" in body
+
+
+async def test_fetch_does_not_scroll_when_max_scroll_rounds_is_zero(browser: Browser) -> None:
+    async with hostile_server() as base_url:
+        fetcher = BrowserFetcher(
+            browser=browser,
+            user_agent=_USER_AGENT,
+            robots_checker=_permissive_robots_checker(),
+        )
+
+        raw = await fetcher.fetch(
+            Target(url=f"{base_url}/infinite-scroll"), rate_limit=_GENEROUS_RATE_LIMIT
+        )
+
+    body = raw.body.decode("utf-8")
+    assert "item-0" in body
+    assert "item-1" not in body
+
+
 async def test_context_pool_reuses_contexts_instead_of_growing_past_its_size(
     browser: Browser,
 ) -> None:

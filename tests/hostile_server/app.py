@@ -146,4 +146,31 @@ def create_app(*, flaky_seed: int = 0, drift_after_requests: int = 3) -> FastAPI
         </body></html>"""
         return Response(content=html, media_type="text/html")
 
+    @app.get("/infinite-scroll")
+    async def infinite_scroll() -> Response:
+        """Not one of the nine PRD scenarios — auxiliary fixture for BrowserFetcher's scroll
+        capability: five tall (900px) items, one loaded up front, the rest appended one at a time
+        only once the viewport actually scrolls within 5px of the bottom, mirroring how
+        quotes.toscrape.com/scroll gates loading on real scroll position rather than a timer."""
+        html = """<!doctype html>
+        <html><body>
+        <div id="content"><div class="item" style="height:900px">item-0</div></div>
+        <script>
+          var loaded = 1;
+          var maxItems = 5;
+          window.addEventListener('scroll', function () {
+            var atBottom = (window.innerHeight + window.scrollY) >= document.body.offsetHeight - 5;
+            if (loaded < maxItems && atBottom) {
+              var div = document.createElement('div');
+              div.className = 'item';
+              div.style.height = '900px';
+              div.textContent = 'item-' + loaded;
+              document.getElementById('content').appendChild(div);
+              loaded++;
+            }
+          });
+        </script>
+        </body></html>"""
+        return Response(content=html, media_type="text/html")
+
     return app

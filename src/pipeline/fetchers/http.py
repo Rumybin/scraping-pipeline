@@ -1,20 +1,29 @@
-"""HTTP fetching: composes robots.txt compliance and per-domain rate limiting around httpx."""
+"""HTTP fetching: composes robots.txt compliance, per-domain rate limiting, per-error-class
+retry, and a per-domain circuit breaker around httpx (FR-1, FR-9, FR-10).
+"""
 
 from __future__ import annotations
 
+from collections.abc import Awaitable, Callable
 from datetime import UTC, datetime
 from urllib.parse import urlsplit
 
 import httpx
 
-from pipeline.core.exceptions import HttpFetchError, RobotsDisallowedError
+from pipeline.core.exceptions import CircuitOpenError, HttpFetchError, RobotsDisallowedError
 from pipeline.core.models import RateLimitConfig, RawResponse, Target
+from pipeline.fetchers.circuit_breaker import DomainCircuitBreaker
 from pipeline.fetchers.rate_limiter import RateLimiter
+from pipeline.fetchers.retry import ErrorClass, classify, fetch_with_retry
 from pipeline.fetchers.robots import RobotsChecker
+
+_BREAKER_FAILURE_CLASSES = frozenset({ErrorClass.RATE_LIMITED, ErrorClass.SERVER_ERROR})
 
 
 class HttpFetcher:
-    """Fetches pages over plain HTTP (FR-1), enforcing robots.txt and a per-domain rate limit."""
+    """Fetches pages over plain HTTP (FR-1), enforcing robots.txt, a per-domain rate limit,
+    per-error-class retry with backoff (FR-9), and a per-domain circuit breaker (FR-10).
+    """
 
     def __init__(
         self,
@@ -23,19 +32,46 @@ class HttpFetcher:
         client: httpx.AsyncClient,
         rate_limiter: RateLimiter | None = None,
         robots_checker: RobotsChecker | None = None,
+        circuit_breaker: DomainCircuitBreaker | None = None,
+        retry_sleep: Callable[[float], Awaitable[None]] | None = None,
     ) -> None:
         self._user_agent = user_agent
         self._client = client
         self._rate_limiter = rate_limiter or RateLimiter()
         self._robots_checker = robots_checker or RobotsChecker(client, user_agent)
+        self._circuit_breaker = circuit_breaker or DomainCircuitBreaker()
+        self._retry_sleep = retry_sleep
 
     async def fetch(self, target: Target, *, rate_limit: RateLimitConfig) -> RawResponse:
-        """Fetch `target.url`, honoring robots.txt and `rate_limit`.
+        """Fetch `target.url`, honoring robots.txt, `rate_limit`, retry, and the circuit breaker.
 
-        Raises `RobotsDisallowedError` if robots.txt disallows the URL, and `HttpFetchError` on a
-        network-level failure. A non-2xx HTTP response is not an error here — it is returned as a
+        Raises `CircuitOpenError` immediately, without touching the network, if `target.url`'s
+        domain has tripped its breaker. Raises `RobotsDisallowedError` if robots.txt disallows the
+        URL — this does not count against the breaker, since it reflects site policy, not domain
+        health. Raises `HttpFetchError` if every retry of a network/timeout failure is exhausted.
+        A non-2xx HTTP response that survives retries is not an error here — it is returned as a
         `RawResponse` so it can still be persisted to the raw zone (Hard Rule 5) for inspection.
         """
+        domain = urlsplit(target.url).netloc
+        if self._circuit_breaker.is_open(domain):
+            raise CircuitOpenError(f"circuit open for {domain!r}, skipping {target.url}")
+
+        try:
+            raw = await fetch_with_retry(
+                lambda: self._fetch_once(target, rate_limit=rate_limit), sleep=self._retry_sleep
+            )
+        except HttpFetchError:
+            self._circuit_breaker.record_failure(domain)
+            raise
+
+        if classify(raw, None) in _BREAKER_FAILURE_CLASSES:
+            self._circuit_breaker.record_failure(domain)
+        else:
+            self._circuit_breaker.record_success(domain)
+        return raw
+
+    async def _fetch_once(self, target: Target, *, rate_limit: RateLimitConfig) -> RawResponse:
+        """Perform exactly one fetch attempt, with no retry — `fetch` supplies that."""
         if not await self._robots_checker.is_allowed(target.url):
             raise RobotsDisallowedError(f"robots.txt disallows {target.url}")
 

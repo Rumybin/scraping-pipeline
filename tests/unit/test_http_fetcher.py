@@ -2,17 +2,21 @@
 
 Composes `RobotsChecker` and `RateLimiter` (real instances, since their own behavior is already
 covered in `test_robots.py` / `test_rate_limiter.py`) except where a test needs to inspect what
-`HttpFetcher` hands the rate limiter, where an `AsyncMock` stands in instead.
+`HttpFetcher` hands the rate limiter, where an `AsyncMock` stands in instead. Retry/circuit-breaker
+tests pass `retry_sleep` as a recording no-op so they don't wait out real backoff delays; end-to-end
+proof against real wall-clock retry timing lives in `tests/resilience/`.
 """
 
+from collections.abc import AsyncIterator
 from unittest.mock import AsyncMock
 
 import httpx
 import pytest
 import respx
 
-from pipeline.core.exceptions import HttpFetchError, RobotsDisallowedError
+from pipeline.core.exceptions import CircuitOpenError, HttpFetchError, RobotsDisallowedError
 from pipeline.core.models import RateLimitConfig, Target
+from pipeline.fetchers.circuit_breaker import DomainCircuitBreaker
 from pipeline.fetchers.http import HttpFetcher
 
 USER_AGENT = "scraping-pipeline-test/1.0"
@@ -21,8 +25,12 @@ CRAWL_DELAY_ROBOTS = "User-agent: *\nCrawl-delay: 10\n"
 DISALLOW_ROBOTS = "User-agent: *\nDisallow: /blocked/\n"
 
 
+async def _no_sleep(seconds: float) -> None:
+    """A `retry_sleep` override that records nothing and waits nothing — keeps retry tests fast."""
+
+
 @pytest.fixture
-async def client() -> httpx.AsyncClient:
+async def client() -> AsyncIterator[httpx.AsyncClient]:
     async with httpx.AsyncClient() as client:
         yield client
 
@@ -175,3 +183,83 @@ async def test_aclose_closes_the_underlying_client() -> None:
     await fetcher.aclose()
 
     mock_client.aclose.assert_awaited_once()
+
+
+@respx.mock
+async def test_fetch_retries_a_503_and_returns_the_eventual_success(
+    client: httpx.AsyncClient,
+) -> None:
+    _mock_robots()
+    route = respx.get("https://example.invalid/page")
+    route.side_effect = [httpx.Response(503), httpx.Response(200, text="ok")]
+    fetcher = HttpFetcher(user_agent=USER_AGENT, client=client, retry_sleep=_no_sleep)
+
+    raw = await fetcher.fetch(
+        Target(url="https://example.invalid/page"), rate_limit=RateLimitConfig(rps=10.0, burst=5)
+    )
+
+    assert raw.status_code == 200
+    assert route.call_count == 2
+
+
+@respx.mock
+async def test_fetch_does_not_retry_an_ordinary_4xx(client: httpx.AsyncClient) -> None:
+    _mock_robots()
+    route = respx.get("https://example.invalid/missing").mock(return_value=httpx.Response(404))
+    fetcher = HttpFetcher(user_agent=USER_AGENT, client=client, retry_sleep=_no_sleep)
+
+    raw = await fetcher.fetch(
+        Target(url="https://example.invalid/missing"),
+        rate_limit=RateLimitConfig(rps=10.0, burst=5),
+    )
+
+    assert raw.status_code == 404
+    assert route.call_count == 1
+
+
+@respx.mock
+async def test_fetch_raises_circuit_open_error_without_touching_the_network(
+    client: httpx.AsyncClient,
+) -> None:
+    _mock_robots()
+    route = respx.get("https://example.invalid/page").mock(side_effect=httpx.ConnectError("down"))
+    breaker = DomainCircuitBreaker(fail_max=2, reset_timeout=60.0)
+    fetcher = HttpFetcher(
+        user_agent=USER_AGENT, client=client, circuit_breaker=breaker, retry_sleep=_no_sleep
+    )
+    target = Target(url="https://example.invalid/page")
+    rate_limit = RateLimitConfig(rps=10.0, burst=5)
+
+    with pytest.raises(HttpFetchError):
+        await fetcher.fetch(target, rate_limit=rate_limit)
+    with pytest.raises(HttpFetchError):
+        await fetcher.fetch(target, rate_limit=rate_limit)
+
+    calls_before = route.call_count
+    with pytest.raises(CircuitOpenError):
+        await fetcher.fetch(target, rate_limit=rate_limit)
+
+    assert route.call_count == calls_before  # the third fetch never touched the network
+
+
+@respx.mock
+async def test_fetch_does_not_count_a_robots_disallow_against_the_circuit_breaker(
+    client: httpx.AsyncClient,
+) -> None:
+    _mock_robots(DISALLOW_ROBOTS)
+    page_route = respx.get("https://example.invalid/blocked/page").mock(
+        return_value=httpx.Response(200)
+    )
+    breaker = DomainCircuitBreaker(fail_max=1, reset_timeout=60.0)
+    fetcher = HttpFetcher(
+        user_agent=USER_AGENT, client=client, circuit_breaker=breaker, retry_sleep=_no_sleep
+    )
+    target = Target(url="https://example.invalid/blocked/page")
+    rate_limit = RateLimitConfig(rps=10.0, burst=5)
+
+    for _ in range(3):
+        with pytest.raises(RobotsDisallowedError):
+            await fetcher.fetch(target, rate_limit=rate_limit)
+
+    assert page_route.call_count == 0
+    assert breaker.is_open("example.invalid") is False

@@ -10,14 +10,12 @@ from urllib.parse import urlsplit
 
 import httpx
 
-from pipeline.core.exceptions import CircuitOpenError, HttpFetchError, RobotsDisallowedError
+from pipeline.core.exceptions import HttpFetchError, RobotsDisallowedError
 from pipeline.core.models import RateLimitConfig, RawResponse, Target
 from pipeline.fetchers.circuit_breaker import DomainCircuitBreaker
 from pipeline.fetchers.rate_limiter import RateLimiter
-from pipeline.fetchers.retry import ErrorClass, classify, fetch_with_retry
+from pipeline.fetchers.resilience import fetch_with_resilience
 from pipeline.fetchers.robots import RobotsChecker
-
-_BREAKER_FAILURE_CLASSES = frozenset({ErrorClass.RATE_LIMITED, ErrorClass.SERVER_ERROR})
 
 
 class HttpFetcher:
@@ -53,22 +51,12 @@ class HttpFetcher:
         `RawResponse` so it can still be persisted to the raw zone (Hard Rule 5) for inspection.
         """
         domain = urlsplit(target.url).netloc
-        if self._circuit_breaker.is_open(domain):
-            raise CircuitOpenError(f"circuit open for {domain!r}, skipping {target.url}")
-
-        try:
-            raw = await fetch_with_retry(
-                lambda: self._fetch_once(target, rate_limit=rate_limit), sleep=self._retry_sleep
-            )
-        except HttpFetchError:
-            self._circuit_breaker.record_failure(domain)
-            raise
-
-        if classify(raw, None) in _BREAKER_FAILURE_CLASSES:
-            self._circuit_breaker.record_failure(domain)
-        else:
-            self._circuit_breaker.record_success(domain)
-        return raw
+        return await fetch_with_resilience(
+            domain,
+            lambda: self._fetch_once(target, rate_limit=rate_limit),
+            circuit_breaker=self._circuit_breaker,
+            retry_sleep=self._retry_sleep,
+        )
 
     async def _fetch_once(self, target: Target, *, rate_limit: RateLimitConfig) -> RawResponse:
         """Perform exactly one fetch attempt, with no retry — `fetch` supplies that."""

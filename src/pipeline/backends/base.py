@@ -29,8 +29,13 @@ class ObjectStore(Protocol):
         """Return whether an object exists at `key`."""
         ...
 
-    async def list(self, prefix: str) -> AsyncIterator[str]:
-        """Yield every key under `prefix`."""
+    def list(self, prefix: str) -> AsyncIterator[str]:
+        """Yield every key under `prefix`.
+
+        Declared as a plain method returning `AsyncIterator[str]`, not `async def`, because
+        implementations are async generators (`async def list(...): yield ...`) — callers use
+        `async for`, not `await` — matching `BaseScraper.discover` in `core/scraper.py`.
+        """
         ...
 
 

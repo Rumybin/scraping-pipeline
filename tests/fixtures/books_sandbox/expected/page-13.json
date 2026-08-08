@@ -1,0 +1,422 @@
+[
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/52/df/52dfc44f48cf29e7a9e305bcb63e1899.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "d3d08046276e893c76a0db7a8b5b2f0d3ec65945f3505cb3c89e34dd6751bae4",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "16.88",
+    "record_id": "a8ba2e6f118f91e2afd12739c477d35535f18b1e8e5fd99dd9a24704bbd68bd9",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-power-of-habit-why-we-do-what-we-do-in-life-and-business_760/index.html",
+    "title": "The Power of Habit: Why We Do What We Do in Life and Business"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/0f/c2/0fc21ec3489cb23116778ee84f425eca.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "813cf99e803820471bb92d7748e4201b4309f9a18cd704cd6f9aee7af6501cd8",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "28.08",
+    "record_id": "057d46f2b827c36a2037d0ab5bd95390cd9a4f3fc24c8779c033ff5e03aa077b",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-marriage-of-opposites_759/index.html",
+    "title": "The Marriage of Opposites"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/a6/c8/a6c8256b123493472591c5855c7de704.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "aa819170446a0b1b467ba642ddee38bccc18b3bf42eaae5fc43b3c05399f8d20",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "10.40",
+    "record_id": "425d6274417fd71d1b1b0a70dbcea4ddac47df3bbc2502ffb5dc0793ee8d9749",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-lucifer-effect-understanding-how-good-people-turn-evil_758/index.html",
+    "title": "The Lucifer Effect: Understanding How Good People Turn Evil"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/46/bd/46bdee520b8136972262fd040533772d.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "7b120612a34c262c9bf542abf6d45beee7f54a5d361ce5af805c4772d4a07296",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "44.07",
+    "record_id": "79bc7c355e2b91b1cddf9127433b7808e2e6e63ceb5ab911e0e61e4331aeeafd",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-long-haul-diary-of-a-wimpy-kid-9_757/index.html",
+    "title": "The Long Haul (Diary of a Wimpy Kid #9)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/6d/10/6d10387a0175701d4ff456a0c7eee67b.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "979b36a2522dcd17af3fe5d29e7333e0382899022bd96eb35969edb424579cf6",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "23.40",
+    "record_id": "57980c28dbd8ae77ae8c26295b38dabcb43b9607b3c550c35f6c8b4c7e604721",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-loney_756/index.html",
+    "title": "The Loney"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/9e/ea/9eea51ac4a15d18aa976be459da30c47.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "8973cbd801527ef8b110c461f1f5935e62a431dbf43dc27f20e55b247503c78b",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "17.43",
+    "record_id": "e7b7f83f57a01bf12292809abfe5de2fa46a74d2181cf5a6bc93b614018a231c",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-literature-book-big-ideas-simply-explained_755/index.html",
+    "title": "The Literature Book (Big Ideas Simply Explained)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/37/f1/37f118b4a56d866e1e8b563759d6966c.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "eba7b9c41fb857cc1d5783cf36033f05f5b7a3bcb6aaedfc9219bbb9fc4b4ef5",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "54.21",
+    "record_id": "5e4f875ac3632df22a95aa629c46b4c973e550945aef598531bf2e08228b9bb2",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-last-mile-amos-decker-2_754/index.html",
+    "title": "The Last Mile (Amos Decker #2)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/94/ac/94ac87da7b40853013093f08356efa3b.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "af2a932861f957cc12b4bfb983e2da30158eed281e46b7d5432ca99c2909b3f4",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "40.67",
+    "record_id": "fc7d960767c4423bb554b28792a539e60fa13975e4e17d109c51e9e56063a596",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-immortal-life-of-henrietta-lacks_753/index.html",
+    "title": "The Immortal Life of Henrietta Lacks"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/b4/67/b467a4f01ca6ae8464b9425a156c7c32.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "340dd1e7a5c157c0cced9849adf2b43148373a3f317a6867993e08b4afa85a85",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "52.26",
+    "record_id": "93dd11ab2e281c953a19ffda3d091666f65988d4bc88d21440d6fe5392bcfb39",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-hidden-oracle-the-trials-of-apollo-1_752/index.html",
+    "title": "The Hidden Oracle (The Trials of Apollo #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/c4/dc/c4dcec6f513eaca3f0f3c748d834c46d.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "7dda7a0bb986d46f2ce1f491a37ef3c728ecede39e5870838a39888b95585d21",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "28.77",
+    "record_id": "ad92cd0d1393266991c90f93e7fb22cf0dc09fbaf0ea8f153468765a57a1b28c",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-help-yourself-cookbook-for-kids-60-easy-plant-based-recipes-kids-can-make-to-stay-healthy-and-save-the-earth_751/index.html",
+    "title": "The Help Yourself Cookbook for Kids: 60 Easy Plant-Based Recipes Kids Can Make to Stay Healthy and Save the Earth"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/76/de/76deee06ffe45e646c0113af01f4f401.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "a793d067327fc98dd619ad3abedccd47e69c984652e56ac8acc917030917e3a1",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "13.82",
+    "record_id": "0d0b7a655e4b8ceac9d7565d2849c2b0dc93d1a8b3d9e34a7116d0bb695f9a62",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-guilty-will-robie-4_750/index.html",
+    "title": "The Guilty (Will Robie #4)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/38/34/3834572e651cdc14b18d348fa4875aa9.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "e279490e02ddce92a9fe122053d0fbf88ac04e8758965c223fbc229c6309e82f",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "25.85",
+    "record_id": "f8344cfd127448b80b755b5cc08a0b8810d4d32d1268d0aa11ff4ace1fd2859b",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-first-hostage-jb-collins-2_749/index.html",
+    "title": "The First Hostage (J.B. Collins #2)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/8f/3f/8f3f4d67e30a8129577ccc4664998345.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "eb380b17e0eec9a36a1a208b0c9d891ce458978fd6247140fda0d485509bcb6a",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "48.78",
+    "record_id": "d2cb437393c2eb0b975a7992cf1d6826fb2375059739e7931a4509ff10990669",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-dovekeepers_748/index.html",
+    "title": "The Dovekeepers"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/1d/3c/1d3c05b772ab846c111970232360d2c5.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "d9db3160874896291e22739a142e934acf0fe6049dbefe1d789cad49638f2e60",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "35.35",
+    "record_id": "3cde5302f1a00f42b8b5f3d1516d895a6f78c0a19ac70ba7e3c610867e615728",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-darkest-lie_747/index.html",
+    "title": "The Darkest Lie"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/9a/33/9a333c4a06ce187c5c9d2f5969ddcac2.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "27e2d52087b11514eb5117775282a424af54f34e0f5835ac1b1f6cbd47b6edea",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "44.73",
+    "record_id": "93b02ed8b73cbc788a790190b64265c5c00b45443e16ba32baa37c37beea3b40",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-bane-chronicles-the-bane-chronicles-1-11_746/index.html",
+    "title": "The Bane Chronicles (The Bane Chronicles #1-11)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/88/90/8890073a9c9e3bb696f6baa84fb4dd95.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "12fa82613cba5079a9a2a703aa16128f0c17b1e03ab09abeb51078772204b7fd",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "15.77",
+    "record_id": "af40306929a14fd77e4499674439a77f9dee7c0a35c970f38b3164b873e2b265",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-bad-ass-librarians-of-timbuktu-and-their-race-to-save-the-worlds-most-precious-manuscripts_745/index.html",
+    "title": "The Bad-Ass Librarians of Timbuktu: And Their Race to Save the World\u2019s Most Precious Manuscripts"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/d9/1a/d91aae72af6c1cb2c63163acabe7895c.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "bddbf30f859f8f58262aa67cecd1f11e1bdb50e748923307534ce79b91457807",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "39.24",
+    "record_id": "fdaefaec223af67cbfab1e591482fa6097f2472ba06144a244e7d716f3d71ff1",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-14th-colony-cotton-malone-11_744/index.html",
+    "title": "The 14th Colony (Cotton Malone #11)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/44/9e/449ed681142bc336646abee754e96639.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "00173783d65787fbccdfcdcd4ff8295c164f24cc75578b987fb40bc4f7667e9c",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "13.92",
+    "record_id": "3b2dcd1037162fdade1b3ed2f3a51d10ce3cc507d94e51be36fefd828e293057",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/that-darkness-gardiner-and-renner-1_743/index.html",
+    "title": "That Darkness (Gardiner and Renner #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/3c/91/3c91d97266bd6dda322089695fb46daf.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "8eeda850703abbef2d571ed48dfe69b3d260a6839d78139b2192326c42e130d9",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "10.69",
+    "record_id": "d255e9d27865f7d9a83e510afdabde002d6ae899da951d98f150fc9823d87576",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/tastes-like-fear-di-marnie-rome-3_742/index.html",
+    "title": "Tastes Like Fear (DI Marnie Rome #3)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/d8/a4/d8a44eda7cbe7bd1207f868e9adc06f3.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "e7e39ecfcf6ab1e1ed321815ac16226e1d5cf9960a773b2f3e03f35ff5db5b6f",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "45.21",
+    "record_id": "d6d22f58b6e9c27781133290e409faf333b8fd0ea98e3d97c1b30055fe3fde9f",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/take-me-with-you_741/index.html",
+    "title": "Take Me with You"
+  }
+]

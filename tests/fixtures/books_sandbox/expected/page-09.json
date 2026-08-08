@@ -1,0 +1,422 @@
+[
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/fe/b7/feb764b2afa54991cfdbbffdf501b333.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "ba56b628dc0bba02cc6cdb1cc0ad2bd0932370a21060467a8476f5a7d055cbb9",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "32.00",
+    "record_id": "626f799274962096c9ab49c80523899566f13f834e7cde779d0eff30fedf0cd6",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-bridge-to-consciousness-im-writing-the-bridge-between-science-and-our-old-and-new-beliefs_840/index.html",
+    "title": "The Bridge to Consciousness: I'm Writing the Bridge Between Science and Our Old and New Beliefs."
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/0e/6d/0e6dc2484322c5b9e7854ced66fdf62d.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "221644dc82679388468d12362c602bfbcc7c3616f515d31701d344ed2b77187d",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "38.49",
+    "record_id": "30814b2ab9e585dde953cbefe0194cd355e1316a0621a8320d90f5b906ebd0a0",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-artists-way-a-spiritual-path-to-higher-creativity_839/index.html",
+    "title": "The Artist's Way: A Spiritual Path to Higher Creativity"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/6d/71/6d71e36c8b1b9c885e1bb6c72cd8bcf8.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "1e368cefa46630e250166ee0a074895547c44d4354a55dc17a65ba24b6018797",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "33.34",
+    "record_id": "c1e3cdf2a88b812877c0124295fd63293e41d12f0b56c3455385209b097f2bca",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-art-of-war_838/index.html",
+    "title": "The Art of War"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/0a/15/0a1567cd04a6582d333db71337b4e2a6.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "bf4f42e775ca9f0629bd0182ef2a0130dd81dc6134be3b0a4b28109bc031b824",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "10.93",
+    "record_id": "13d64ed3fafa42152eff871a1400f47d02a66d7d57602b7d0112796f6d937699",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-argonauts_837/index.html",
+    "title": "The Argonauts"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/82/93/82939ca78da0b724f16ec814849514fd.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "cd40fac82636efe453af298f81bd8c092c81db3dfaf9c2aa63230cbbb24f8052",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "27.55",
+    "record_id": "bc13afe9117beb91c1641bc30bb9ee94fc70b251028759d5b34a6d320a1f41dc",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-10-entrepreneur-live-your-startup-dream-without-quitting-your-day-job_836/index.html",
+    "title": "The 10% Entrepreneur: Live Your Startup Dream Without Quitting Your Day Job"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/e9/f4/e9f4bc8cf5ffaea1504623c936e90a48.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "c2c8fc403be24cabe037e5f3c85fdfe2f46982627372f68151bb647b7c304a69",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "55.99",
+    "record_id": "2b96accb1358ab141be6a3610457a7ddc97081958771716aaa99cd2751a25cb4",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/suddenly-in-love-lake-haven-1_835/index.html",
+    "title": "Suddenly in Love (Lake Haven #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/59/10/5910fbd8a95e8e9de9c660b71e0694e2.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "c65f09aca79d6255b5ea9c0922350910e93ae077199c730aa1eee6b46a46324e",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "16.24",
+    "record_id": "3ed8a614f6fe0c3829912313943e2bd0526a2e0b55bd99d7152bbbc74a2ff85c",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/something-more-than-this_834/index.html",
+    "title": "Something More Than This"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/f0/06/f0060c756556b855184fa32f66280961.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "b3c793ddeff1424e299008b2c3ce71fecd3aa43f07f9092532aac39169dd3b2e",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "26.12",
+    "record_id": "c066c9231b6061a38fc803c04b730ec38b88fa39eef0786955322dec664b1ed5",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/soft-apocalypse_833/index.html",
+    "title": "Soft Apocalypse"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/6e/d4/6ed4991d97f60db29ec7b421e61a2cf3.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "32adbcbf312950efbe32f8bbab57b80e4e444e3e029587b39d377118115cb48b",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "12.23",
+    "record_id": "558c96e0de8ae78d1809b58c56076f50d6d9800149b9d021ed95bc2471bf424e",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/so-youve-been-publicly-shamed_832/index.html",
+    "title": "So You've Been Publicly Shamed"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/19/aa/19aa1184a3565b1dae6092146018e109.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "8581f97f9346f1ed0e8b8c6ab8473fd7d02b05da103c8d8c3c33b0abc930b66e",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "23.99",
+    "record_id": "d6efaa7c33d109c2b5df03901b5b7d5e90899f8abe7ffb943edfc7775fe3fcad",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/shoe-dog-a-memoir-by-the-creator-of-nike_831/index.html",
+    "title": "Shoe Dog: A Memoir by the Creator of NIKE"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/ae/0c/ae0ccc307568b6d7699786411f3cbcc4.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "e183c28bdc1adb12464970992f44a521389be455582facd4bd3446e86fc93bd8",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "29.06",
+    "record_id": "3b48a0856bed8ccdb49d60a1873ecea46ffc1c27cee8d041bd59b82fa4540e60",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/shobu-samurai-project-aryoku-3_830/index.html",
+    "title": "Shobu Samurai, Project Aryoku (#3)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/84/7c/847c06b541e2a3b2228b96d97a5fe7a6.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "0ded68fb0aef2aafbfd4a7b2cd4c9860ec9cfa96146eb90dea2fa55eb034eb93",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "20.27",
+    "record_id": "fbb667f09d6029ccdaeb697d1b83349d2064f433dabb499cc0c39f7482e631ba",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/secrets-and-lace-fatal-hearts-1_829/index.html",
+    "title": "Secrets and Lace (Fatal Hearts #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/0f/d3/0fd306891f8fd3196653022fd67d6c87.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "4f501ec25c14ad0813da006e9e53c9865bc368670093afc74ef1bde73653da73",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "43.55",
+    "record_id": "f4627d3c18762f642908cd3544afca57c6d20d4619da33c5ac30a9c88b1de7eb",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/scarlett-epstein-hates-it-here_828/index.html",
+    "title": "Scarlett Epstein Hates It Here"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/12/f8/12f8002e5aab6d783e29b31aad36b5ba.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "57a0e9df3820df9a67a0bed69f171921ec6181f919aa320d88c0d8fbb5270669",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "36.94",
+    "record_id": "f7a723f76101489240a8b20e08df169e77751ab176031bb8df0e7e6e32bab4e0",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/romero-and-juliet-a-tragic-tale-of-love-and-zombies_827/index.html",
+    "title": "Romero and Juliet: A Tragic Tale of Love and Zombies"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/21/21/2121ba78e26194d92c334fde3850f840.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "6b80c60368d9620e68a3c18a25674cbef5c1611621808f413894e5a31634d84e",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "20.47",
+    "record_id": "f0949947f9e84b0369388c8ffa35de58821ef3b028f4969fb71c943723702e73",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/redeeming-love_826/index.html",
+    "title": "Redeeming Love"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/5a/89/5a89e2dd7866dda6660fe508bc4b5249.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "30f7486aa8ab32058f7e533ff16e338c019f82e292524e448831e87d2359fb5b",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "41.06",
+    "record_id": "c0d7374cc163c5f3439ff345225584bb4e9e60a7b097867984feceeb988cabe7",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/poses-for-artists-volume-1-dynamic-and-sitting-poses-an-essential-reference-for-figure-drawing-and-the-human-form_825/index.html",
+    "title": "Poses for Artists Volume 1 - Dynamic and Sitting Poses: An Essential Reference for Figure Drawing and the Human Form"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/38/64/386468a8c3e6b880664bf7885bf6f726.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "70ddd6b0c77874eb206a3f0672746afb53e533db02dedbf0e2f869abc6769593",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "14.19",
+    "record_id": "e1b33ac80ac6fbc63a5e4bff5afcf48c93076404246631a6f2ddafc58df7a40e",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/poems-that-make-grown-women-cry_824/index.html",
+    "title": "Poems That Make Grown Women Cry"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/18/08/18086e581ad354aa65f945c2b5c51350.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "102bd363b1aeb5d710faa779cfb478f9db915e7401a2f9fb6b6fcd33292efb0d",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "38.28",
+    "record_id": "d150d95dffdff447f28597a63d31547093abe4fcd9c7528821c1440b0242c9c8",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/nightingale-sing_823/index.html",
+    "title": "Nightingale, Sing"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/25/54/2554431c797ec725eea50b3f8a83758c.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "1079438fc907e84496d765751e079cfccb7cc6a8e4a77bd102566dc89d607ef7",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "41.05",
+    "record_id": "b1838313eeb8dae7f8da66370b3ff059ab2461020a59e28b48d1022f43d7fbe8",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/night-sky-with-exit-wounds_822/index.html",
+    "title": "Night Sky with Exit Wounds"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/0e/fe/0efe86960cdff718aed01a5c3f65b1c3.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "359694946282eb4c455df911a867372b974114f1b7da175de8f3c17fe95fb60f",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "30.25",
+    "record_id": "0a693df25be45d142f7ce02702c1dc27fddfe6ddb867b43bd4e2d368b3750251",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/mrs-houdini_821/index.html",
+    "title": "Mrs. Houdini"
+  }
+]

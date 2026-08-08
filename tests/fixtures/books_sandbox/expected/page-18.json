@@ -1,0 +1,422 @@
+[
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/41/c3/41c37f7f0e03ee1144dd6fa89483b5d9.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "c575c68db80cbb24e057678450521ad21c040c31d4a796ccee2f33f993190e2d",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "29.87",
+    "record_id": "e31ce20bda3ded319e550ac3629fb173e81edfd64ce09242ed357ee89fd9269d",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/all-the-light-we-cannot-see_660/index.html",
+    "title": "All the Light We Cannot See"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/a2/b9/a2b974e5a66e7502c77d2e4632abe033.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "395519d8ff0e7d1f66f05f14c81d30a703a1edf88d72252f5089d3ba5afc74a0",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "10.90",
+    "record_id": "db7d648f8f8239e8a70ea6e2dd93d20b3efe41790aeb65298cadee16b8a3f517",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/adulthood-is-a-myth-a-sarahs-scribbles-collection_659/index.html",
+    "title": "Adulthood Is a Myth: A \"Sarah's Scribbles\" Collection"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/e7/70/e77019ebd71bcf6badb085bddf47c413.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "8f459ea856998eb4234a9144d04a1c48133204de0a0aff698d098b374a0e17a7",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "56.37",
+    "record_id": "d499e0b760558eb9d186845b409b16978c754b259ff5bb720dcb9f800a7bdca6",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/abstract-city_658/index.html",
+    "title": "Abstract City"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/e8/c0/e8c0ba15066bab950ae161fd60949b9a.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "c799142b69f82a436931d78bef50028a36fe095915b0b70a2af91ba3a7116ee5",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "48.35",
+    "record_id": "d72594b7b5e4272263ff1d9858d6b3876564afe68dd3697db9f174bc7a78e2d5",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/a-time-of-torment-charlie-parker-14_657/index.html",
+    "title": "A Time of Torment (Charlie Parker #14)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/8f/a4/8fa41d6caa10e427356b8a590eb4d96b.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "1a6506d4fe6ab9b19041a5a82640fea0f945c0b29a26e29ca0e71056b1b8b03a",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "16.73",
+    "record_id": "9458795d71a2a5e5c6e1928f616b70b242775873170f6d6f844571bbdbf7e4fd",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/a-study-in-scarlet-sherlock-holmes-1_656/index.html",
+    "title": "A Study in Scarlet (Sherlock Holmes #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/9b/20/9b2076ce7414103a093ce2459d089969.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "b0b67996f2578f2e313e4734b54ee9373029182c29d687962dd4e85899ddc245",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "56.48",
+    "record_id": "8d4b4ea2013d090d57087f6c2eeebe136c18b0dc0e43b13151aa41c49e98cb84",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/a-series-of-catastrophes-and-miracles-a-true-story-of-love-science-and-cancer_655/index.html",
+    "title": "A Series of Catastrophes and Miracles: A True Story of Love, Science, and Cancer"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/75/20/75200336c141156746000f7055df344a.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "a0c9bf527139c7486446ef36e24bb19fc94a57a35a52239bdd70a8e8db48dd5a",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "40.79",
+    "record_id": "3202d47474e2e19dd3d92bc546dd3431f8384892dac9b757a7dbb02e63d85e76",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/a-peoples-history-of-the-united-states_654/index.html",
+    "title": "A People's History of the United States"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/9c/f1/9cf1f4a47b8d08909fc092e6ae598d83.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "f398a97b09aa04a880b91b7d8fd8bd582a5db3b6a0b52914b47eb1af9f73356b",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "39.72",
+    "record_id": "af78c590da1ae204854f7e81048f2dfe32d7fb7bb02f883ab4c6f8c7e2302724",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/a-man-called-ove_653/index.html",
+    "title": "A Man Called Ove"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/41/d5/41d5fa6a81cdbcbe6b0b15757a4c9144.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "8350a916fc39c90206165af3f797743f0c6396aaabc7c1d13e94cf025f775bfb",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "14.58",
+    "record_id": "ab28f4df04f2a068f0eeb317441ef1a6b39794fcff69b36b2e08707fa995092c",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/a-distant-mirror-the-calamitous-14th-century_652/index.html",
+    "title": "A Distant Mirror: The Calamitous 14th Century"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/4d/16/4d163d43cb4aa624e599330a39abace5.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "773e8f0a89aff10159ab2219ab47a359669f823939d02691d8fdcd7177c9f06f",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "55.51",
+    "record_id": "6cfc495174bfcd1c8c6283c3b91d4d69de986d11009e262a3b1e25cda3b3996a",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/a-brush-of-wings-angels-walking-3_651/index.html",
+    "title": "A Brush of Wings (Angels Walking #3)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/88/75/8875f384ce9103281b7f6e86a2b8204d.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "8723a5b3de7487eb03ead647d4656a0fd725f5c45529752f907109a56fedd8c7",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "21.80",
+    "record_id": "2af0de0838d57d3a38b03765a5e5687eae736daa2002e2d80dcc3b1153fbbbb6",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/1491-new-revelations-of-the-americas-before-columbus_650/index.html",
+    "title": "1491: New Revelations of the Americas Before Columbus"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/83/35/8335b71599b5a257a56cfabdd79080a4.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "64ff758c2a3cbd236a402d954100ccd5a183e790a50e383ca67aee8d9500cb2d",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "13.33",
+    "record_id": "83b032658e223beee458867290b36ff36d74801019943b079739eaa385f0bcf3",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-three-searches-meaning-and-the-story_649/index.html",
+    "title": "The Three Searches, Meaning, and the Story"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/3b/04/3b045fe0394dc192950a0ec9e3812fe4.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "aacee41df6adf3f7eb26ed05c3e74ac54e465c44ce3bc83c037bf1df54f91332",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "38.73",
+    "record_id": "def61c6ff919dce3d66b58e2cff965e73905e205d3e47265c22b89ec14b693a1",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/searching-for-meaning-in-gailana_648/index.html",
+    "title": "Searching for Meaning in Gailana"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/55/33/5533595a623c3bb947c4a5171fc2df08.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "6230512659a4b755dd4f16fcdae8e7248bd3fdcdd63fe3c42f622ee20f0ac862",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "37.86",
+    "record_id": "402b623ca9a11e8227373790d4c016ddfa9b465d09ce54294b062f05258e514f",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/rook_647/index.html",
+    "title": "Rook"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/76/a1/76a1516c8d9c3e620626f30840013a85.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "98ec7deb0f57a2c4012d9a805c20af84e2868272fbb5460230738cae9f2d84d2",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "11.53",
+    "record_id": "1e8d2c93106fdacf79410f0f4d5c0968fb63f4eac99808ef9f8b38a85793ddf8",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/my-kitchen-year-136-recipes-that-saved-my-life_646/index.html",
+    "title": "My Kitchen Year: 136 Recipes That Saved My Life"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/15/f7/15f78e0b04feb9b94e88865803cb5e9e.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "273b13a78341cc83b133c943fc1bdbe3692fe282d5a98ce9e46812491e24cac0",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "27.06",
+    "record_id": "e40c3ab0de477d40a086193ca292ed41694fe4802c3f46697923166b16ba62c7",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/13-hours-the-inside-account-of-what-really-happened-in-benghazi_645/index.html",
+    "title": "13 Hours: The Inside Account of What Really Happened In Benghazi"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/16/e3/16e3ca741956485119251e7442a67e2e.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "1b8fa5c7a33cc8fc72c5d6fb2270b710a9e8b8959d699a6c4a1d7cf775d85349",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "13.86",
+    "record_id": "685968929d423f149832144abfae184707ec8a0628c2ce3af192317b9b1bb322",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/will-you-wont-you-want-me_644/index.html",
+    "title": "Will You Won't You Want Me?"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/56/97/5697f2f8f628129df01c5790985ffd9b.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "096e6c19be4b603e87196243a6b72e494f37f407ff71fa453747fc847d628da5",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "37.55",
+    "record_id": "1f0e16134ba83fc668a231972bfd01e2a371918d028e5ed9b64499d55ba53f18",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/tipping-point-for-planet-earth-how-close-are-we-to-the-edge_643/index.html",
+    "title": "Tipping Point for Planet Earth: How Close Are We to the Edge?"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/d3/0d/d30dd8b6be6f9fcfd17178e8083238b6.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "36a462fe641eeade2c6d27f7e8d1611803db3bf47b75a9d7165d99f3d8cd84c7",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "32.30",
+    "record_id": "c1e5ae3487fa393d6f7a66744daf5a63ee288c2f992d5ac08adcb65a6a5600e5",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-star-touched-queen_642/index.html",
+    "title": "The Star-Touched Queen"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/30/2c/302cd9c84442e139145ec0993880d7e0.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "771fa76ed489364a6cec5248f7dff4308736e1d13cb40166c7e2d0881ec1750a",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "46.29",
+    "record_id": "1b64d8cb40da573adeb15a7a48b9fb92b1debb9f9a3c842a6e34cc6c12ee1757",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-silent-sister-riley-macpherson-1_641/index.html",
+    "title": "The Silent Sister (Riley MacPherson #1)"
+  }
+]

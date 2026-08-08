@@ -1,0 +1,422 @@
+[
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/72/41/72417db983862010ef0c1a25de98c7d7.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "58ae6bbad897c121936b2e64ff8338a1c8f496360fb1d4a2dc2502c9532c9234",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "57.31",
+    "record_id": "ef715ed1993889b20331102b65ff89d62763d9fda4d1c5a4d1d625cc586c2c9a",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/slow-states-of-collapse-poems_960/index.html",
+    "title": "Slow States of Collapse: Poems"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/cb/bd/cbbdb0222ee8a0f6ab61657412a15794.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "66c92a89e9e8ba350a57725aed881dbcac0b6f52ed5858f9f810c32fc59cfc38",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "26.41",
+    "record_id": "4645260a5a350dcb3eb9eb2499ef5da28f1ca7f642c6e21ed53dbc085df558ab",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/reasons-to-stay-alive_959/index.html",
+    "title": "Reasons to Stay Alive"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/9d/05/9d0533bae1578846d728a82913b95c26.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "c5be87cbb5677fd77d19c392a78c01bcd42ec4efbc73a8d11802cefed9a440f3",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "47.61",
+    "record_id": "3f94ff4bebe8fe0000e856208139bee73e51f9b38a532a00f1b1f66e96b4f4fb",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/private-paris-private-10_958/index.html",
+    "title": "Private Paris (Private #10)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/9c/46/9c463c7631c82401160fd3b554b8f0e1.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "f34060c9a992f00630664ab265944f0522661faf1e0d5b84e7391ddf77a0f2b0",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "23.11",
+    "record_id": "199510cb5b710dfe25ecda07c2bc7cf9f26de824f7bea1c675d2b10a3d76de03",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/higherselfie-wake-up-your-life-free-your-soul-find-your-tribe_957/index.html",
+    "title": "#HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe."
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/24/e2/24e2f5c9d325c4004d8190c054da86dd.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "a1e4288f77d7f17b4a9d9c64a5ac6e5b27ed5155934598156e60b9dcfda23801",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "45.07",
+    "record_id": "99845c0542e5d017845418f207f76948d6fb376a8c1559343263fbc29e3dc934",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/without-borders-wanderlove-1_956/index.html",
+    "title": "Without Borders (Wanderlove #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/08/04/08044269fc197645268a6197c57e6173.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "12588cd21008d2025e26020d8ace8031a7da1fa560afd1f2794be02a25f37938",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "31.77",
+    "record_id": "c01de96342c85aa146eb8f4c209b1967f82fdd3a7f0a6245240884dc7b7f9928",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/when-we-collided_955/index.html",
+    "title": "When We Collided"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/5f/15/5f152afdbc42356ecba02f61058a7e5b.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "34f6ba433f0e7a4d214f340829737625ddd83762e59756964df6fa67773579bb",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "50.27",
+    "record_id": "308627bcaa5101decd1008ede2cc1aca41e63d2afe00f725735d2da47ef84684",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/we-love-you-charlie-freeman_954/index.html",
+    "title": "We Love You, Charlie Freeman"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/f9/3b/f93b4a650f03a5d21f2436d7813f42c2.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "84edb68447e0e42ce34479112a1a4f2abd44916d242a8b51611202163689f3de",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "14.27",
+    "record_id": "1d07f7becec6f70805ee1446ecb2a134af4f6f7a2e7062d0058f024194d2de49",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/untitled-collection-sabbath-poems-2014_953/index.html",
+    "title": "Untitled Collection: Sabbath Poems 2014"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/41/a2/41a20f35adf0caea24f208dc01ad7681.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "da67d93f4584b854a2e3c55b56e00d290818d5652c8bc63cb6eb032c8d84a1b7",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "44.18",
+    "record_id": "68279356c29dda8ee42360c9de9e5d2cacc01677b8176c6db3bbc845d825e939",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/unseen-city-the-majesty-of-pigeons-the-discreet-charm-of-snails-other-wonders-of-the-urban-wilderness_952/index.html",
+    "title": "Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/76/8e/768ea5924ac1ef6297c2be9959c796c2.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "ded22cd543acad66661f5600c1c0837a35003b28930241103dcf676757d7f006",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "18.78",
+    "record_id": "bfd406fa785e4810ac9e13cd70951c66b8863f25101a3e4dea880e4e96f0dc02",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/unicorn-tracks_951/index.html",
+    "title": "Unicorn Tracks"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/4a/3b/4a3b055f9e378a95fedbef55e7bab7ce.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "d0d7133636ad0d72f3c28f60976c9fcd8468815be2ae671635a4bab3ef147109",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "25.52",
+    "record_id": "f1c84a4b38b616b404020d1fc48e8f036a68edf580319cb5a030bdd7f233463b",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/unbound-how-eight-technologies-made-us-human-transformed-society-and-brought-our-world-to-the-brink_950/index.html",
+    "title": "Unbound: How Eight Technologies Made Us Human, Transformed Society, and Brought Our World to the Brink"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/36/df/36df4caaf1420b1183a8235355d39e69.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "e9021024cd2875a6916a2eb2137936b5952c2596769d96bdb43f444f5dcbc011",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "16.28",
+    "record_id": "f222213dc9aa8d4a5d535b8af0255fe078bdcad756357166261f5f4ee1c4a678",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/tsubasa-world-chronicle-2-tsubasa-world-chronicle-2_949/index.html",
+    "title": "Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/03/86/038650c9e7517b4baf2a423cd8eed38f.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "4aca893174cd3546822ff2ad54cacd42306ce5303ed75d27fcb7311b80d3b6ae",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "31.12",
+    "record_id": "1d355a00c72b0bba949fedaeb5f2ac24c68d0c82231367e9f4e3c61bed73f191",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/throwing-rocks-at-the-google-bus-how-growth-became-the-enemy-of-prosperity_948/index.html",
+    "title": "Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/c4/dd/c4ddd9ced89966b0602ec85e00cd5b61.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "06d3ff452ab985beea1f97a61cb36f295f78c4ddade058bc0c45f2973cf0cab1",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "19.49",
+    "record_id": "7e99992241b412e10ac043a40df629f2a69579f52272880812f24a357ee25523",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/this-one-summer_947/index.html",
+    "title": "This One Summer"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/c4/0a/c40a64f59e7487b1a80a049f6ceb2ba5.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "d58262b09d6234b4d48fc37d00e877fe8ff85c4c485d64a3280695791a1bd083",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "17.27",
+    "record_id": "c78c8e5958addeb1999f73c172a01177177070523d7fb080d62b6f573bb4b826",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/thirst_946/index.html",
+    "title": "Thirst"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/33/e5/33e507172541628acfd421503196b578.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "219ad8670679074cf895c37d34ce9c7c1de2a1981baad17a39e3c9e3f3c30b08",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "19.09",
+    "record_id": "d96b3ce7225379432cfecca2a7d24cb01cede3208cd42d85c88f8a2b69348da8",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-torch-is-passed-a-harding-family-story_945/index.html",
+    "title": "The Torch Is Passed: A Harding Family Story"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/c4/a2/c4a2a1a026c67bcceb5a411c724d7d0c.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "b49ca9ce850ded9a028679a42a43ae62e87a249b1cab657583034dbf111f955e",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "56.13",
+    "record_id": "255a8ea26fade49704009d500770f071dccfd563019cd1f14465dada0380ff42",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-secret-of-dreadwillow-carse_944/index.html",
+    "title": "The Secret of Dreadwillow Carse"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/b7/f4/b7f4843dbe062d44be1ffcfa16b2faa4.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "9744acf11c6cba80b28f7529daea1a1bdd3ba975eaed41e6f3fea1faa209d112",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "56.41",
+    "record_id": "fd2c834faf4b8145065cebb13d5d0cc0f8a37ddd7fe9e74aa59826dd405450ec",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-pioneer-woman-cooks-dinnertime-comfort-classics-freezer-food-16-minute-meals-and-other-delicious-ways-to-solve-supper_943/index.html",
+    "title": "The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/89/b8/89b850edb01851a91f64ba114b96acb6.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "062f609c614545a2c9dd39230dc599f4ed5c75d2bd77a0a65d7e14108b8e849f",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "56.50",
+    "record_id": "8523bf4e31a84bcff60a65621d4721f20104ab6f5672dce9b34c3d97e12b9edd",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-past-never-ends_942/index.html",
+    "title": "The Past Never Ends"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/5d/7f/5d7f496cdf5e5962a73ecdcc1505c1d5.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "f2f52bbe1cf0063a21845923b0429bddfba6cf8fe046ff573624d520f044a1da",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "45.22",
+    "record_id": "20f79bf202c3a303f003eb73f19817b69c35e0acbd39eed110226428fe9e1be1",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-natural-history-of-us-the-fine-art-of-pretending-2_941/index.html",
+    "title": "The Natural History of Us (The Fine Art of Pretending #2)"
+  }
+]

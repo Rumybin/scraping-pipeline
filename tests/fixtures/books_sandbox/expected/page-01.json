@@ -1,0 +1,422 @@
+[
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/2c/da/2cdad67c44b002e7ead0cc35693c0e8b.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "23ebaf6fcaa6bc667248a0ab680ed82c6c85a34dfc2b90ffa2a3cdc65fb472ff",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "51.77",
+    "record_id": "d3517fdc5ba5db44fd0582e04adb7fa5e42f7e5997c41eb99a4baf8d5da50de5",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+    "title": "A Light in the Attic"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/26/0c/260c6ae16bce31c8f8c95daddd9f4a1c.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "0dfe88fdfb6158dbfcd9b99f63f11ca4dbabbf414a1ad73ee63a52563228d8ac",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "53.74",
+    "record_id": "1bfe7144106257659ef3751cbb56af4e77749f7ff5aa5cc95ace94bfd3b73cfa",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html",
+    "title": "Tipping the Velvet"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/3e/ef/3eef99c9d9adef34639f510662022830.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "9a048ab83787401d6d2e0ce63fd54c1cd75ddfe68248e728778b4bf9da809ad9",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "50.10",
+    "record_id": "6b0e9c5f2e297dcef6b95903d4d3d63d99f484c6041a983e65cb126bf4260d93",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/soumission_998/index.html",
+    "title": "Soumission"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/32/51/3251cf3a3412f53f339e42cac2134093.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "c0719ba602fcf9210493a5c8642cbb1981b5f0a69b763bf061968a1e8b9ce80d",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "47.82",
+    "record_id": "2f3ed02dbb5e605e55f273c4022885e94ed2070e11630b7b1ce4952ee05b6652",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/sharp-objects_997/index.html",
+    "title": "Sharp Objects"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/be/a5/bea5697f2534a2f86a3ef27b5a8c12a6.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "f5123e98578eaa2f61969991920a936c0e19a941063acaffef04b078afd247ed",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "54.23",
+    "record_id": "32ba51ddae6b936b29330e25fd5d8d5729a71045fce75f31d00df0475391ee00",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html",
+    "title": "Sapiens: A Brief History of Humankind"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/68/33/68339b4c9bc034267e1da611ab3b34f8.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "4f2e4f344422783ba6dc452363b97434ce333cc00e751433a81a75e5ef56541a",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "22.65",
+    "record_id": "b78ec64d5d695903e5fbbe2fe539bcb8d6257b4b77f418d874c50f65ee923e18",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-requiem-red_995/index.html",
+    "title": "The Requiem Red"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/92/27/92274a95b7c251fea59a2b8a78275ab4.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "db572223ca0e03566e08fd0ca5d89d2ffab5b500839d6d786246af8bf1dc4a9d",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "33.34",
+    "record_id": "e214ab12366d4cb97bacd1dd587d611a45a75b5ee33c98d7c7df52b903464bb7",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html",
+    "title": "The Dirty Little Secrets of Getting Your Dream Job"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/3d/54/3d54940e57e662c4dd1f3ff00c78cc64.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "4d6a30a270250b606750e7364b7fc7018b17e65265028f64e8a16853f6ac0fb1",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "17.93",
+    "record_id": "74bd02fc4f8d2c2456463a2ed7262797f82462231db310922368843a1b83b28e",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html",
+    "title": "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/66/88/66883b91f6804b2323c8369331cb7dd1.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "5154eadebcb88bd929061b0ed6bd8edba08781e51b2812e204cab4121333c2ae",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "22.60",
+    "record_id": "e69a4c636ddedca017c7a793ea6bd51c527527c47a464c946f0cbc35a4188f89",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html",
+    "title": "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/58/46/5846057e28022268153beff6d352b06c.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "01504e4966740dce43720206ebe1df75bfd892ac53e079652dda4fb42fc9ff76",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "52.15",
+    "record_id": "c4211854c0cfa5b50288d5601c4ed668de289ada1a0a9ba55ff325cda4461b7e",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-black-maria_991/index.html",
+    "title": "The Black Maria"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/be/f4/bef44da28c98f905a3ebec0b87be8530.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "03845e3f5bb8e33ad971aba7dc2ac527e84a56615b665bd65d6526cc104cf213",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "13.99",
+    "record_id": "62b259de570462efadc479063d5e8f599239a0e44d5ae40c830217ce8251de8d",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html",
+    "title": "Starving Hearts (Triangular Trade Trilogy, #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/10/48/1048f63d3b5061cd2f424d20b3f9b666.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "0682643796ae032493d5d21ad884c4adf2771523d86ef3d633b10bb12a0389cd",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "20.66",
+    "record_id": "3fbd60c0618b90f52554d1d8345e4e08952759682a34d95ede2e2602893ac902",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html",
+    "title": "Shakespeare's Sonnets"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/5b/88/5b88c52633f53cacf162c15f4f823153.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "98b105f0b25679e3574d2c4a734ace7391efd1557384ac9fcf6142b28ebcf039",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "17.46",
+    "record_id": "03de0323e27ff3c1eb48dc1f0a3c8ebc9948418e8626005b2c85a15e1db0f22d",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/set-me-free_988/index.html",
+    "title": "Set Me Free"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/94/b1/94b1b8b244bce9677c2f29ccc890d4d2.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "fe2802c079ef71f94241a20d39275d3975dff83bffe5d13b164b755f9f604069",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "52.29",
+    "record_id": "d6e071ff17e80429437ad448d955d3b07f6a87ec182eef22bfb935757386f655",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html",
+    "title": "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/81/c4/81c4a973364e17d01f217e1188253d5e.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "1529c28caa9b308aa4c57ee6e61d91816c6246898e45216fc868c19f0c55de9d",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "35.02",
+    "record_id": "772346aa526e2010ebf7fcb309a8680276fa27d5f1935ac34a5aec00bf82dd1a",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html",
+    "title": "Rip it Up and Start Again"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/54/60/54607fe8945897cdcced0044103b10b6.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "7fafe7a456e1781b8738d8d8013f410acd886afdfec7ed9a5677af4c0efa8539",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "57.25",
+    "record_id": "745a5ba7a75c06a18adca5380b906ec1058fd4b61c9f1f0ce27c0d0c5205ae6a",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html",
+    "title": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/55/33/553310a7162dfbc2c6d19a84da0df9e1.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "0e654284ba1e2a45ea6a67c1577e848f4e6b2a5a3276a9a5f0bd54c38f4fee98",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "23.88",
+    "record_id": "ba9a0ed9a1bcbdc09736124e5a559f9c66d93a753406a223777c6fa00ea1036e",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/olio_984/index.html",
+    "title": "Olio"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/09/a3/09a3aef48557576e1a85ba7efea8ecb7.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "fe978e5760fa0c4036c35ab37a50b05b6ad56ab0f6583f28567b26a689e5df18",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "37.59",
+    "record_id": "693ff2ac1711c6bdc967528d62594c8813a34b537e9fbdbb9dcc2892a682c86c",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html",
+    "title": "Mesaerion: The Best Science Fiction Stories 1800-1849"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/0b/bc/0bbcd0a6f4bcd81ccb1049a52736406e.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "0e054bdadb90e4bea9d2dc84a9efd2a12e5ad33077b140c8b6bd2eed81cf0313",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "51.33",
+    "record_id": "9ce0c5ceb166f60d3e1186c682e711310c4d230fada2496f563c12f0dcf77220",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html",
+    "title": "Libertarianism for Beginners"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/27/a5/27a53d0bb95bdd88288eaf66c9230d7e.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "5ae2172285eb1861fe0ed542fb13193dd82404d287ef24a20620f8fa52a72a74",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "45.17",
+    "record_id": "96e9ac9d79f519d980904bd34a7406e0456fdc0b190191907e56170a23f12120",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html",
+    "title": "It's Only the Himalayas"
+  }
+]

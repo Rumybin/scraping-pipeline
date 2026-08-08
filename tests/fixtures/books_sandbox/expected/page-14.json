@@ -1,0 +1,422 @@
+[
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/10/28/1028b2cf417e49dc1c14609e437a98e0.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "d6a8eb93502f8c554843429e774578fb6c4d2625dfd386e1548159a7f8931a48",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "45.58",
+    "record_id": "fe93923e3c2cace82dab44313842d38e5c319aff412250f06fce26af90adf634",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/swell-a-year-of-waves_740/index.html",
+    "title": "Swell: A Year of Waves"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/7e/c0/7ec0e9ca6153a23b2024b7df7407ee84.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "a5e9279ae47b7e1853824564823a271a05cac3ad9c88d90ba8876d435850d63d",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "11.89",
+    "record_id": "632849ed8483eba9025eb75e989bd1129e34768ef941f749e17de3890856267c",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/superman-vol-1-before-truth-superman-by-gene-luen-yang-1_739/index.html",
+    "title": "Superman Vol. 1: Before Truth (Superman by Gene Luen Yang #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/8e/c7/8ec7f310b74ddd7ec3c859e9b0da7389.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "38882f6a2814ea80388fcd00fc7a3588d30160869b913af22b7850125bc674d1",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "26.41",
+    "record_id": "1e000b44bc243c6ffebcaceebb24175dc2a7819299a38b8a69b50f9241c61e8c",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/still-life-with-bread-crumbs_738/index.html",
+    "title": "Still Life with Bread Crumbs"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/86/31/86313c225719ac946894d780c4ff0839.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "a3e5a6e5b496593ac35219b2c57191c72787216284bffdd8dc6d33a9c68f03cc",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "39.50",
+    "record_id": "d5f96f1e8bf55da55519e4d2fbaab225aac75d45009f0c9f03cc98d24b11dbf2",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/steve-jobs_737/index.html",
+    "title": "Steve Jobs"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/68/ca/68caaf9ac41964d5167a3eb67c638393.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "cf7cf19f27648efe3274729ced47c5596ff729c72b76cbf1f7c729e7b10b62fa",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "44.74",
+    "record_id": "51a5892cc8e421f0b4d7b661d9f50a65e18cb1f80211dfe0cef3e108dc2c6a5e",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/sorting-the-beef-from-the-bull-the-science-of-food-fraud-forensics_736/index.html",
+    "title": "Sorting the Beef from the Bull: The Science of Food Fraud Forensics"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/e3/d0/e3d05227f3fc24f0e0c84ccebe108fb0.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "b3a8b8768008adc417306abaa70030156e7fa65d2158cc9cab54b4e67166ea28",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "52.79",
+    "record_id": "53d3c6239413d22c4748c8bcaa150c8f62a71e3d561f599062fae9750ea6be57",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/someone-like-you-the-harrisons-2_735/index.html",
+    "title": "Someone Like You (The Harrisons #2)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/b2/48/b2484d13793ff1c4271a3d4023d4d24e.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "ef87e33e204085636290d1834461852241695fd01c48c6c1205fea426754be34",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "35.43",
+    "record_id": "4dbd37708dcdfe929868c27e4fef0c0274d6ecf898c39a08d8f92d2aa825c837",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/so-cute-it-hurts-vol-6-so-cute-it-hurts-6_734/index.html",
+    "title": "So Cute It Hurts!!, Vol. 6 (So Cute It Hurts!! #6)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/03/16/0316bb6f4785ac69c0643109201bad5d.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "22bd71001741688c406b297cd5225d00eb1fcad21ece1a2feeba2edc770aaf70",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "55.84",
+    "record_id": "4378ae086daa54bb2aa5cad6b83bf510903446171c0c43ea727ea821422014d5",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/shtum_733/index.html",
+    "title": "Shtum"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/9a/7e/9a7e63f12829df4b43b31d110bf3dc2e.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "3e5611922f6b05ba01e2cbd59fa70dfa8338fdc9847753421ebcb644e4f41d8d",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "48.87",
+    "record_id": "7e61a4431fc71b3cc370d1006ca0a9af68fccb5d2485e2c4f6d639f837141f2b",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/see-america-a-celebration-of-our-national-parks-treasured-sites_732/index.html",
+    "title": "See America: A Celebration of Our National Parks & Treasured Sites"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/3f/41/3f4160ada0b16e3c64cd2d0dffe781c8.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "050ab637be32aac15e33bbd4173cba9795a532f8c2fc191a09ab3602ac9d0b48",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "46.78",
+    "record_id": "ac75c3299346c74436c00288ac173800ab41ec4015e74ccf0dc18ff3b25ec7b6",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/salt_731/index.html",
+    "title": "salt."
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/45/1d/451d3543022242b8b245793e6b5c26bb.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "5b396542036dc3dff4ffc2e6f0ed3a3704c88bcd8d434cd49c86c1fb9f92d384",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "47.82",
+    "record_id": "b042d8d036182497f41067aa6d04fa3a17c7b5a8c01c3fc591fa5bdadedd8324",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/robin-war_730/index.html",
+    "title": "Robin War"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/da/78/da78757466c3b0a2c89f0ddf6b5e642f.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "38127c79ef96d85a28256d999068543c76b758174e213523126616c2b65f4e7d",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "25.48",
+    "record_id": "76fb4071261a5274a46abf7830d6145c5c12e843c1622db47bad8c6fb8980e2a",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/red-hoodarsenal-vol-1-open-for-business-red-hoodarsenal-1_729/index.html",
+    "title": "Red Hood/Arsenal, Vol. 1: Open for Business (Red Hood/Arsenal #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/bb/e2/bbe26db72b8a32117bfe4981b7cc8147.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "c4b5d8ebdae76570d956d06725d786a3bc263d8d52ee1655fc393c8724f48d04",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "23.57",
+    "record_id": "68077dc4e9a93c311c9a3d8c0b960785174add3ea0b8630d020e6d3b5eec7afb",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/rain-fish_728/index.html",
+    "title": "Rain Fish"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/c8/f2/c8f297fab080ddd02b3ed5c17b83af85.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "84a0725212de7d5de0944ff3fb05890349909e889cff715ef8ec610a9b124d18",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "50.89",
+    "record_id": "fba0fd68961cdbecbc43c940cc9ec9580677671a151e534a1a4a8fbb1ad0d1ba",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/quarter-life-poetry-poems-for-the-young-broke-and-hangry_727/index.html",
+    "title": "Quarter Life Poetry: Poems for the Young, Broke and Hangry"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/7a/72/7a72465b21dbf998323e37b31f9a3f4a.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "bd4809d5697fef1d1892ac6579431d7dc2f6ed13cba4e5b3732a8db7cadd035e",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "10.56",
+    "record_id": "244d09f32703416b2ae0bfd7005e4da200809d498caa9960475de118fdbe874c",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/pet-sematary_726/index.html",
+    "title": "Pet Sematary"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/9c/da/9cda4893c7fce0c1c8eaa34fb092aa04.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "10c942089662aeee595fffd8998364a9b47d300977d4f571ab5960c1627897ca",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "52.15",
+    "record_id": "5fdc2d1b7412f5c68b36b0ef718ea6d4a4d1381831de4d9add5994cc884c791f",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/overload-how-to-unplug-unwind-and-unleash-yourself-from-the-pressure-of-stress_725/index.html",
+    "title": "Overload: How to Unplug, Unwind, and Unleash Yourself from the Pressure of Stress"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/97/12/971212afa8e4ff49d92f678bc889d8b7.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "fdd1015ef3473a0544b0b9cb313e44e4a2ab51c6a6316c5765a083b158379ca8",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "18.28",
+    "record_id": "4607fa9241c96fd646307c2c24e7b74dcecd58a15fc0456e982246b6131658a9",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/once-was-a-time_724/index.html",
+    "title": "Once Was a Time"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/df/5d/df5d172abe87deda6d533e3e908d27d8.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "14c4fe30b97701c1b568107173e7c6b5f39b35fd512be1de8ccb6428babb729f",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "11.83",
+    "record_id": "5adf3535370724acc17f349c67ff193f6d55d74659749b31ff3067e00e29e46d",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/old-school-diary-of-a-wimpy-kid-10_723/index.html",
+    "title": "Old School (Diary of a Wimpy Kid #10)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/b5/6f/b56ff04effb66fe701a22abd4a7f1667.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "9898d52428a561d3a16000d432d177c306309b3cd112b63944168ac6c94d68ed",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "21.95",
+    "record_id": "d8c5f923e65d6cc50a3e92412048859fa580dec1ada4662df88335d02c587a07",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/no-dream-is-too-high-life-lessons-from-a-man-who-walked-on-the-moon_722/index.html",
+    "title": "No Dream Is Too High: Life Lessons From a Man Who Walked on the Moon"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/c8/22/c822360ce0f91c40f7a0491c22287646.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "a0f6c1c42e0a86772babee21396ef1487d0ff65560f5665b6ba5382c587552ee",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "38.39",
+    "record_id": "0db1746afd4f9ec55b92e8feb84cc78cd55b82e21f41d29c542de7d737c2ddc8",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/naruto-3-in-1-edition-vol-14-includes-vols-40-41-42-naruto-omnibus-14_721/index.html",
+    "title": "Naruto (3-in-1 Edition), Vol. 14: Includes Vols. 40, 41 & 42 (Naruto: Omnibus #14)"
+  }
+]

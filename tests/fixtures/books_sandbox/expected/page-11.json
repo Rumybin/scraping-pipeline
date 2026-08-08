@@ -1,0 +1,422 @@
+[
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/6e/4e/6e4e8f4f4abd94356a9be840e4681e65.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "c25f11cad96b431616c7964c427aa32361d3b0d1f91db8a53158add63c73aa53",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "19.19",
+    "record_id": "d0a278f0848ff2c0dd74c6c39553b66d1ebde6602dba2f326bdd4cec38239793",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/dark-notes_800/index.html",
+    "title": "Dark Notes"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/55/ce/55ced903becc59121d6edb47a4dcfb56.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "da0c05a8474376544f556042015a264cb117f52ccc762c5ddc030501d1d48980",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "19.43",
+    "record_id": "3652fae8894d2aec3f414c0d686822507c1ce37dc306521f75ebd9d696189f90",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/daring-greatly-how-the-courage-to-be-vulnerable-transforms-the-way-we-live-love-parent-and-lead_799/index.html",
+    "title": "Daring Greatly: How the Courage to Be Vulnerable Transforms the Way We Live, Love, Parent, and Lead"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/fa/f6/faf6d69a42f477e1da80a71f05a4dc25.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "d7c94cd127571a588aa442dee334aeaabbcc3c1595a531c02bca58c7194bbe45",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "49.46",
+    "record_id": "489ac3e5445dab9125763f6b3689845e874470ef73f1fe85ddfc90506f793d98",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/close-to-you_798/index.html",
+    "title": "Close to You"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/b7/6a/b76a73640d26b09c4a6f373b09050bed.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "848583155f8ad180f85b8d11d87ea6265fb14294dda5b95b1be40535870c3d0f",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "37.80",
+    "record_id": "94d3b58f7d373c0551cd3736cc846b2f83e689c9eb770152872a2d0435cf3149",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/chasing-heaven-what-dying-taught-me-about-living_797/index.html",
+    "title": "Chasing Heaven: What Dying Taught Me About Living"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/62/ad/62ad9b4077416ddc0c4908062bca0e5e.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "f04ed3aadf87ee60676fcc9d43a38d87de4b74500b1d1232d014948402c4a443",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "30.80",
+    "record_id": "bd151f9c6df881a8aa770c1e31a3d30b2126324755a5d75d87714fa9eb6428fd",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/big-magic-creative-living-beyond-fear_796/index.html",
+    "title": "Big Magic: Creative Living Beyond Fear"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/ff/69/ff69c96b05affa03f647287e46210bf9.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "3641c832903b69682bef43ca6f9c864d32dff031dfd2ae77bd0fbdaca86db9c5",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "27.43",
+    "record_id": "5b63674c2544760af85ebd025a42a898a8331450f353c258bd6bc2dc9bd34599",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/becoming-wise-an-inquiry-into-the-mystery-and-art-of-living_795/index.html",
+    "title": "Becoming Wise: An Inquiry into the Mystery and Art of Living"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/51/6f/516f605a957a1f5592b81f4e06c491bb.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "8d09303e38422ec1c8321e7a817824bd445fa3afac3af6dae3871fd1570dabed",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "11.11",
+    "record_id": "7c871eadf3a786913d757f4ca43b3497f57d6a7834500a618217b17ca0fc25ef",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/beauty-restored-riley-family-legacy-novellas-3_794/index.html",
+    "title": "Beauty Restored (Riley Family Legacy Novellas #3)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/78/a7/78a7f184a4d6d62412861c68f1c3ad90.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "072b8bd4a877d3baf8b29fca93370ce8fc48b2394045336cf3f5f58e03d25233",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "36.50",
+    "record_id": "244bf129011cfb1706f579a966aee437e89cca44b1ec17430ee2c725bee8042c",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/batman-the-long-halloween-batman_793/index.html",
+    "title": "Batman: The Long Halloween (Batman)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/be/a9/bea95dbd7b2a843519c9a1dcfc433f9b.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "5d87ce510a2cfc014011538f87fb2d5096b7ea9bf62481233be03ac3668d3bc6",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "15.38",
+    "record_id": "4edd1fcd116f6dba2346752e52bddf8f1bc4c839458b1fb0712fd6c78c620d0c",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/batman-the-dark-knight-returns-batman_792/index.html",
+    "title": "Batman: The Dark Knight Returns (Batman)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/fa/18/fa18c44fba20b8191f6a88e2e28092fd.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "8982273e260d5bb65297a991c7787b36443247ac5467cae9b4ea0cd23d907bc8",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "15.48",
+    "record_id": "ffbeed8e26345c4860dcaf12ab512d666e8232dd79c7cb4df7879079801c3e62",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/ayumis-violin_791/index.html",
+    "title": "Ayumi's Violin"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/fb/75/fb75a0ce3e0b01fa3852806c6d1f1af6.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "890d781dac64b42bf0502d2674cdf856be3926ec51983ba1c156849a5adad1d0",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "46.82",
+    "record_id": "9ed6c27930bd841dc586ed21febbd99a0229f3c8db7d642d6bf02dc1c3a58704",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/anonymous_790/index.html",
+    "title": "Anonymous"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/00/53/0053efa8515b8e2ad9b029c298766e9f.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "147cf0f11f68906d945554ca417eef18bfbfb3cc22fdf39177e83272538b557e",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "18.46",
+    "record_id": "4a81ddb34cb708b2faaee9e77be1b802d7b866b5720dd17500a7030652ce407a",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/amy-meets-the-saints-and-sages_789/index.html",
+    "title": "Amy Meets the Saints and Sages"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/52/46/524655fade1d9fe1475395a3eaff827a.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "1275538807500eedfc8ff61b260a065eb0ee13acd4d4994d37fe0489ff93211b",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "36.58",
+    "record_id": "df489bc0cd5d23c0759120638ea85af0daf35b33bb019bdf5250f86c0ed22c7a",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/amid-the-chaos_788/index.html",
+    "title": "Amid the Chaos"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/8f/92/8f92c3b5dc8f5c1a23324bda7477b19c.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "130ac941375d5dcd2f81762c088484acb692ae1b78530150488d3db3f0a9bdb8",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "50.54",
+    "record_id": "e53ed244bd4cde6be81d642823765f4437eb9edbe478dca9a64f0a28f9dbe313",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/amatus_787/index.html",
+    "title": "Amatus"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/9f/fc/9ffc43826233092d2acb4414f86627eb.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "00245ac01af06fad3987a6878eac26e02ed3af78e946e8911ee74085afb2f5fe",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "12.51",
+    "record_id": "5da274bd2c38571efb3fbf9d67786c991ba9a088631733ec887b80f8deac8710",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/agnostic-a-spirited-manifesto_786/index.html",
+    "title": "Agnostic: A Spirited Manifesto"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/3d/60/3d6003fc37b842a07c2dbe28e47448e1.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "2ee2181bed41593dfb240e1340b6651ab955d907ee1638f87c7f51bb6e4b0259",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "24.70",
+    "record_id": "39afbf896b40426d146d652d8fe7a5b87cfa83aeb643659cda5a2e0f033fec44",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/zealot-the-life-and-times-of-jesus-of-nazareth_785/index.html",
+    "title": "Zealot: The Life and Times of Jesus of Nazareth"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/d6/97/d697268540fa982f4dce39f61ed3a342.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "cab03a00f7bfea27cb497c9eca0667a1faa131bb4886d095a1225b1cbf7eaa9b",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "43.61",
+    "record_id": "d39c52460afec54f63bd9272cab17b04f7b77ae8cd37813379a984ea1d789f02",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/you-you-1_784/index.html",
+    "title": "You (You #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/19/39/19396172462f4cc0504d4e6e8b0e1647.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "b9a1499ef489e82435198caae801c944dd4324333a76cce82cdafda2f2f3591f",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "37.34",
+    "record_id": "9e110ecd5baae9045551c1fb10e85f4290df68e538bd7fafa458edc307f822d9",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/wonder-woman-earth-one-volume-one-wonder-woman-earth-one-1_783/index.html",
+    "title": "Wonder Woman: Earth One, Volume One (Wonder Woman: Earth One #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/bb/72/bb723ad463531c602ad8bcb244253bf3.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "87f60ecadfb7fab1c2961ec3f927121d431821fdffbaee448a0d7b93fbc4bfb7",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "14.36",
+    "record_id": "1afa2a24ec750b7466ba97fc0bda5864b3d578c388cb3de2a97798668a75c846",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/wild-swans_782/index.html",
+    "title": "Wild Swans"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/db/1b/db1babd3c09b84da800b0e9897fe0097.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "459925882c449e5e329b0c46674b45949a6c31fce8282f49e04229b494398486",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "52.65",
+    "record_id": "349d0c2dc10a659745d5ef7f2e0dc53e2a576425952e295a88c2dc27de4062f4",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/why-the-right-went-wrong-conservatism-from-goldwater-to-the-tea-party-and-beyond_781/index.html",
+    "title": "Why the Right Went Wrong: Conservatism--From Goldwater to the Tea Party and Beyond"
+  }
+]

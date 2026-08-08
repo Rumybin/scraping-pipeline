@@ -1,0 +1,422 @@
+[
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/23/b4/23b42e094c02d52b14b11a960d49610e.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "9f3983996cd7b5da34cb689641f3e6feb9a7a8674d70a2ca2a0e85bb937970c4",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "30.81",
+    "record_id": "26168b1d2f29a8828c43052d59313290cee0711a15b3a5272951d962d0b21314",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/algorithms-to-live-by-the-computer-science-of-human-decisions_880/index.html",
+    "title": "Algorithms to Live By: The Computer Science of Human Decisions"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/78/2e/782e315667ec50759b8603527ee33dec.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "7849091c33442c7e4d2f062478de4e8aefb4d708a90ebb3d2f99b356ee496696",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "42.95",
+    "record_id": "f285751cac5de8160dcfc229e40e83ec5e5e563b2478841fee434408f36ff0af",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/a-world-of-flavor-your-gluten-free-passport_879/index.html",
+    "title": "A World of Flavor: Your Gluten Free Passport"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/08/89/088995e862aac86c88c608d763f6390e.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "2d155412ea204c01e336c1065d8cc527a1d84ca8ab3ba91d0bfe5473cebae419",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "56.76",
+    "record_id": "db8d102d9a8ba4c782d8d71ce6df2175fb843a1ff7c275a26480b0b2cc8ac97c",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/a-piece-of-sky-a-grain-of-rice-a-memoir-in-four-meditations_878/index.html",
+    "title": "A Piece of Sky, a Grain of Rice: A Memoir in Four Meditations"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/11/aa/11aaad48b5f15e262456ca65294084da.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "9fd325f2b7f12d5c4aacc4faaaa81275e5e5d65a080505156aca227764e9dde1",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "16.64",
+    "record_id": "1976f80a18848b2673d5d3d17f73dd34480ccaea8049fd6d040098f6a7fbda10",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/a-murder-in-time_877/index.html",
+    "title": "A Murder in Time"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/82/96/8296f92b70fb1dafefecda92c1d51941.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "42941d9e4f9b4be53978319798a16fdbbd25632adf937eb1478cac6bd7409084",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "55.53",
+    "record_id": "f784ba3a23ce6e00deed1d8a1b6114bf0cbe63a2b53fd8f7b3f376bcb569fb2f",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/a-flight-of-arrows-the-pathfinders-2_876/index.html",
+    "title": "A Flight of Arrows (The Pathfinders #2)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/12/f1/12f1963957f27fa83d51f76b183ef490.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "4cca6071f4511edcb0464fa702594cded423b288918ace659e4306e3a8c1a350",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "28.13",
+    "record_id": "0f6b0531886d590031d6d34b2dae59a8ed34b1ba8fb19085d5e00f71f99c52af",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/a-fierce-and-subtle-poison_875/index.html",
+    "title": "A Fierce and Subtle Poison"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/c0/88/c08816960890396213a423941af65b8f.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "989bacae9ef4fe62b687988296f62cb0e1f76bb159f9729acd196f83e524d3f4",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "52.37",
+    "record_id": "99713fb4ea58fe62fd7ea52a0153e17aa66b6c24fd62e0e4e62e0287edb6693d",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/a-court-of-thorns-and-roses-a-court-of-thorns-and-roses-1_874/index.html",
+    "title": "A Court of Thorns and Roses (A Court of Thorns and Roses #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/cd/db/cddb3eb483ef11a088d519205b7098fb.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "79089600ab341b8602a8101f78d77ae41c03f1b781a6a9dfe793c2c5cf88bd04",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "54.00",
+    "record_id": "023b6b1847256648bd29457df2e8dc8dac554b318efb28095bf9398cdf074151",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/unqualified-how-god-uses-broken-people-to-do-big-things_873/index.html",
+    "title": "(Un)Qualified: How God Uses Broken People to Do Big Things"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/6b/70/6b70f2cdb17d9ab7551240a88b9211fe.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "6e29db4c81edb0c6bfd180fcdb5a68a018adf11122e7c23972715ccb19eaf953",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "21.87",
+    "record_id": "34fd474ee397573d1a30c5f050202ba6523f504dd6d24240370f3612ef1d906b",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/you-are-what-you-love-the-spiritual-power-of-habit_872/index.html",
+    "title": "You Are What You Love: The Spiritual Power of Habit"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/02/37/0237b445efc18c5562355a5a2c40889c.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "772a7856d8ccf1f8b9223739cc6edb40ae50464ded079e473c0737206791defd",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "43.30",
+    "record_id": "da122383dbce8142cac42b64d1f04477dce803926fc564c0450668ea1f485c9f",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/william-shakespeares-star-wars-verily-a-new-hope-william-shakespeares-star-wars-4_871/index.html",
+    "title": "William Shakespeare's Star Wars: Verily, A New Hope (William Shakespeare's Star Wars #4)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/6b/da/6bdae061cb92c32b0b83cda8dd10275d.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "d76bc33029baae4b6b94b9bc0151428154370a0d56b5c61a6cf5377aeb17b996",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "21.04",
+    "record_id": "c8b08f2e817e9059f5f9bb5c14d0ef71ade079467596f97418dc154ee04e0c51",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/tuesday-nights-in-1980_870/index.html",
+    "title": "Tuesday Nights in 1980"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/06/a6/06a6cfcf89afd1601cbba1a16cda57fb.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "e19ac198e5df3fc469b4e2284f445959695534fce96f04b4e54896815654353a",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "41.60",
+    "record_id": "e18317b56af4e8519c0bc2e9c923ab5ad237f1f711e621ed30579085dbd78405",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/tracing-numbers-on-a-train_869/index.html",
+    "title": "Tracing Numbers on a Train"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/32/d6/32d6aa560e8ddf2a4da1526b95d4c7ab.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "1ed0d7437f2d5a242ca2797f61047b6f935a85fdc1618ecfcc34820388a8d542",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "35.07",
+    "record_id": "11c84b97c040a5b7e917c7321ddf16286d234bd86dc5ece3e22bb8f7a2540b5b",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/throne-of-glass-throne-of-glass-1_868/index.html",
+    "title": "Throne of Glass (Throne of Glass #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/97/47/974709d437b08e74649b5744471bf472.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "0da99131f3c2b84347ca21d4dec352c60955a2ea92db77ccf2f85272df7b0c60",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "59.64",
+    "record_id": "2e479fcc0effc245fe3afe5d552e8f10a37b3c326e8ea48ac0e11bb31427439b",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/thomas-jefferson-and-the-tripoli-pirates-the-forgotten-war-that-changed-american-history_867/index.html",
+    "title": "Thomas Jefferson and the Tripoli Pirates: The Forgotten War That Changed American History"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/8a/83/8a83b6ce350f01bab21f85e6ba539316.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "d2f16aaae31a7993d5639d45c6f1b1d844d5dc899c97c67b77a69f254c0e2708",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "52.72",
+    "record_id": "917765574ba20c1f2323fd82af23ca68eea6710908a9fce5dda1d69fbb016763",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/thirteen-reasons-why_866/index.html",
+    "title": "Thirteen Reasons Why"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/26/32/2632a1e12f2c085fabbe022ae4cd6933.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "213c8275521c736a8e6ae4e8f70bb57ac5c385bc0db68b8473f3b8f4cf5c50a6",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "58.08",
+    "record_id": "7117cee3ff0f692b658e8f7fcbd842f5bf14972f2148cc2634739509dd836610",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-white-cat-and-the-monk-a-retelling-of-the-poem-pangur-ban_865/index.html",
+    "title": "The White Cat and the Monk: A Retelling of the Poem \u201cPangur B\u00e1n\u201d"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/28/99/28992d89f4abf54fba183fc8d074adf3.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "213e4d4a76df7889cf57b8c4325566c8b21f1d3fd032d87eb0e73c9a9e9a372f",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "24.12",
+    "record_id": "234f9360c08bc164b8ed122c866f3655ebbfeeb514d50d07051e2d11cbf37c18",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-wedding-dress_864/index.html",
+    "title": "The Wedding Dress"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/37/25/372578cc073efae80cf284b56040a488.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "fbf22c3835ff3ae63d360c17578315694f7fdf6caf1787e372d66715cc032e80",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "42.15",
+    "record_id": "2d55820cac13beb43a9f0a70b140a2960a1d42a852db0532050af0b010a8fd7d",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-vacationers_863/index.html",
+    "title": "The Vacationers"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/d0/77/d077a30042df6b916bfc8d257345c69e.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "842d335bcead84dba5dd701cb173028297faf357280783c1ab2e141362c3576b",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "12.61",
+    "record_id": "834f096762fa75401b2bc0de6ee116e5290ac196060b6e502ce3445cdfac54ad",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-third-wave-an-entrepreneurs-vision-of-the-future_862/index.html",
+    "title": "The Third Wave: An Entrepreneur\u2019s Vision of the Future"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/ea/04/ea0476a6f4c318ceccf5e2f2b39f2b15.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "ff495a2bae1b95d8705c3d116c6035afc88684ffafb6311ac5e4c683d57f3564",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "17.44",
+    "record_id": "69877b358438890f7be01d7192c38db19a7ff7b85f5647387c7aa8a56422c222",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-stranger_861/index.html",
+    "title": "The Stranger"
+  }
+]

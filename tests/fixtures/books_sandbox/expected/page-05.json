@@ -1,0 +1,422 @@
+[
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/78/0b/780b2c28122750c2c383846155815bf7.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "64b0551807350f0bad91f6dafb0ccd869c701cb99e0ff2efb5b762c7b23477a4",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "13.61",
+    "record_id": "1c76b9c9710ebaec509c26198c1cd1685daccd18be532a2683249fe42f1b1fda",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/princess-jellyfish-2-in-1-omnibus-vol-01-princess-jellyfish-2-in-1-omnibus-1_920/index.html",
+    "title": "Princess Jellyfish 2-in-1 Omnibus, Vol. 01 (Princess Jellyfish 2-in-1 Omnibus #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/b7/e8/b7e84b78be3d9bb79b71156a5e5d4e42.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "07fe8c9ce5cf2bab59dc1d74ff26495542bc787798f02320cc404da48040ff1a",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "13.34",
+    "record_id": "e6405f46bc67830caa41e6fc2759fa990c57d2dc86161b52b519a9754d752e95",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/princess-between-worlds-wide-awake-princess-5_919/index.html",
+    "title": "Princess Between Worlds (Wide-Awake Princess #5)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/c8/2f/c82f629a31b3f47bdb17ac14aa51076d.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "3c16d084b04a12bbdd171bd8e763c9cbb48f0ee71e73fd7a57c70440273c0505",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "18.97",
+    "record_id": "9aac798701f99eb49818516f690155bcc1630aadeb48a6e8bd1862c6a6ffd97e",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/pop-gun-war-volume-1-gift_918/index.html",
+    "title": "Pop Gun War, Volume 1: Gift"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/64/44/6444dacdcb9edaadbbd691524622aeb8.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "83257e17238bee40f1d0ed6dd0584199b27236bf3b4b3db6f6da28c0ed7f5afe",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "36.28",
+    "record_id": "02e4028f139b55c10c45533e1ed0441f62df98465695fd87d40788b057b49a94",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/political-suicide-missteps-peccadilloes-bad-calls-backroom-hijinx-sordid-pasts-rotten-breaks-and-just-plain-dumb-mistakes-in-the-annals-of-american-politics_917/index.html",
+    "title": "Political Suicide: Missteps, Peccadilloes, Bad Calls, Backroom Hijinx, Sordid Pasts, Rotten Breaks, and Just Plain Dumb Mistakes in the Annals of American Politics"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/01/72/01726c619a05114dca75bd840095016d.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "7e9ffca6814f952da6da30368d2fadca85ee9e3c31e741727e6333b7fd89bb5b",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "10.16",
+    "record_id": "9a74c77ee0502440b76a6fab119c11cac8c9dd4c9b81423f88533d1ff5438d9e",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/patience_916/index.html",
+    "title": "Patience"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/cb/00/cb004189f548d75ad430d3ed19e6daa9.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "c0833166652aa13f87a420e9e7238e03a3e7ee874819cef9f5d9d9e0acf6654a",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "15.44",
+    "record_id": "2e0c61db3dd9371ed7b3e2342ef48ab8ec199b214dc33b5999ca9b2147e20fb2",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/outcast-vol-1-a-darkness-surrounds-him-outcast-1_915/index.html",
+    "title": "Outcast, Vol. 1: A Darkness Surrounds Him (Outcast #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/03/88/03886a8502ca54dbce0d91c2568ab69d.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "cf57c0fe094a912f80e163e3e05f759cf01665096cf2193d21a33894fee017f9",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "48.41",
+    "record_id": "6955da70de70d19d8d449b0e9e58aad43ffd1ff38cc2e7d82c34c18a3900e3dc",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/orange-the-complete-collection-1-orange-the-complete-collection-1_914/index.html",
+    "title": "orange: The Complete Collection 1 (orange: The Complete Collection #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/ea/9b/ea9b2cb8abbb317402e618445bade1e1.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "25cfa77a75ab394505cd9b24c457855ac7ef2a76437231fb1dd7f956252adbb1",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "46.35",
+    "record_id": "ffaf76379fb4f072d55a42cb4c7fb131ac5b4d5e70b18c044e0308f3100883a5",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/online-marketing-for-busy-authors-a-step-by-step-guide_913/index.html",
+    "title": "Online Marketing for Busy Authors: A Step-By-Step Guide"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/a1/14/a114d70e7babf110ba42a389078e9a45.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "a10a40cdaed6362746d7fb7ddd107ade6cd98f31156ae5a6b512f72fdacb36c6",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "14.07",
+    "record_id": "6d396173efe58f072c24b5ba55485d2858415c103631ffca49a0a82fad48ca24",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/on-a-midnight-clear_912/index.html",
+    "title": "On a Midnight Clear"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/fc/72/fc72f158554b4b4164701e1dfa1153c7.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "7ff70aec8005273cba5c72b67ee12f20b0eaa00d2dee8945739c9d4126a9ffcb",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "14.86",
+    "record_id": "ed144a0e9df260f99d8f200df879467b286a4776f9afb2a584f03b9f1da66936",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/obsidian-lux-1_911/index.html",
+    "title": "Obsidian (Lux #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/f5/65/f565af3d9dd20a1ad72a1e7c4157387d.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "2e63247d6d684e88c3a3d55533a36ec126e9bb881be2b163c5f767f86ba899df",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "33.37",
+    "record_id": "07a07dc5730f4adb524ba184e13a700857f27546dafd8a4459e42fcab787eede",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/my-paris-kitchen-recipes-and-stories_910/index.html",
+    "title": "My Paris Kitchen: Recipes and Stories"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/ff/e8/ffe81bf98f8386ef29e193abfb6f9c1e.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "3563a1d67e78c043e09be3c58f6b041c11744528df891e797c6d0794ffbe1576",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "56.40",
+    "record_id": "4ece7dfbe4f37a1224baa55ebd8ba9fbedcf6ac04b2d6a7283dec2e0827e095a",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/masks-and-shadows_909/index.html",
+    "title": "Masks and Shadows"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/10/c6/10c61093002db1fec4089d8076678624.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "a01fd07b1061c742b7a469299818fdfdddb207e4f0c0cda6a4e21a25d46c2674",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "14.02",
+    "record_id": "32b35f100dae33f43b64fab96366e43a8159b1c18728f603dc27f57389dd915f",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/mama-tried-traditional-italian-cooking-for-the-screwed-crude-vegan-and-tattooed_908/index.html",
+    "title": "Mama Tried: Traditional Italian Cooking for the Screwed, Crude, Vegan, and Tattooed"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/d3/15/d3158e8d3546fb90cced3c1d44a92a34.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "7e14c6d765914960979c00cf7a08fad9965fc841fd179f83554a37dd6b41f3bf",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "46.91",
+    "record_id": "7611896271b025cde0916f663c4d9ca9eb73a46224feaf8a333de93a9fd3b952",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/lumberjanes-vol-2-friendship-to-the-max-lumberjanes-5-8_907/index.html",
+    "title": "Lumberjanes, Vol. 2: Friendship to the Max (Lumberjanes #5-8)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/7e/a0/7ea062007ef00107e3c16d336b41fab2.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "4bd29586e29484b5d50dd18053bf50e505325d315c61ce36adf991d023d294b7",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "45.61",
+    "record_id": "19ea14f5e8c35b67d97c7a908c6aa357ddf3b34a4da2c8724bf3653d2fd4373a",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/lumberjanes-vol-1-beware-the-kitten-holy-lumberjanes-1-4_906/index.html",
+    "title": "Lumberjanes, Vol. 1: Beware the Kitten Holy (Lumberjanes #1-4)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/5f/b1/5fb1bf88dcfda795606745ce35be5975.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "5a7a093e642967e42048218d4472eca03a266b9f848c2eb74526deddd9e5e6e8",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "19.92",
+    "record_id": "99b2932c62fa88e2592e0b610cc9db7f5f73e13310d14a6f491a65d62b53d8dd",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/lumberjanes-vol-3-a-terrible-plan-lumberjanes-9-12_905/index.html",
+    "title": "Lumberjanes Vol. 3: A Terrible Plan (Lumberjanes #9-12)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/98/d1/98d1c979c4bac9e147a6718946578b0f.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "014954eafe4e87731386ecb47ae18ce5bd945e2a99fd4e6bb9f9ba4afec9b23a",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "40.11",
+    "record_id": "f789bd199bff7286657bcd130ecc816f5db83b9c55b327812c3c79be6ae132ce",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/layered-baking-building-and-styling-spectacular-cakes_904/index.html",
+    "title": "Layered: Baking, Building, and Styling Spectacular Cakes"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/5f/52/5f52b1bc6d45daab2e330c744feb0359.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "9da7308636c05889547eda1e81f626648a53df79f77c0127552c3e38f08a00b5",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "53.90",
+    "record_id": "c3d89a80807cc2a5ea8685e82ba2755aa5b024a8233e2970e069970823c9ce6a",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/judo-seven-steps-to-black-belt-an-introductory-guide-for-beginners_903/index.html",
+    "title": "Judo: Seven Steps to Black Belt (an Introductory Guide for Beginners)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/93/63/9363f0065fbad5689f44fcf6e203eef3.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "e35d3b76ec878c6bfa19f36042a5bbce92a4ff0cac5595833fbe5408b1926d05",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "35.67",
+    "record_id": "7336f6ddb095dc8a37c842147a4f3cb55ec74d64841df76a67eb5441f3b0bd7c",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/join_902/index.html",
+    "title": "Join"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/fe/ea/feeafd2ad7b3077f8e74cbb1da9e3c7d.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "fad0aab95b84a5c0b79a7ef233ef3b11ad7065c36a33cb1b460e3b1417e609c5",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "22.00",
+    "record_id": "42c9e0aeeee8cb2d856956837efce172bc863ac90bbb5051c722b99cfbf1ceb1",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/in-the-country-we-love-my-family-divided_901/index.html",
+    "title": "In the Country We Love: My Family Divided"
+  }
+]

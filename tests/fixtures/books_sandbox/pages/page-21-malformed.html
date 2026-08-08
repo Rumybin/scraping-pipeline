@@ -1,0 +1,60 @@
+<!--
+Hand-crafted fixture (not fetched from the live site): reproduces the real
+`article.product_pod` markup from books.toscrape.com, but with the price paragraph stripped
+from the second book. Exercises the Hard-Rule-6 quarantine path — the first article should
+still parse, and the second should land in `scraper.quarantined` with a reason, not vanish.
+-->
+<html>
+<body>
+<ol class="row">
+
+    <li class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+        <article class="product_pod">
+            <div class="image_container">
+                <a href="catalogue/a-light-in-the-attic_1000/index.html"><img src="media/cache/2c/da/2cdad67c44b002e7ead0cc35693c0e8b.jpg" alt="A Light in the Attic" class="thumbnail"></a>
+            </div>
+            <p class="star-rating Three">
+                <i class="icon-star"></i>
+                <i class="icon-star"></i>
+                <i class="icon-star"></i>
+                <i class="icon-star"></i>
+                <i class="icon-star"></i>
+            </p>
+            <h3><a href="catalogue/a-light-in-the-attic_1000/index.html" title="A Light in the Attic">A Light in the ...</a></h3>
+            <div class="product_price">
+                <p class="price_color">£51.77</p>
+                <p class="instock availability">
+                    <i class="icon-ok"></i>
+                    In stock
+                </p>
+                <form>
+                    <button type="submit" class="btn btn-primary btn-block" data-loading-text="Adding...">Add to basket</button>
+                </form>
+            </div>
+        </article>
+    </li>
+
+    <li class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+        <article class="product_pod">
+            <div class="image_container">
+                <a href="catalogue/soumission_998/index.html"><img src="media/cache/ee/cf/eecfe998905e455df12064dba399c075.jpg" alt="Soumission" class="thumbnail"></a>
+            </div>
+            <p class="star-rating One">
+                <i class="icon-star"></i>
+            </p>
+            <h3><a href="catalogue/soumission_998/index.html" title="Soumission">Soumission</a></h3>
+            <div class="product_price">
+                <p class="instock availability">
+                    <i class="icon-ok"></i>
+                    In stock
+                </p>
+                <form>
+                    <button type="submit" class="btn btn-primary btn-block" data-loading-text="Adding...">Add to basket</button>
+                </form>
+            </div>
+        </article>
+    </li>
+
+</ol>
+</body>
+</html>

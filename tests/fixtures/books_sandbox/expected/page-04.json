@@ -1,0 +1,422 @@
+[
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/f4/79/f479de5f305c2ac0512702cf7155bb74.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "ad5b32ca7447b1daadc71d76de4913bffe8b8fbb694de64aa99bb662f7c71338",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "38.16",
+    "record_id": "50ec35d41d0206a35d08e01f1b38d24c60ed616e150d7d2049525f7d327dcd6f",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-nameless-city-the-nameless-city-1_940/index.html",
+    "title": "The Nameless City (The Nameless City #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/dc/44/dc44f8e2aebac48ca8553814d9b021a8.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "a073dd8f30b68b22234f1243d421bd3532462aa89cfc3f3b042edc175a7f95e6",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "54.11",
+    "record_id": "c67db0f7daeda60e0d68af27ca9d8b235f5f8b0c89659e5557b6992afc9fd5d3",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-murder-that-never-was-forensic-instincts-5_939/index.html",
+    "title": "The Murder That Never Was (Forensic Instincts #5)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/d4/8d/d48d5122a15347e9fe2b15ad354d69bf.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "b361554b282959a469530438e2f5ec4a686307358b12a5fc6a701bfcf3224bb2",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "42.96",
+    "record_id": "aefd08373135cb1034b4ddcd295c3095b414460204943fa056d539d4d8ffd1e0",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-most-perfect-thing-inside-and-outside-a-birds-egg_938/index.html",
+    "title": "The Most Perfect Thing: Inside (and Outside) a Bird's Egg"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/f8/6d/f86d08178e3788563ac17be5aefd29f0.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "c38e252bd5956d89d79b4122cc993bf6d8471265eccabfbc94ce6bd4c19864cf",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "23.89",
+    "record_id": "cbae89a169191a7ecee85024edc7c1de8b598b7fc7a527137555ebe291e8b18f",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-mindfulness-and-acceptance-workbook-for-anxiety-a-guide-to-breaking-free-from-anxiety-phobias-and-worry-using-acceptance-and-commitment-therapy_937/index.html",
+    "title": "The Mindfulness and Acceptance Workbook for Anxiety: A Guide to Breaking Free from Anxiety, Phobias, and Worry Using Acceptance and Commitment Therapy"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/95/64/95647d6a526bf54120b9445e124794e1.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "7fb8c26ed8b8e9767a4f42e31973dcc0aa6ec72f5ea80d41246627258f0751da",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "16.77",
+    "record_id": "44035aa1eccb2147c6c706a7634f3abe435777a97030731feb1342e7d9f9dcc6",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-life-changing-magic-of-tidying-up-the-japanese-art-of-decluttering-and-organizing_936/index.html",
+    "title": "The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/75/dc/75dce2f5949b407161f37f0af249b018.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "e092adeed08f820461bab07d3b00a59e91ea740251264dc1d6ec5900ec0b8182",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "20.59",
+    "record_id": "28deff98c9c79822039c2203fb85d592039632ff70fff028054670949f8cadfe",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-inefficiency-assassin-time-management-tactics-for-working-smarter-not-longer_935/index.html",
+    "title": "The Inefficiency Assassin: Time Management Tactics for Working Smarter, Not Longer"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/64/15/641570cd7e7aded53c7d33d78a9629f1.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "afb6db19e6d2f1ddc082b812886ad65cdb24294388a9bdde5f1e88ea8c265629",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "37.13",
+    "record_id": "07035959c7551baa959e7b91093ec5c7881196336f525c6a8fc03a487055a75d",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-gutsy-girl-escapades-for-your-life-of-epic-adventure_934/index.html",
+    "title": "The Gutsy Girl: Escapades for Your Life of Epic Adventure"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/2e/23/2e236e23ad52aa74505f224f6552eda8.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "9b463e156375e6d03af7c872a1f2bddf2a45740998e99662e8a8745c248d75c6",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "56.06",
+    "record_id": "f7f38ea048a893ee54ae1cf683aa77d9e602034140b3f03afabf2e6b308c7b6b",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-electric-pencil-drawings-from-inside-state-hospital-no-3_933/index.html",
+    "title": "The Electric Pencil: Drawings from Inside State Hospital No. 3"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/71/df/71df730cf38c232ee58a2e407135f055.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "82631aca3872e76f2ac719fd2a9d9178054f4f98305206668f677b1deae3b6c2",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "58.11",
+    "record_id": "7bcb909bfa257ee1260f688ffc8bf651481edcf7dfce7a6241f09ed2b07808b3",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-death-of-humanity-and-the-case-for-life_932/index.html",
+    "title": "The Death of Humanity: and the Case for Life"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/ee/3e/ee3e219d23e73ba71c79b700f183aaed.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "5cdf9c3fa83d81316eddff72b25474ca276d853f22bfacdd756e49f3e5a81a07",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "49.05",
+    "record_id": "4655bb731f6846d6ccc3e925a955b3f6f55271d8d1521602b16025a191d8d275",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-bulletproof-diet-lose-up-to-a-pound-a-day-reclaim-energy-and-focus-upgrade-your-life_931/index.html",
+    "title": "The Bulletproof Diet: Lose up to a Pound a Day, Reclaim Energy and Focus, Upgrade Your Life"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/70/fa/70fa6c0437d9c97dbeada6bd32bf9d2c.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "342383c76d05600a4f2c3ddf13dd1b7b4cf7b1390686d8fc06ecdf4d78e565d7",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "40.76",
+    "record_id": "57bccf06f522ecbdcb35ba9283a1dc90d194b50a924eb6deb917ca62fff703f6",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-art-forger_930/index.html",
+    "title": "The Art Forger"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/2d/4e/2d4e358712e6c9f1d3bdd78d1a16e5a8.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "e41f1fc44a4af5bac9c5190539bf464c2ecd1a750f48ecd3654fb2d3b430a1c2",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "19.73",
+    "record_id": "921ec8faadb47f2f3c25d07005a3e18982c670cce1016fcdf44c476dd8849f38",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-age-of-genius-the-seventeenth-century-and-the-birth-of-the-modern-mind_929/index.html",
+    "title": "The Age of Genius: The Seventeenth Century and the Birth of the Modern Mind"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/96/db/96db61bb53930c560fb4c1c62b583816.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "2acdfbddc4fea0c6b02d7274a5d5c12b43021328a02d804b4a7cef495a0fdf8c",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "32.24",
+    "record_id": "3779cef2849e90837e38e7cf1f16ed9eeb2ad9f4d42ce8d1adcb0f2387b2dbfb",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-activists-tao-te-ching-ancient-advice-for-a-modern-revolution_928/index.html",
+    "title": "The Activist's Tao Te Ching: Ancient Advice for a Modern Revolution"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/f3/4f/f34ffb24cc21c9f9f52dad4fd8f3ac21.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "b526f9426fef3e25a033b1fe0416c7256ac66fd2b163042cbcc7d5395f778642",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "41.83",
+    "record_id": "165663ecd40771f8ed982409ee0bc7ca7493cd1ca6f588e5e8ca0caa8fec74ba",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/spark-joy-an-illustrated-master-class-on-the-art-of-organizing-and-tidying-up_927/index.html",
+    "title": "Spark Joy: An Illustrated Master Class on the Art of Organizing and Tidying Up"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/69/85/69852567cf97264a1442cbc882c84903.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "d37ff481dc14fa1e2fd23fac817e0f9c2435d3ed9c06af2ec561a15024e82eaa",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "39.58",
+    "record_id": "b87c550723a1c5317d492b98497662d2805b926a84a9376b221cc8019d002e77",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/soul-reader_926/index.html",
+    "title": "Soul Reader"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/da/df/dadfac66a89774b46b10225362724c83.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "8c51357a378c9225563af85d97f323e2cd9c29abbaa231024b1c0cb7d82e96d5",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "39.25",
+    "record_id": "7d794d1ec77229e3db6908559ba13711021a2144101166e80e41fc1417092e6c",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/security_925/index.html",
+    "title": "Security"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/43/ae/43aee83ebb31e2122a7215e413770e5c.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "f204a32c09c74cb58a5951af5ccdb5b2aaf56625bc646f0636e319c86bbe303c",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "25.02",
+    "record_id": "5565e11795005dab11199d3dcd659fbc6abaa5aaf4fbd0304bdb546b2dc20424",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/saga-volume-6-saga-collected-editions-6_924/index.html",
+    "title": "Saga, Volume 6 (Saga (Collected Editions) #6)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/e1/ea/e1ea6cb36e62ae6dc7b805f68ab9a700.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "6999a2abffeb7728d67bfb7162cd443ac22935c00edaeabaf4cdf6b1635ac68a",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "51.04",
+    "record_id": "94a3a8506e224f96ca5fa73b76437ae45d3d62428c82b82d9e806321e7c37290",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/saga-volume-5-saga-collected-editions-5_923/index.html",
+    "title": "Saga, Volume 5 (Saga (Collected Editions) #5)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/97/f8/97f8debeeaaece9603267653076e760f.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "3d69cf84e14b923d4c0016c7e16890a2a8ae0aaa0f62751391bd1f8318557287",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "19.83",
+    "record_id": "6e9b2d530266da284199e60ab537e1cb413d0e0bd474299a9739c9824780da2a",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/reskilling-america-learning-to-labor-in-the-twenty-first-century_922/index.html",
+    "title": "Reskilling America: Learning to Labor in the Twenty-First Century"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/f3/ef/f3efd43ae0fa85d9b325d5e8783e7af5.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "8bee684dfdc7507355dda23531164f85b180121660248f93ee5a8e5821c0a121",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "50.40",
+    "record_id": "c44bc1f059347651adbc6e82be51033c83bf4359e31e8e58bd58d36e63f0bf83",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/rat-queens-vol-3-demons-rat-queens-collected-editions-11-15_921/index.html",
+    "title": "Rat Queens, Vol. 3: Demons (Rat Queens (Collected Editions) #11-15)"
+  }
+]

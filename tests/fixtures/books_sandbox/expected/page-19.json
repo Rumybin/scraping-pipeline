@@ -1,0 +1,422 @@
+[
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/97/3a/973a2c3462a18fc90d3b9662d959df37.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "aaf5a65f0b4ce4d86a7c8a332f84cac78f7525d0f3351ec680c0a777fd25caea",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "26.20",
+    "record_id": "b0e78560348dbe50026a1a99b4a7ae7a608a8cde341e238083766c723bfed7d4",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-midnight-watch-a-novel-of-the-titanic-and-the-californian_640/index.html",
+    "title": "The Midnight Watch: A Novel of the Titanic and the Californian"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/5c/5e/5c5e527fea6b17199773bb175b515aee.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "76b815a515dee37fbc7e5db60d75d34418e70618fc4fb7243e2c3feac136d2f9",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "33.26",
+    "record_id": "da720313e1879765f872a0589af74e164700b1f9287818de1a98a14e95c0eda7",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-lonely-city-adventures-in-the-art-of-being-alone_639/index.html",
+    "title": "The Lonely City: Adventures in the Art of Being Alone"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/9f/25/9f255826f354776dda9afbd5576a7add.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "ed057c3f5394cbce3c1abfcb3b590ececf0bf996c554657e4d292950f6e8becf",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "59.15",
+    "record_id": "175f3d8893ecde8c19a05fe68c3edd4a5faa01bb59ca888018d6a2fde5df90af",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-gray-rhino-how-to-recognize-and-act-on-the-obvious-dangers-we-ignore_638/index.html",
+    "title": "The Gray Rhino: How to Recognize and Act on the Obvious Dangers We Ignore"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/dc/4d/dc4d070e33813a07a4e02f069e6d482f.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "33956a1285124a4140d7a7b5e570c7abf14405b6ef81d25f75546e119a391a27",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "39.43",
+    "record_id": "93f71507d76e159d317907e55c956ea80df91e816a49f6c1e794dd98bc4dc87b",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-golden-condom-and-other-essays-on-love-lost-and-found_637/index.html",
+    "title": "The Golden Condom: And Other Essays on Love Lost and Found"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/87/cd/87cd652c35e2a78535c83becae33cff2.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "15ad1915e66ac41a832c65f91b004b08583b9894ea2769ba25792d83681f099e",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "14.44",
+    "record_id": "9037fe3287e077cc203889286d89572e267a7b73e3b3fc04a09ba525573c977d",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-epidemic-the-program-06_636/index.html",
+    "title": "The Epidemic (The Program 0.6)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/ba/76/ba761d23c5c0e5a0638e04739c69c5d0.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "a416dc96d01a01fff9a1ae904a38afab8072183d5a640a1047408d96317ca849",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "56.54",
+    "record_id": "10989345bab315a3a6123bbffde139a2edc92b9aaad764f933d5e1ebca43c55d",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-dinner-party_635/index.html",
+    "title": "The Dinner Party"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/83/d5/83d5526864a108d27fd4b03dd31ec18b.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "5d9e00fe8bfbd70677431b01594685d5d3b06ab3dd777f2d768a635497bf0f0d",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "59.90",
+    "record_id": "d17e4931b869356aaa0d4de80397840815350ac2dc56a01d03e219f43eada27b",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-diary-of-a-young-girl_634/index.html",
+    "title": "The Diary of a Young Girl"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/d8/03/d803ab341d3020a3bb280d6135e4ae65.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "e99b9640a7e83187208eeb0f9157c8d0219e1f18a4a108243a3c0e811a167ce4",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "11.88",
+    "record_id": "8c485753156437895e585226dc46c64c8434dbee7717c38e7b9e35aad894a040",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-children_633/index.html",
+    "title": "The Children"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/fd/5b/fd5b14399052ab552e240ed18ab03c6d.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "adf311f89c8c930b68d9e1958c7af2cc9a5c85e2be5c17e5de7975848d37b75d",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "48.05",
+    "record_id": "fe819da41f4be8c3977925416d5789acef2c03c1c96874877aafd2cb45340630",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/stars-above-the-lunar-chronicles-45_632/index.html",
+    "title": "Stars Above (The Lunar Chronicles #4.5)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/2a/f3/2af39796852729270fb23e05a662a42c.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "a06fc9f62773b005ea46a9b93ff33ae9955cd29318168cb4aae7dfa1c000454c",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "21.21",
+    "record_id": "550b7114f93cd92b771a4e7a10adba11d24a02f99490ab0396823f9a989987b4",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/snatched-how-a-drug-queen-went-undercover-for-the-dea-and-was-kidnapped-by-colombian-guerillas_631/index.html",
+    "title": "Snatched: How A Drug Queen Went Undercover for the DEA and Was Kidnapped By Colombian Guerillas"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/a2/da/a2da8957b9cb8265d7f1dfeb0651f1c7.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "c3c5185d2361de4e6142e378a26e8cdfcc6ae6e156693e9072e2d56023890045",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "49.67",
+    "record_id": "a1974ca62276c544fe31f2006f3363e87921ecd5350bd9f04a3e2e25e1cb1f3f",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/raspberry-pi-electronics-projects-for-the-evil-genius_630/index.html",
+    "title": "Raspberry Pi Electronics Projects for the Evil Genius"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/2d/fd/2dfdc52bcdbd82dee50372bc46c83e15.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "3ae75b4ebf73e243e5116cc26180b55717cb453cc364afdd4066d21ad596f2d0",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "43.14",
+    "record_id": "efbe9605d54641953b6f32a2a2444d6e18fcd5c4ccc51744c98390709673bc71",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/quench-your-own-thirst-business-lessons-learned-over-a-beer-or-two_629/index.html",
+    "title": "Quench Your Own Thirst: Business Lessons Learned Over a Beer or Two"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/02/5c/025c30a378e2a4190e84f1429e81b803.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "fca883e31f7fe55ef538c7b310559964263bd0ab68544339819bffe3f73656a6",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "36.97",
+    "record_id": "fe5cecc4ceb7005622bb315fe6d3e77a7f4052e26c694700fb65ac83dbdd128c",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/psycho-sanitarium-psycho-15_628/index.html",
+    "title": "Psycho: Sanitarium (Psycho #1.5)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/23/52/2352718971d5e166fa9541a5a7d716fa.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "0b4790ccadeee8a4c1c25e220608c5ea283ff998b7b0654d8ddc568bf31d8e4d",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "26.80",
+    "record_id": "2ba978293f6c652486ee4a820f1564e632c751b59119168f19bf9328b113e093",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/poisonous-max-revere-novels-3_627/index.html",
+    "title": "Poisonous (Max Revere Novels #3)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/b8/29/b829181ae95c8f020c1ad3273192de30.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "d05d865cc0c87b0cb766ee3e86263aa6de06767ee83adba7ffa765050dbfd9b4",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "15.71",
+    "record_id": "92f7e8a42a5b7ba08eeb73e5f735c0d9ce7678d63cb6c6f8e870de1144991b1b",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/one-with-you-crossfire-5_626/index.html",
+    "title": "One with You (Crossfire #5)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/70/3e/703e053877204a396ec6e7beac863118.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "0a5416fd52085268b17c9cf0f3b1a248b6d9224c6d7432f469f49a01170e9283",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "54.65",
+    "record_id": "10cb7d5a0764492e83d74bda5b9fa911cdea6ec7599f876527da1c3c539f8891",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/no-love-allowed-dodge-cove-1_625/index.html",
+    "title": "No Love Allowed (Dodge Cove #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/c3/8d/c38d65cd155b67ca025f0655bd1bb095.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "abf7c58537e10ffd16f50f34a33abd414ade9587e05fedd6bcdc49e23fee45b0",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "54.36",
+    "record_id": "0b4e9c1a74e0a532b17eb3a05691f5fc2676ca4d03567361d67b8f2cc85fe589",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/murder-at-the-42nd-street-library-raymond-ambler-1_624/index.html",
+    "title": "Murder at the 42nd Street Library (Raymond Ambler #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/8b/bc/8bbc5ab4c3784b4d9b93eb0fd1fb6fd6.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "8f887e94cd9419e687d5c69518e707a22b5d750e80c0a5a817a9c4a08218f75c",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "35.28",
+    "record_id": "17a62e9440047807107e0890a0d53d16b4e45be0d9ec8ef622a7805aa1092aed",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/most-wanted_623/index.html",
+    "title": "Most Wanted"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/7a/22/7a224a6e174af91950e9b124afe54e0e.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "8415f4a02c8e7633ef37e9efd1fd99da1801dc2fbbc4c32a69c5e3784dd2d11e",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "20.55",
+    "record_id": "6d4d7ea745344d86524d3269b1f88de779df41794bc9af7089dd54030aab07ca",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/love-lies-and-spies_622/index.html",
+    "title": "Love, Lies and Spies"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/d2/64/d264ad1af882ce391005dc7215ac90e7.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "e628927d43623cc58ba143579b734d135fcf66e89c86b6354df6264877739220",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "58.32",
+    "record_id": "35a576003779f053b5ca91d4666e1ae98440e90dd8e96adb608d4b4e388acc50",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/how-to-speak-golf-an-illustrated-guide-to-links-lingo_621/index.html",
+    "title": "How to Speak Golf: An Illustrated Guide to Links Lingo"
+  }
+]

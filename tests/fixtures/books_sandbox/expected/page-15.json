@@ -1,0 +1,422 @@
+[
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/ca/b1/cab150e556b5fab663a9fec00ed97943.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "b2c7d34ae7724d661af3e8583e473620e9ab060785d0ca41500aafd32852b263",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "41.56",
+    "record_id": "41ad74badc84dc45d22581342e206ff26b40118b26ab43afba7165d8825be941",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/my-name-is-lucy-barton_720/index.html",
+    "title": "My Name Is Lucy Barton"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/e0/79/e07906c1e507055da9a2260a74f58273.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "acbba450b98bba439f2d375a2f32da82296df218840cf9045c71569832993e2a",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "24.48",
+    "record_id": "f0471df47280bcd6ea424d38bfa9d88c26de86e4ce8d8c2bc24a2fa581f55a8e",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/my-mrs-brown_719/index.html",
+    "title": "My Mrs. Brown"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/46/6e/466e9636819aad1126ac6cefb5313ba8.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "ec4b6bfc04014447b65e0af892d51f3884ffa8b74bc8de7b8ae4e82ca44e5236",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "40.36",
+    "record_id": "f6a93def1b28921720777fe2831c4ede9442a96abd7d52b9df0255fb05caf129",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/my-kind-of-crazy_718/index.html",
+    "title": "My Kind of Crazy"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/a7/f0/a7f092a7b79f848df0226f808fed489b.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "3bd999d3f6a923f314e050eb64e4f4f3bbc5169e8137922c6ef576394ca30732",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "28.90",
+    "record_id": "56a672d61d9ae3b5877624caeca9c25323112af718647f0f6eb8af46cba52c6a",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/mr-mercedes-bill-hodges-trilogy-1_717/index.html",
+    "title": "Mr. Mercedes (Bill Hodges Trilogy #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/3f/e7/3fe7073a5caac81929524d2d9488f928.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "29a59350be3917f7ce5cb08fe35f4e27886fb7d277959620af291388d64eee79",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "37.61",
+    "record_id": "ab54b5f1e4a31a5ca60e52f11cfb8867c51d0f43bec8f14d3c551973beb25849",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/more-than-music-chasing-the-dream-1_716/index.html",
+    "title": "More Than Music (Chasing the Dream #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/e2/2e/e22e4a82d97f9f0689d5295a98f5dcff.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "1e32aed18b143beb6b5eaa5a4f85b90808988def61652f6258710c74890e61ca",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "38.85",
+    "record_id": "eb39608e1909affc28af770ac5633df55669b4b3d9a1cbee798ae9ad35fd6fd5",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/made-to-stick-why-some-ideas-survive-and-others-die_715/index.html",
+    "title": "Made to Stick: Why Some Ideas Survive and Others Die"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/85/e7/85e75d5a9309da5807c82decf3d90263.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "fe445f05103492a6ec52449a2e03a896d62756b07b1d0d064098fbbea9d7fc9e",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "53.95",
+    "record_id": "26d8162e0ba8752048ff027f1e1111a2eaac035a11be80454104cff909db6c75",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/luis-paints-the-world_714/index.html",
+    "title": "Luis Paints the World"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/81/c0/81c0a1ce03db82568e2496db945a8227.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "ccefa4c7d88afa11f8362b7a20210abd087b0acc6f739e39c03e7618b4a00d62",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "49.83",
+    "record_id": "c3e612ca13e344a3fbdfbd80984163e70db865c15f9d8e03c5a6c768f79de2b0",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/luckiest-girl-alive_713/index.html",
+    "title": "Luckiest Girl Alive"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/b2/97/b2978e96069dd91785e5ab0bc99c022e.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "2ae37347dbb07a011a7d43a523530b0f3ed292cced7187c19f3e2b099d891c34",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "51.51",
+    "record_id": "99315718159dd25e71c1e7e04219564996167e2b703cb2da78921cdec7769b22",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/lowriders-to-the-center-of-the-earth-lowriders-in-space-2_712/index.html",
+    "title": "Lowriders to the Center of the Earth (Lowriders in Space #2)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/a2/6d/a26d8449abb3381e09126eda5f4e8151.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "cedab39a52c83914e27e45e363639a61b501ecd9f8f7ae3d2d7ab0125a2979e8",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "18.03",
+    "record_id": "3dccc553037c3424d1113e29582d8c1ce7508cf959ea319b0f24944a23bbde19",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/love-is-a-mix-tape-music-1_711/index.html",
+    "title": "Love Is a Mix Tape (Music #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/61/1e/611e1804ad968e309a5f788d4ebc1cb4.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "cb5723b57001c835704be0790ab5ca37f4f7ad77ed60a249474957af025652eb",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "29.14",
+    "record_id": "cfae36d4f31d763caaa0aa9b9533aae70a86812c7042242267ed823d12788d4c",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/looking-for-lovely-collecting-the-moments-that-matter_710/index.html",
+    "title": "Looking for Lovely: Collecting the Moments that Matter"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/e9/5e/e95e82f09681709bb0f927341dda274e.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "cd1eb595d3e9e76a62c99ffc6b604c8ff74f44f0f594f0347a228a028762f3c4",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "46.91",
+    "record_id": "dba5174ca2802b34a893e8f8333e8bd45c9951b9f060f6ab973c171a6e73e6f3",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/living-leadership-by-insight-a-good-leader-achieves-a-great-leader-builds-monuments_709/index.html",
+    "title": "Living Leadership by Insight: A Good Leader Achieves, a Great Leader Builds Monuments"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/51/fc/51fcd3e9384894e6a53a753d2ab856ee.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "052d38fd21eb0f73f06c5237faf9024c3de89af41e99fe5e624b7a4ef4209e17",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "26.79",
+    "record_id": "7136e30cca7ce3839c5d32581587bdbc1be4295ccddbbadd9ea6e654889fca8f",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/let-it-out-a-journey-through-journaling_708/index.html",
+    "title": "Let It Out: A Journey Through Journaling"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/89/a6/89a61d48e93bc92537c0a2cb2c0094bb.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "ea102e155133122c2a9f251adbfa42f67d7b126f1772885964001b6312ae55c5",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "16.28",
+    "record_id": "343698e219bdd1a1b8c3fb261f0837031c8bf42a3797332cc32d2b57f70cccfc",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/lady-midnight-the-dark-artifices-1_707/index.html",
+    "title": "Lady Midnight (The Dark Artifices #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/fe/67/fe67c381d6a0c4c00a7c191d16939554.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "ab53124525ccef5a3d63518a027a5e198d983d8ee15fe2a9a6a9c105504f12e7",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "19.55",
+    "record_id": "ef64d539f4ae819b616780750a8b193ee228ece61e4c6160c247e2f98451f81d",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/its-all-easy-healthy-delicious-weeknight-meals-in-under-30-minutes_706/index.html",
+    "title": "It's All Easy: Healthy, Delicious Weeknight Meals in under 30 Minutes"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/75/b9/75b99691594fde72ccb1831624cfeff6.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "2acd872231eee87469fc70494b7c194570ca0bd122e0ff72a3193038691c49d3",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "29.65",
+    "record_id": "aa8c0c875208bdc0e80b08b4ae2ffdfac775fba763096a23cda537ae3f91aaea",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/island-of-dragons-unwanteds-7_705/index.html",
+    "title": "Island of Dragons (Unwanteds #7)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/ea/7b/ea7bcac4b27a5bf6d4f8125bb7af3361.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "6451e8bc063d6eb14e81c581f00114eae8b56a5531d0da6e30901c28af307942",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "25.98",
+    "record_id": "ce5bf6f101e4c6e7688406527bc8500affc7b69bbdec77d961cdbe6449951921",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/i-know-what-im-doing-and-other-lies-i-tell-myself-dispatches-from-a-life-under-construction_704/index.html",
+    "title": "I Know What I'm Doing -- and Other Lies I Tell Myself: Dispatches from a Life Under Construction"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/ed/07/ed07c9e7c53d4f33a6eb7d41eb0e6d4a.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "709fae661540f0a2b555f5f5ee662bf5fe17bc2155d956945a3b519b958eacb3",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "10.60",
+    "record_id": "41bf13cbd1487de2f1f910ba59a311b2c41dce60d1787a49447d2aff10bfa75e",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/i-am-pilgrim-pilgrim-1_703/index.html",
+    "title": "I Am Pilgrim (Pilgrim #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/b5/a9/b5a90d1c36a96513942f006345ace3d2.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "0816d52d3a739c5ef6d408f915b812ec67bcf3f8e096daae3c4f5410c9b22b96",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "14.75",
+    "record_id": "85afb78a5e0cc1dd7ec56c025d0e5b0dd9a57a9492905da80e8deb8a128b7aef",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/hyperbole-and-a-half-unfortunate-situations-flawed-coping-mechanisms-mayhem-and-other-things-that-happened_702/index.html",
+    "title": "Hyperbole and a Half: Unfortunate Situations, Flawed Coping Mechanisms, Mayhem, and Other Things That Happened"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/2a/b9/2ab91479fe480e964f319fa8ac6991b2.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "42fd37f7f8d2aba966b744729a88a563c988f3683d8a1851c5256a7e20c60952",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "47.02",
+    "record_id": "cc3b2d8b9242b974680b8328d349caa2f53475d8ab2bb3f94df057e02248371d",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/hush-hush-hush-hush-1_701/index.html",
+    "title": "Hush, Hush (Hush, Hush #1)"
+  }
+]

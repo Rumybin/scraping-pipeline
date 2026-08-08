@@ -1,0 +1,422 @@
+[
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/ba/36/ba368dfb2b6ae9979ff59d049c626167.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "a24e3a4d7fdda9b318c7fd4e004fc8d69a3e1ae0a5c2384fd828dc84a8d57111",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "38.20",
+    "record_id": "3347177255b9ebacfeefe1882e0214d598c8e5be369aad89b90257f78f724a93",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/whole-lotta-creativity-going-on-60-fun-and-unusual-exercises-to-awaken-and-strengthen-your-creativity_780/index.html",
+    "title": "Whole Lotta Creativity Going On: 60 Fun and Unusual Exercises to Awaken and Strengthen Your Creativity"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/43/b7/43b70859e93901b019791cef86539ffc.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "d6df4bb11866f3fc9a52c07c0f550ca178a907d338dd3b56e6f828e90a60130e",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "19.60",
+    "record_id": "fc6962b67b9cc4a430ffb74c53ae7d60465d84cd30a4e6f2cb064cd39c5a8d87",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/whats-it-like-in-space-stories-from-astronauts-whove-been-there_779/index.html",
+    "title": "What's It Like in Space?: Stories from Astronauts Who've Been There"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/66/d6/66d6d2b4c0acfa8f40ad0285186ed2d8.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "b20390ff445f471d3dc3a8c58ac105d8076b822d01a494233da976c5e88a20f4",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "53.90",
+    "record_id": "51ef13104ba0ba9193985723c71ad37216b1c6ce24fde07ad22c1cb0e109b72f",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/we-are-robin-vol-1-the-vigilante-business-we-are-robin-1_778/index.html",
+    "title": "We Are Robin, Vol. 1: The Vigilante Business (We Are Robin #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/28/50/2850439c2ba103fb69dba9cd2dd9f0c2.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "ce0f6b9b44b74ef6cf73f00efa1cc7d4bc877b1af5abab2160ca7d609a9bf486",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "12.96",
+    "record_id": "4e7a59c2ca4c373b0d72a677f1061f0295b67ef6d5b651a1554077121a567ee3",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/walt-disneys-alice-in-wonderland_777/index.html",
+    "title": "Walt Disney's Alice in Wonderland"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/cc/8f/cc8fb914bfee31a7903a5cabaae64796.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "604b49e5acb2d83ff47d926ea9b1428e8a9a76afe29d4dd1711019e3d0473648",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "37.10",
+    "record_id": "0652eb1dedc7c42f8ea2ca1fc4045e931d650d6fe2396ff0b182b0eab51b88fb",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/v-for-vendetta-v-for-vendetta-complete_776/index.html",
+    "title": "V for Vendetta (V for Vendetta Complete)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/19/cf/19cf50aea5bf0e8f4bc016f3745b3dfe.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "c43d82a4ddf12322907a43d6f0b8fbc31f6adccacb8115c07b07a55d531fa078",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "46.31",
+    "record_id": "a937919fc31bd2aed8e5a16e9a738c13f46b406088b568156f7788d733701aac",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/until-friday-night-the-field-party-1_775/index.html",
+    "title": "Until Friday Night (The Field Party #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/74/cd/74cd3f345b50452c3be6631669f13aa8.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "f6cbc7cfdad29813ada1475cc8a9c3e3cc59d15a9ad93db21a33678467866c07",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "45.95",
+    "record_id": "83fdd718570bafdbb80e6c69190f4138f31dc02a37be5902eb11abbf4b4a6d25",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/unbroken-a-world-war-ii-story-of-survival-resilience-and-redemption_774/index.html",
+    "title": "Unbroken: A World War II Story of Survival, Resilience, and Redemption"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/2b/38/2b380f77723c797c0389f978afa6db58.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "ec42c2bb5b75a5ca1cd1acbc1f949caacc8a9bcec30fc17eefef9ff592152849",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "22.08",
+    "record_id": "f5b37118c3442310a5e261fb5054e082caeb50774bc8519823194e0b4c33989a",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/twenty-yawns_773/index.html",
+    "title": "Twenty Yawns"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/4c/af/4caf8f2a5ee8828d408cc8faadd3419c.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "e581776e6021442a3a766c6b62abf8c55ddba7cadf3f0b5254a95899ad8588e7",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "25.38",
+    "record_id": "778baa4ef14fffedd302fbfa0a2bb39164e5173f4b432c3a96834e44d3a3a0d4",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/through-the-woods_772/index.html",
+    "title": "Through the Woods"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/18/0b/180bfe1902cb3c0eb77d7c712efa2a96.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "2ae535ba4f07920f6bd6479055fe4778488519c27861054358bcd1b6e5479fcd",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "27.12",
+    "record_id": "860f2f7acefdc946cac2d6d2d4fb1073b5d5480749e60200ff748a6135a12bc3",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/this-is-where-it-ends_771/index.html",
+    "title": "This Is Where It Ends"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/bf/e5/bfe526c22c7c08235c27a6474ebb4db9.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "c6dc700fa6314f19965c0cca4d2e6397400e907833d3fff7359c1c4df551a0d1",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "43.04",
+    "record_id": "be401392ce0cda0d000e7ebf30cb1cbc0a0009b1c3cc4cac6ec70e454a345966",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-year-of-magical-thinking_770/index.html",
+    "title": "The Year of Magical Thinking"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/02/2e/022e8b81ba1405991401bb46d6330c73.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "8cbbb5c2956b384e0501868e13ea8f17f08a56236029031e3cc557705cef8323",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "56.80",
+    "record_id": "60b846d045fb87c8fcc2aeae529104abbf2e6e9e0ff17a7ccc1b355f5bea3ae4",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-wright-brothers_769/index.html",
+    "title": "The Wright Brothers"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/72/d8/72d861617b6d3aababe6e61e8d3c1056.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "bad793d534940c792c36692d17aaeca851ec610e6692c7e838d5dea8e6688d57",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "25.91",
+    "record_id": "e58812715fc28fdd598f976805c70fa3058a34336d248d027d74095f47fe7f00",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-white-queen-the-cousins-war-1_768/index.html",
+    "title": "The White Queen (The Cousins' War #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/7e/67/7e67addd80caaf8a9f9e9daa9cf66bb2.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "367ecc2676cd1b7145b07e315c5b8e1121d23e03c0a1c6371d001967a15c3c3d",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "32.61",
+    "record_id": "7c57d730e9056d8b7fa32ab39657e31d105a4c329db20dcfdf0732d655e358a3",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-wedding-pact-the-omalleys-2_767/index.html",
+    "title": "The Wedding Pact (The O'Malleys #2)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/8f/f8/8ff8680dde59ea739d6978a01e4d7fe5.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "060a77188d95bed728f30dac298864d78a87a19696e9205a8ce1af81fcc35765",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "27.88",
+    "record_id": "bebf66a4577168f6fc496641ea08cbbafed4e9e8260db8ac568aec24a13f1997",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-time-keeper_766/index.html",
+    "title": "The Time Keeper"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/83/05/8305154438c91a02cefacf4ec8b53393.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "c6fa445feab1267d7804ede72be0e78ff564e461be07d123b7b815c0d4f59126",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "52.67",
+    "record_id": "4f93ab3a4077ab3dd305b9b0fb00dd6be76e184d76d8dc04f86ae148dff013ca",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-testament-of-mary_765/index.html",
+    "title": "The Testament of Mary"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/53/5e/535e2be0b423797c2cdc7d98882c820a.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "d7f5bbde99c8a7eab4ab86d32bff9863e22f8cec00c4b96b59af2216b4068475",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "46.02",
+    "record_id": "39d34a40657867d5272b7feec9ae500063d0f4b576a1b03b47b46c9966775e96",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-star-touched-queen_764/index.html",
+    "title": "The Star-Touched Queen"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/6c/a3/6ca34db7c01e554ad17bd3be74b561e3.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "8f7fe9fa3d5b3d59d022841f6201a93d9aeea29ffc5113964024a5c957ffb762",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "44.48",
+    "record_id": "fe55da464a45dea85aa0bbee64027654f6e12d1bdb219dc38dabd26e05ad0ca8",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-songs-of-the-gods_763/index.html",
+    "title": "The Songs of the Gods"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/66/f7/66f79b76d6c6b64fcc8110515c454e09.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "2d20845cc343eef4d4c06ca3b0d5122e4f8c0213afa432867ec2cc1eb4207b07",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "37.40",
+    "record_id": "1eb2c54ec94c703dee2a94690106b144eece350bfcc7f32cabc5fd4f32c2c889",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-song-of-achilles_762/index.html",
+    "title": "The Song of Achilles"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/f0/db/f0db1cf76d45f0522d4c8c3c39aa0dd8.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "0b727197e0ca5e1f616b2969e68f510916b92bf4cb0b55198c89aace7ccbe43b",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "54.04",
+    "record_id": "f35cf9cf0720dc6731ec67a03aa00b61bdc8cfc62f6859d4cc77523c15078020",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-rosie-project-don-tillman-1_761/index.html",
+    "title": "The Rosie Project (Don Tillman #1)"
+  }
+]

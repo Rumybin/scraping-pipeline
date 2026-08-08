@@ -1,0 +1,422 @@
+[
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/0b/89/0b89c3b317d0f89da48356a0b5959c1e.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "56a7f8927141aa34db62946ee44565de5017f22bd4f240144a133907cbc5b653",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "28.82",
+    "record_id": "ee037461ce07711187e1fd5d5816bd1926d6d6fcbb5a2f41b26e5426cd7a7bd4",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/hold-your-breath-search-and-rescue-1_700/index.html",
+    "title": "Hold Your Breath (Search and Rescue #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/34/ef/34ef0844cb1fbca6ab73444087fcf0e6.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "7e2015c8b5152d24ad358153f67a531a2cf3ad9ad32851e1ec34b373e8b8e8a4",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "58.79",
+    "record_id": "46e5c070c679f6a6fb6e8b9f1423b5515abefa3ca26807d5a482e489b8991f81",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/hamilton-the-revolution_699/index.html",
+    "title": "Hamilton: The Revolution"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/36/cf/36cf56c7bdf35aadbcc6f05a8e8d8fcb.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "14c6b80a0c3aaa2a519d7fdf4c5dccf7b039713d4de66cc80dcf37e83449a23c",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "10.23",
+    "record_id": "8bc36db46df6bd9b497877aa2d0857e4b29bd88cb59d292570c6b0f149b87a7e",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/greek-mythic-history_698/index.html",
+    "title": "Greek Mythic History"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/1f/db/1fdb125bcb8cee71f3404b4dc293348c.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "b3e149890b89f406211aa86e0aa93e5b083b72bab1b1dfe5f5d28bb1b36ccf1d",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "30.03",
+    "record_id": "db3a233c8ba1dcbb8522f465336080e7e4eb25e783d90e4f3f6aeceae9fb3446",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/god-the-most-unpleasant-character-in-all-fiction_697/index.html",
+    "title": "God: The Most Unpleasant Character in All Fiction"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/96/41/964194a317f8ce5ed031bf4c9ceb43ab.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "e5c43da961292ea2d690a9eec531cc2de925ba47df8af5927aaa842cbae0bdee",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "45.84",
+    "record_id": "306f349f1b1ccd5c013f2d022181b7d9d11b55b1ac43723bf40b2d6aa6e794ac",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/glory-over-everything-beyond-the-kitchen-house_696/index.html",
+    "title": "Glory over Everything: Beyond The Kitchen House"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/f2/ee/f2ee668cf593ff13a9560c2801e9c2a2.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "b3547a43d976f3c116540271d17fb1f38d3a8c990843bea8d57d7f7102bea689",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "49.05",
+    "record_id": "11300673d998afbebd7b4b334a7f5456003ce2ea0b36b66feeb5526022d5d429",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/feathers-displays-of-brilliant-plumage_695/index.html",
+    "title": "Feathers: Displays of Brilliant Plumage"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/11/e2/11e227bdb5fe8b43dcc2366a157a47c2.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "8a99d151d910a9b26f9554d6acdcae8286aaacc081a3e405c6a3cd62fe2cd2a3",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "15.06",
+    "record_id": "5be415a66e9738a14e7c07efea26a58254be7d53bbbee715a6ab913ed418c9f2",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/far-away-places-on-the-brink-of-change-seven-continents-twenty-five-years_694/index.html",
+    "title": "Far & Away: Places on the Brink of Change: Seven Continents, Twenty-Five Years"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/92/e7/92e7f0a8ca38964fea93e911aefbf6c9.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "ee0c713c75a81b1bdd4a1d760330bdb78555d91362d657a8a5f61dc5716eb1d6",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "46.47",
+    "record_id": "5882a171c9b6f4e558573b36791d47664462bc1c2f7b1b11df10f649cd5101fd",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/every-last-word_693/index.html",
+    "title": "Every Last Word"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/26/3b/263bf5d128bf18553ea8da8bb19e9a0c.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "693b341ae69ff7db3d40beef482d6a0e4e47b0a80eba721f9a407c144fb2d026",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "27.09",
+    "record_id": "4b5be6210dcf2c6d42baeffad4bd46572f7541df03267717fe483beac93f2664",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/eligible-the-austen-project-4_692/index.html",
+    "title": "Eligible (The Austen Project #4)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/34/eb/34eb0f1b570d4f1f6ad106652f1ac6ff.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "0cef9ab1fbebb304bd3cba4fe549df9c74188968b088a148a75c890e2d4b5712",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "57.62",
+    "record_id": "403d04e3b3475aac9537843cce22ffc932704eb248c0bf0e101e889c7f792d19",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/el-deafo_691/index.html",
+    "title": "El Deafo"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/8c/01/8c011092f05791961d25ec3cfcf0a832.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "98ef51103465cdb9d784cefb4e6a69be39d9c1101738c5eb5cedac8f75c8eaf5",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "14.39",
+    "record_id": "dbbe779fce4717ef8b4e8be1ebc6d40f1d8ef1b3ed7c7fbb026d24b851d352f4",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/eight-hundred-grapes_690/index.html",
+    "title": "Eight Hundred Grapes"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/b1/e1/b1e15eef42c0d71596f9f9ad4e9f48b0.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "efb37e3f3185e03deee5f1f6a1d8c2b851a1cb18f62194eb182f4ab97dd8ddfa",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "51.75",
+    "record_id": "3bbd324e8283132468970c781cc6423cb5671328e801ec99fae1333f036a772f",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/eaternity-more-than-150-deliciously-easy-vegan-recipes-for-a-long-healthy-satisfied-joyful-life_689/index.html",
+    "title": "Eaternity: More than 150 Deliciously Easy Vegan Recipes for a Long, Healthy, Satisfied, Joyful Life"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/62/3f/623f8e7f7432ce744f4318aae8166ce4.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "d72f06fa9c47be7973ecbb77ba00d65b142df0549c95ca1bcc28e8a6801b66e4",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "54.07",
+    "record_id": "9141e70ee499c8613b8c4e5e17d39b4dd93f6dc065bce7b3f0c0d6a2c29e3554",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/eat-fat-get-thin_688/index.html",
+    "title": "Eat Fat, Get Thin"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/b2/df/b2df2ea409c5cf28538b67aff424b11f.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "f3694a938b2d40557497c5b87d2903ae65de909de12c4a57aec579cf7d928272",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "55.35",
+    "record_id": "e57b425631b4466b885b8bde6668a7cc4ecf66b7881878519e658a0330bc8373",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/dont-get-caught_687/index.html",
+    "title": "Don't Get Caught"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/55/bf/55bfc858c1cb19867e41415532ae43c6.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "a7eab7c0e08b03aa4fe3931cc2515394830ce88b0979d7909df8399c4e56d3b8",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "40.12",
+    "record_id": "23bb5b71f7643d228137952e3ced301a25ac3d3e9d13aa587b1443f3b6383dfb",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/doctor-sleep-the-shining-2_686/index.html",
+    "title": "Doctor Sleep (The Shining #2)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/8f/80/8f8074d9f035c2a0ef8595ad89f7bcc8.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "80dbaef58f5bba159bf182a166f2023cb339b542bd7d480812d8a0c183975c74",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "37.51",
+    "record_id": "305b47276032c8928011fd080af6b50f5aff18837e0c53830fa40ae242358cf6",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/demigods-magicians-percy-and-annabeth-meet-the-kanes-percy-jackson-kane-chronicles-crossover-1-3_685/index.html",
+    "title": "Demigods & Magicians: Percy and Annabeth Meet the Kanes (Percy Jackson & Kane Chronicles Crossover #1-3)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/78/87/78873811f8c1d75a0c26d8cc8e6a9dbc.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "00605a8bbbbbded45680e9ee5cc82266ff3fd88a9c3aeabd2c123ad04968f4c6",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "11.21",
+    "record_id": "bdd1c35b758b4ba62f5c3dcb4d1572a74f85e0f93831a1e915622973b22175ec",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/dear-mr-knightley_684/index.html",
+    "title": "Dear Mr. Knightley"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/44/ff/44ff81a2ea37d3946605e205ddd538eb.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "076230944c1ba59ca22ebaef52b3b64f2e26d22cb380474a135aeed59389ee75",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "36.58",
+    "record_id": "eaa07b09554f94181de620e4858ed5a26f4ba07b6d36e291a4aa86fde9672dd8",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/daily-fantasy-sports_683/index.html",
+    "title": "Daily Fantasy Sports"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/03/f1/03f1e337afadba35687672b5625a9757.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "8d99c0d5a479df99ad318e5f6c5bad56166fbea58d7f563d1f49070908b7126c",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "47.72",
+    "record_id": "545e05b0f476a043f6be4dca22b320310ffc9c4f352065833cd3dd43b11e49b9",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/crazy-love-overwhelmed-by-a-relentless-god_682/index.html",
+    "title": "Crazy Love: Overwhelmed by a Relentless God"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/55/11/5511a4296fbd484dcaa89c8a2d25965d.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "bf62e4a245f574910d1f4b6bfc3415532168ffb26dee5c80e2dd81792459bf41",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "25.01",
+    "record_id": "835579eae07ebc0a6a0226bffd9cbec4737db4f8649e171dc03fc3e3e2393bc0",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/cometh-the-hour-the-clifton-chronicles-6_681/index.html",
+    "title": "Cometh the Hour (The Clifton Chronicles #6)"
+  }
+]

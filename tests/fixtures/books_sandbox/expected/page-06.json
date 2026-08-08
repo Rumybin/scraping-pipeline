@@ -1,0 +1,422 @@
+[
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/26/1c/261c4eaf957ae4aacf2229b482e76dbe.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "cb449fedb4d9dc95000a82cd5485eb82dccd9fb7a1e180ee46ada6d2fcaeba6a",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "57.36",
+    "record_id": "59a91a7f5511b6d56878a907b367ec658295c63019e46ca7fab32142c5ba0a2e",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/immunity-how-elie-metchnikoff-changed-the-course-of-modern-medicine_900/index.html",
+    "title": "Immunity: How Elie Metchnikoff Changed the Course of Modern Medicine"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/aa/74/aa74004807e97a79aa084b5db329a99b.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "810e028d9b3f7b7e9773f7df0d2a0c046a8596f4662e2eea2a85b3192435ffe6",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "29.17",
+    "record_id": "d5723c290191e4ec66306f57652b005b684b8c0f426cf3fde9dda38b72221f18",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/i-hate-fairyland-vol-1-madly-ever-after-i-hate-fairyland-compilations-1-5_899/index.html",
+    "title": "I Hate Fairyland, Vol. 1: Madly Ever After (I Hate Fairyland (Compilations) #1-5)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/16/d4/16d443437126bf6d536a89312c1995a5.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "69d2e1c2db618630a15c7bafe67a2e1fa1cac17be0966145d3df659ee9821cdd",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "54.63",
+    "record_id": "e4aed7c270037dfb1c67ec61f2df016e08a7b09a7cfb3da699fa5eef03f0a5e1",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/i-am-a-hero-omnibus-volume-1_898/index.html",
+    "title": "I am a Hero Omnibus Volume 1"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/da/8b/da8bc9b824dd3f446ef63e438ddbfc85.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "534bc5407f681035ee8a1168828bf01f29ad2219f58854588b840a0077729988",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "46.03",
+    "record_id": "d701e684320018d2c96ba2b6f54647f0014a4dac196e50646749ab81911cdbe3",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/how-to-be-miserable-40-strategies-you-already-use_897/index.html",
+    "title": "How to Be Miserable: 40 Strategies You Already Use"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/1e/bb/1ebbbc3e2d3249b111033cfc40763b0b.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "cc9c420fe3bc6bf6fa42f6be9b84ca451a03686d2228db76fcc5c75011ab3aaf",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "33.97",
+    "record_id": "daee168cc81c76444026b354b157998f7b77b07b7626bf72053d9cd04aed5401",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/her-backup-boyfriend-the-sorensen-family-1_896/index.html",
+    "title": "Her Backup Boyfriend (The Sorensen Family #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/90/6f/906f0168b0e155a7077625499b1737b5.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "e19721bad07503cfcdd68755f966723bbbb51add67cfb1ba174e6e15ef1bb7cc",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "22.11",
+    "record_id": "c23dafcd6177e98e5b4a25395bbbd5574b335308056ac340af028336ad8e2c19",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/giant-days-vol-2-giant-days-5-8_895/index.html",
+    "title": "Giant Days, Vol. 2 (Giant Days #5-8)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/d6/58/d658a1485b130ff26ca5fb0d5975ed2e.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "9f761aadf4462935c3bb4de68dd9f5fdf2c72a076254b219fda889ea4d8eda90",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "29.69",
+    "record_id": "0bae5fb58ec3614db7c86e657ae7daec30d7241ba8c0e41c48660a1c502c1763",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/forever-and-forever-the-courtship-of-henry-longfellow-and-fanny-appleton_894/index.html",
+    "title": "Forever and Forever: The Courtship of Henry Longfellow and Fanny Appleton"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/c4/d1/c4d1517cc9370e292366b6132ca9ca36.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "ef050f8c788195e790c8498675e91fc73e3056731d8645f18394515a106c6d49",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "15.97",
+    "record_id": "9648cae2514b8a5fa19b1b1d46026f178b5a1b0635efd07edae52720d6a6335a",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/first-and-first-five-boroughs-3_893/index.html",
+    "title": "First and First (Five Boroughs #3)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/cc/bd/ccbdae9e29b3594301528fa2c876ec29.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "7b62e327830c6c8c75df7a20ebbe6ceb997fa4f1c220881371e4b7ecf0b4db92",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "21.96",
+    "record_id": "0595af9f4f43deca12b887a6369200495c2a98f72d4d9204cdf4898222f5163b",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/fifty-shades-darker-fifty-shades-2_892/index.html",
+    "title": "Fifty Shades Darker (Fifty Shades #2)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/64/94/6494bf61176ca73b61255909230030be.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "33a35d6d6a87d1ae25e19603e73b4dfcdbeb40158d6b7bcf83e302844c3bf324",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "54.35",
+    "record_id": "f3f5935d4d8db0588e2ac8c6c49a8191ecc37a7bbb5435dfc5880fa02d88f830",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/everydata-the-misinformation-hidden-in-the-little-data-you-consume-every-day_891/index.html",
+    "title": "Everydata: The Misinformation Hidden in the Little Data You Consume Every Day"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/95/30/953013d044aa313cc162dec414f3969a.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "e1e3a9f9cfb89cbe97241e5a7b41856bb02f1a3c0bebb6e23609940e6ff6a996",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "37.97",
+    "record_id": "f63b335bbb64e5e3fc0f16cd4b75789250d70d70907182b8e55ce580b57c7406",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/dont-be-a-jerk-and-other-practical-advice-from-dogen-japans-greatest-zen-master_890/index.html",
+    "title": "Don't Be a Jerk: And Other Practical Advice from Dogen, Japan's Greatest Zen Master"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/78/97/7897eea91c4a85aca58d925861d4afec.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "0ead543b7a7e650f7495504afe079fe836cbfbdc3b0d73f973bef8d046dd34df",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "51.99",
+    "record_id": "65c1166f3578e04103172e0407710a900002ac89e1474245dc948fe9c526cd74",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/danganronpa-volume-1_889/index.html",
+    "title": "Danganronpa Volume 1"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/66/25/6625e3bbb050de3e42a0c302c0d69f1f.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "edb01d6d8a9d4dbdb32ed803297fd6684e59eb8e934dae91d0dfd571a3eae2f2",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "43.29",
+    "record_id": "553de15c4de5a467a8d5cc476a18ab1ae52c30bfabf22cb90ea353494302fac0",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/crown-of-midnight-throne-of-glass-2_888/index.html",
+    "title": "Crown of Midnight (Throne of Glass #2)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/f6/88/f688a9d6a89fdf38e4e88439ee9eda69.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "e112edeee551fc3eb4c9ec645276e756a7fdcdfca5f8bafef9e88ff313b42986",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "36.72",
+    "record_id": "335c9efc59aec093a88e67e256ff3f9b7ee7c18ef0dc8ed6c058d994e08ca267",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/codename-baboushka-volume-1-the-conclave-of-death_887/index.html",
+    "title": "Codename Baboushka, Volume 1: The Conclave of Death"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/dd/c9/ddc95df6754df8e71bf969c088056188.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "61c7154fb9d45526b57f4aa5f5fbaf4bfd8bfa1b187dcfdc415a8bb0a47cdf8d",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "17.08",
+    "record_id": "d2de7d47ca95ad76e015608c28cf2f02d3dc01a5ff7e2241792b5e2a58a40abc",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/camp-midnight_886/index.html",
+    "title": "Camp Midnight"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/88/9e/889e0bac4c7c0e7178f0165b8d3b4617.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "0f7d59c50365ca82d6994b9044f212e3c1129a0a21c2ee9f0596b8bbd1e8bb1b",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "29.14",
+    "record_id": "0d8942cef816ca8e84ba3c930950059fb45a681a5be15e6ffdb8f0e22a02d316",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/call-the-nurse-true-stories-of-a-country-nurse-on-a-scottish-isle_885/index.html",
+    "title": "Call the Nurse: True Stories of a Country Nurse on a Scottish Isle"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/26/95/269507c7bb35d2cec9b61a03d1c28e67.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "0908bc50c2bb7efd53a22c7e4c3eb4b6976d2f641806cc0462ca5ff6faf61686",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "28.81",
+    "record_id": "35549495b19d3b077b3c065227d792bca27144a6089d672b74b9165c0b40eaf1",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/burning_884/index.html",
+    "title": "Burning"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/27/d2/27d20361745ec2f7be668b18a4da29da.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "48b8c9122f62bf5496aa9822004ebed5c3e6713382512e1d70e0e1db80a83046",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "49.46",
+    "record_id": "467926bbbdca63f7281f54a6d736082751f316642c34caf7a89ef10ee26dd2f5",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/bossypants_883/index.html",
+    "title": "Bossypants"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/e4/1d/e41d34204a1fffbf825d8beb3dbf4cbc.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "25d14df29a7eeb72cb570d532d57fa69cd48410d9cb2dc935fea6497a214b6e6",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "37.92",
+    "record_id": "a789aa404f6878b16dd595612b0b358258e54c6cfda920d4a60f11eb4c5d4eee",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/bitch-planet-vol-1-extraordinary-machine-bitch-planet-collected-editions_882/index.html",
+    "title": "Bitch Planet, Vol. 1: Extraordinary Machine (Bitch Planet (Collected Editions))"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/06/18/061811c5845d0e13bc04b2a755f0830f.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "6146ed26cd2cb638a69f9f82b3e0369576120ea116da681314828485739263f3",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "28.09",
+    "record_id": "36a4dbfcce3e5e447356ba50a4b6ed225d64de9b0cd2feee1c05c9030b449185",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/avatar-the-last-airbender-smoke-and-shadow-part-3-smoke-and-shadow-3_881/index.html",
+    "title": "Avatar: The Last Airbender: Smoke and Shadow, Part 3 (Smoke and Shadow #3)"
+  }
+]

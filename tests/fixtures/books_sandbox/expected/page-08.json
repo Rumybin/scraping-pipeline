@@ -1,0 +1,422 @@
+[
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/1f/62/1f621dda1b302fc16d83d94b0b5ac31c.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "a7629e2aef0f59ceff3f0e7f8f56e82aaf9d806d633b36468f727266c4da0837",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "33.14",
+    "record_id": "07257711037cdc170e1db9d0d0f770ed89cccc6d7b07ca5b1fb35b7dae7ca78d",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-shadow-hero-the-shadow-hero_860/index.html",
+    "title": "The Shadow Hero (The Shadow Hero)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/4e/0f/4e0f05ae01d8fb6bd0d3901edd06de16.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "fe9f14fd9f6c4500783e3f6ea7b96f413aab97c3326dc10b274db8b30344d68e",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "27.37",
+    "record_id": "a2af500b594d6f281f0f5bb987bdf030e4cc7648af8f9712410d7d6544ad8d74",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-secret-the-secret-1_859/index.html",
+    "title": "The Secret (The Secret #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/f8/31/f8314c7fdaa79fb7191a583e9a852db8.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "598090f05a933a1f394f019e77911560354472d9b314529b9087855a265a59f6",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "51.36",
+    "record_id": "d9f828cdbb2a0eb3741ef693ef4a1a9245e6d3fc08c099fffaa80ee36dc83f9c",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-regional-office-is-under-attack_858/index.html",
+    "title": "The Regional Office Is Under Attack!"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/34/f5/34f5f8e513c5f048241f5695e61b2483.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "25c82dedffa0a36b4c21858317b1221c047d6e0e64ff04289b9b055fea585c22",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "36.00",
+    "record_id": "ce2c486c4309e41f8dcefbc9811fa941d6c2ef360ad9218c982d1a7b8f4b557f",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-psychopath-test-a-journey-through-the-madness-industry_857/index.html",
+    "title": "The Psychopath Test: A Journey Through the Madness Industry"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/10/6e/106e2fc7160712edf8e2ff996dc8cd6c.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "7ea1e2808ff74d937be1c7cb196e01d32aa989089858070d43bdda15c6d5a8ee",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "10.65",
+    "record_id": "98db4d61737cda66a63016f3119eda33beb2399e30da481f1b2af7a12991ac53",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-project_856/index.html",
+    "title": "The Project"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/03/38/0338682e76bad3216cd4c6c28b2b625a.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "36d9ec03965c9c462d8f26206e5a4d580f03f6336615aee580de02a73e1e3cfb",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "43.54",
+    "record_id": "7a7f0aefc72aa5aab9c46a830c59a550f2e964e2478235e3869a7624ee9f8335",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-power-of-now-a-guide-to-spiritual-enlightenment_855/index.html",
+    "title": "The Power of Now: A Guide to Spiritual Enlightenment"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/14/f3/14f3d525e2a114cd71e27201a16af188.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "927c2d14fb9fde030bd2a1bcf43c1bebfb464ed162d080b689140925544bc46f",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "38.21",
+    "record_id": "fc3cefb489c504d6a2b1666121aa271a59157815eed27d84e124191b7b6ef9fd",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-omnivores-dilemma-a-natural-history-of-four-meals_854/index.html",
+    "title": "The Omnivore's Dilemma: A Natural History of Four Meals"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/61/bd/61bdfe3950643c47d70c37c4123530f3.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "46ecf2934f7172a31f887b6b964a532c426ec6ed5f9b956fc58d3041eb670b9d",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "37.34",
+    "record_id": "f81415397ed109639273162a80c873d40b3151a6850e2489935e735601194a29",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-nerdy-nummies-cookbook-sweet-treats-for-the-geek-in-all-of-us_853/index.html",
+    "title": "The Nerdy Nummies Cookbook: Sweet Treats for the Geek in All of Us"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/29/fe/29fe70b1b2e5a9ba61d4bd331255e19e.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "1785fb205caf54f0541fd45c6656bf7638c567e2474074f3d0b31ce88dcfb871",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "44.10",
+    "record_id": "010f65037e361056f60cc99767ceb873ce46cfc001f503812017af421933b88c",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-murder-of-roger-ackroyd-hercule-poirot-4_852/index.html",
+    "title": "The Murder of Roger Ackroyd (Hercule Poirot #4)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/a5/43/a543b100a8c1861c1bf5374ca6b576fe.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "6a916fefa308c6af5dffcb1996c0a6eed4013d173eb739516ef56ee49d8b1bbf",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "43.29",
+    "record_id": "6eb6fad80eeefcdd01318253712fe0f3a191861d6314b32590c6afa6b7a4d455",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-mistake-off-campus-2_851/index.html",
+    "title": "The Mistake (Off-Campus #2)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/84/ac/84acb0606c96e55dc729a9d6572a08fb.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "863456725b41e65fc29d5321a12e7e48bc0105e08a16b8c1d4ce40143b260841",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "55.85",
+    "record_id": "69cf33516122d3eaae386a2b6c8ec3057889769fc586bce21a7f5f0346279098",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-matchmakers-playbook-wingmen-inc-1_850/index.html",
+    "title": "The Matchmaker's Playbook (Wingmen Inc. #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/0d/1f/0d1f3f934460f5a50aaa8c366641234c.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "0b8d12b7af82317d3e8fe1d9a48ed4177a22076586e4f6850e3ebffe5cf7d620",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "37.60",
+    "record_id": "fe2d4c30ca42e1c9e97ebf192588d2831057624b53230f3cb644ba3e184ddb1f",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-love-and-lemons-cookbook-an-apple-to-zucchini-celebration-of-impromptu-cooking_849/index.html",
+    "title": "The Love and Lemons Cookbook: An Apple-to-Zucchini Celebration of Impromptu Cooking"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/f2/e5/f2e51dd2b26600459f8eaeb6b9eecaa7.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "131743170c28313acc8ab5d5899a562649b896677b6d478bc1194fb8259a72ff",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "10.97",
+    "record_id": "2a50d24fa060a4186bcbd6404b5814307cb4a6091417c0fa1d6e861fc7093033",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-long-shadow-of-small-ghosts-murder-and-memory-in-an-american-city_848/index.html",
+    "title": "The Long Shadow of Small Ghosts: Murder and Memory in an American City"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/58/9d/589d73503d9a23d224de836134fae553.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "ef901be0bcbb5beaee0b1f04cea6c0dc0bef5f3b33b3c200c3d7b805f7e63c4d",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "41.82",
+    "record_id": "95b2bdaf241cf75123a90c3a8ee6df3e2390b86d489091a3baa01c044eea4e24",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-kite-runner_847/index.html",
+    "title": "The Kite Runner"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/0d/cb/0dcb33d60b0e79adf8ab9842e697ea2e.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "7a3d7e82ef0b8e2c7dc6e0761b076a266ef4bf7e3051a041d54a141b196aaa22",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "36.95",
+    "record_id": "0e6d94352c4366772ea3bd5c4a9ec195d96c8d33e5e8450cade820d0b82d9bb3",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-house-by-the-lake_846/index.html",
+    "title": "The House by the Lake"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/3e/0b/3e0b16851bec08b6cbf78d5f64af9114.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "0907245d28c80af3af28d86bda9a3010b990a4b34c333984049ec0d608baf045",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "44.28",
+    "record_id": "9ad12aa71d3d94c2bc9f4e457d444d6fe186aad7fa1a18ddd4564496bfe1cce4",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-glittering-court-the-glittering-court-1_845/index.html",
+    "title": "The Glittering Court (The Glittering Court #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/25/6c/256c946dd0962095f66c6de3b15ab300.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "27195fb6fdf03b81ee800e3f7ffa5e7e3d71188d2eb97ba1408edafcacf70e65",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "55.02",
+    "record_id": "6cf112b05871572f4c681f005a2f3748681d369c989469b3f204ff4b19ce3d4d",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-girl-on-the-train_844/index.html",
+    "title": "The Girl on the Train"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/13/57/1357c6aa40c9e63d2f931927fbf81f3f.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "4a2f5b76f0fc72c1cde2acbee877ee492679460cac5366b88c934fb4b472de5a",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "17.24",
+    "record_id": "19584f4443efe3b57537e2af1f0ec9216f72c8803eafa8fd4f220512bd4febf6",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-genius-of-birds_843/index.html",
+    "title": "The Genius of Birds"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/81/58/81586cd0bf8743e1f5ed80b6a0e1fabe.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "13040cbd11e489dadc5116e4e9eba7e7ad7f59326f54f30245bcea1fdf18e0ae",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "23.15",
+    "record_id": "e8f714f58fa0b24002f92b81a8401d472f77f95d51d2dfd5113afdf0af127aaf",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-emerald-mystery_842/index.html",
+    "title": "The Emerald Mystery"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/54/89/54899b4584e941ceced511d81092c88a.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "62ffc7eebc6517d2a521e1dddffa18c6bd5439b7a3300bb9621c55cfca432544",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "41.25",
+    "record_id": "84e45c9aab6e0df78bd7e2e42d812cc9a18629767c22b7a69c5a53e322a10072",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-cookies-cups-cookbook-125-sweet-savory-recipes-reminding-you-to-always-eat-dessert-first_841/index.html",
+    "title": "The Cookies & Cups Cookbook: 125+ sweet & savory recipes reminding you to Always Eat Dessert First"
+  }
+]

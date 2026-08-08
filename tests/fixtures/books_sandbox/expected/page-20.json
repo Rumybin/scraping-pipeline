@@ -1,0 +1,422 @@
+[
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/57/07/5707c3d5d4fd44d943d51730ba7d429a.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "7b44a1ee84bd3b3b59f43bb2ef367c5ed27c0390382f521effc4ecf8641f3cb0",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "11.84",
+    "record_id": "324f65b18ac5bfc0d3d129eacd9f0dbad00d2ea2c3a1edba229a7088d0ea9f54",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/hide-away-eve-duncan-20_620/index.html",
+    "title": "Hide Away (Eve Duncan #20)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/ab/2a/ab2ae4f02aa46271b4bfc77494039fc6.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "8cfc900baa08818dcec6f9767c183d480bda88b6da4ae26631764609f482ac69",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "41.46",
+    "record_id": "40a1f9ea264f1c907641bffbd35cbfb4c8622780bcd1e8e8c888e4f9c1311b5b",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/furiously-happy-a-funny-book-about-horrible-things_619/index.html",
+    "title": "Furiously Happy: A Funny Book About Horrible Things"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/5a/64/5a6499d41ccaad4c4f7eeaa90e16345a.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "8cf537f5b77b73432272bea1382efee476d56842a0509bdb9efb87cdc85828e0",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "20.10",
+    "record_id": "b8cd5645734e61de499a06ddb30704c79442818380b9fb88c02dc6f0c27d1f72",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/everyday-italian-125-simple-and-delicious-recipes_618/index.html",
+    "title": "Everyday Italian: 125 Simple and Delicious Recipes"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/00/11/001153d2a22d889837efac1703e10a5e.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "c0cdb9c453df08d60f412058fb6c8cadfd15b7304b489cfd642321a0d30eec2f",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "56.86",
+    "record_id": "394c643c8e4ec9a8e6be7717f580a6134564bc03b95a2f0583b99c07e5e284b3",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/equal-is-unfair-americas-misguided-fight-against-income-inequality_617/index.html",
+    "title": "Equal Is Unfair: America's Misguided Fight Against Income Inequality"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/ed/d7/edd781d3c9d63a395f80f241445e88fa.jpg",
+      "rating": 5
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "cf9ce5a3c26261277fd43d89d4b24d41699176882fa0ceabe224382eadb6df6a",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "56.51",
+    "record_id": "2154c5dd3a324aef80e44bddcfef0dcb9bff51c009b5eea377209ba35c8db74d",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/eleanor-park_616/index.html",
+    "title": "Eleanor & Park"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/ae/90/ae903f6f6d059954be4e85497dd76bf5.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "cc5bb0c91d9cd1e634a9d0aaea2f76d9eb1e991538cb7546155dd1953aa88f42",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "40.83",
+    "record_id": "05dc6b57833a07812ea32437f66408c05a37c3ba1f3e7890eb1f13fb0cf3bdbc",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/dirty-dive-bar-1_615/index.html",
+    "title": "Dirty (Dive Bar #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/0b/2f/0b2f432cc27132f688fcdf29618521e0.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "3bd037a3e8c6058cd3b70fadb70a534ce05180effefdeb4fcd2c846a0eb11333",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "48.64",
+    "record_id": "338f9d0729ee20d9ad607a0fcfa55330ce809bc41441c1aac12ab40bcf2c223c",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/can-you-keep-a-secret-fear-street-relaunch-4_614/index.html",
+    "title": "Can You Keep a Secret? (Fear Street Relaunch #4)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/d5/81/d58157866ea8f015a8e4c55b23b8c96f.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "ba59c93d2afcf73668ee28d067fcbfc217978a7a45eacf73d9ac6ffb078ba4cb",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "59.48",
+    "record_id": "084545b0b342f6525b13bc0d60183f96520c45ccf78db186e2e1f482fa66d3c5",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/boar-island-anna-pigeon-19_613/index.html",
+    "title": "Boar Island (Anna Pigeon #19)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/16/57/16575316618bd7e922d5b0e0f87de2ca.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "7c3599567a8acbe5ffceafec69f13bb92b07dee8fda5e2a19c7616c3a7f2f881",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "39.01",
+    "record_id": "d459b8bd1f7f0c9b928caf6421fdbd868968435de44e78bc71aeba906eca8135",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/a-paris-apartment_612/index.html",
+    "title": "A Paris Apartment"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/98/19/9819ff3a8290dc6ab8797d00de5ec554.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "0014d0689aaed287c58380a24af4010d7180164b61d17923050176b4353d47df",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "38.77",
+    "record_id": "fc823ff663c94b4f64dee80a209f1b0c087e265ada7bd0d5b492302ddecdec05",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/a-la-mode-120-recipes-in-60-pairings-pies-tarts-cakes-crisps-and-more-topped-with-ice-cream-gelato-frozen-custard-and-more_611/index.html",
+    "title": "A la Mode: 120 Recipes in 60 Pairings: Pies, Tarts, Cakes, Crisps, and More Topped with Ice Cream, Gelato, Frozen Custard, and More"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/77/82/778285b3c87d6d5d98003aa0f2f65933.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "5b781bcb60146d298f4ff774496f5c374d46941261c0234fe08476f267d9a326",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "48.39",
+    "record_id": "86c0b96740adc13e3a73bb18aa9f5000581a00ee7e89a6914828527ce2b77338",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/troublemaker-surviving-hollywood-and-scientology_610/index.html",
+    "title": "Troublemaker: Surviving Hollywood and Scientology"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/fd/71/fd71fb07247bf911505a351c0670c6dc.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "045e261dddb8e6fdd87e6b2c2ce374acba6241da74a08703db744cbbddb47bc9",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "27.26",
+    "record_id": "62f33e8d370b563ec1e71fdcb5f7379acc491122092043c6e4828d180dd467be",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-widow_609/index.html",
+    "title": "The Widow"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/3d/c5/3dc5455313710cf7055c060114e25bf0.jpg",
+      "rating": 4
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "088af270e1d625d549d314aedd81f1f2fa39c8f465ea30211997d6e561a12625",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "11.68",
+    "record_id": "1a9c6a1bd6393277d6b13a980653f720aa6da8461fdc347ae1510d02b8a8bdf9",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-sleep-revolution-transforming-your-life-one-night-at-a-time_608/index.html",
+    "title": "The Sleep Revolution: Transforming Your Life, One Night at a Time"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/06/49/06493269f6893cfd24b650f66df51882.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "6b7654a38a2055e5096b80375f1ad1553d28a3dc1b527f1962ac20b369f2ce8b",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "59.45",
+    "record_id": "6962e3e31fd578d106c26529dcde8163d81125b36b5c56169a9ad939975e966c",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-improbability-of-love_607/index.html",
+    "title": "The Improbability of Love"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/b3/7b/b37be83183f1dcb759d92bda8f8998a4.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "d0c735ca0d16bc7601b3d835d40247bced86aaad9b3b56823c43ff12373bc7a4",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "21.00",
+    "record_id": "a016171d7134c9566912467c425a1a29a2e4b7b62a1aee35312b7288f7814fd5",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/the-art-of-startup-fundraising_606/index.html",
+    "title": "The Art of Startup Fundraising"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/a6/4b/a64b3c559f59748bfdbbe75be3e16075.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "26c9760155fe4f2337c00bb724e5fd0b7ac30d8da932e9e948d6a39f929044f1",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "53.98",
+    "record_id": "aac829e356a7e54d355be53e81099659a0f66e759bbbc5f950d453379948f748",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/take-me-home-tonight-rock-star-romance-3_605/index.html",
+    "title": "Take Me Home Tonight (Rock Star Romance #3)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/c0/72/c072c1ef144d571abd25fe9cc18cceba.jpg",
+      "rating": 1
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "03f411d3cb2e61b8427e6a60cfbdd6ad568d1883bd13633acaa23943dfd09b15",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "48.74",
+    "record_id": "5278177685d8e0a1a70649c666c04b3de0750027729214f3f2078ffb264bb5a4",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/sleeping-giants-themis-files-1_604/index.html",
+    "title": "Sleeping Giants (Themis Files #1)"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/8b/c4/8bc43a6b42d0283ab4bf611f1b497126.jpg",
+      "rating": 2
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "7f70e0abd28daffb0c9819aa85e0ff8d8d5ddaca2d16b26665f82af09c2d72a2",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "21.15",
+    "record_id": "b66fb789fdc23eb7e98be9ae967e6eac5b4e5f651b5c3613974ad09437b9d5cb",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/setting-the-world-on-fire-the-brief-astonishing-life-of-st-catherine-of-siena_603/index.html",
+    "title": "Setting the World on Fire: The Brief, Astonishing Life of St. Catherine of Siena"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/90/0b/900bd2e60d56b6480a4e8eb2dddb46d6.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "8d3cfb738e4428d71db3da900e0983c3c1161066a7094007c41431dc4c336d39",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "13.71",
+    "record_id": "55352530e2bc443e2bfd5f619157242f7398f52f14968b76f6e19c04c7c51d06",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/playing-with-fire_602/index.html",
+    "title": "Playing with Fire"
+  },
+  {
+    "attributes": {
+      "image_url": "https://books.toscrape.com/media/cache/1d/78/1d78fe226e1adb9cb591fa21f8a9bf68.jpg",
+      "rating": 3
+    },
+    "availability": "In stock",
+    "backend": "local",
+    "completeness_score": 1.0,
+    "content_hash": "adc4ad62450b6006e9c8c8c0417d883d2100028bf358a8e23c1ae6ad22542ac4",
+    "currency": "GBP",
+    "extraction_method": "css",
+    "fetch_strategy": "http",
+    "price": "47.67",
+    "record_id": "829d572fc2d52687bcb9a7ce375365c786fb830f007117528646a3b9175b6f19",
+    "run_id": "golden-fixture",
+    "scraped_at": "2026-01-01T00:00:00Z",
+    "scraper_version": "golden",
+    "site_id": "books_sandbox",
+    "source_url": "https://books.toscrape.com/catalogue/off-the-hook-fishing-for-trouble-1_601/index.html",
+    "title": "Off the Hook (Fishing for Trouble #1)"
+  }
+]

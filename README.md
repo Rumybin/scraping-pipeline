@@ -1,10 +1,17 @@
 # Scraping Pipeline
 
+[![CI](https://github.com/Rumybin/scraping-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/Rumybin/scraping-pipeline/actions/workflows/ci.yml)
+
 A production-grade, backend-agnostic web scraping pipeline that runs daily across a fixed set of
 heterogeneous sites, validates data quality before promotion, detects silent failures, and
 publishes a public data-quality dashboard.
 
-**Status: Phase 0 — repository scaffolding.** No scraping logic exists yet.
+📊 [Live data-quality report](https://rumybin.github.io/scraping-pipeline/) — a real run, not a
+mockup (currently a manually-published snapshot; automated per-run publishing lands in Phase 3A).
+
+**Status: Phase 2 in progress.** 4 sites live (2 plain-HTTP, 2 browser-rendered), full resilience
+layer built and proven against a purpose-built hostile test server: per-error-class retry,
+per-domain circuit breaker, soft-block/JS-shell classifier, automatic http→browser escalation.
 
 ## Why this exists
 
@@ -30,18 +37,36 @@ sites.yaml → orchestrator → fetchers (http | browser) → scrapers → quali
 
 Architectural decisions are recorded as ADRs in [`docs/adr/`](docs/adr/).
 
+## Reliability engineering
+
+- **Chaos test harness** (`tests/hostile_server/`): a FastAPI server built to break the scrapers —
+  9 adversarial scenarios (429 + `Retry-After`, intermittent 503, hung responses, mid-run CSS
+  drift, soft-block challenge pages, mismatched encoding, unexpected JSON, self-enforced rate
+  limiting, a 50MB streamed body) — see
+  [`docs/adr/0004-hostile-test-harness.md`](docs/adr/0004-hostile-test-harness.md).
+- **Per-error-class retry**: `429` honors `Retry-After`, `5xx` backs off exponentially with
+  jitter, network/timeout errors retry fast, other `4xx` never retries.
+- **Per-domain circuit breaker**: one failing site's domain trips independently — every other
+  site keeps running.
+- **Automatic http→browser escalation**: an http-first fetch that turns out empty/JS-shell
+  transparently retries through a real (lazily-launched) browser, so a run that never needs one
+  never pays for launching one.
+- Retry and circuit-breaker behavior is proven against the real hostile server over a real
+  loopback socket (`tests/resilience/`), not just mocked.
+
 ## Metrics
 
-Populated from real runs only — never invented. `TBD` until Phase 5's soak run.
+Populated from real runs only — never invented. Still `TBD` where nothing has actually measured
+it yet (no soak run or metrics sink exist before Phase 4/5).
 
 | Metric | Value |
 |---|---|
-| Sites active | TBD |
-| Records scraped (last run) | TBD |
-| Success rate | TBD |
-| p95 fetch latency | TBD |
-| Data-quality score | TBD |
-| Test coverage | TBD |
+| Sites active | 4 (`books_sandbox`, `quotes_js`, `quotes_scroll`, `wikipedia_tech`) |
+| Tests passing | 225 |
+| Test coverage | 97% |
+| Sample run — `books_sandbox` | 1,000 records, 0 quarantined, DQ gate **PASS** |
+| Success rate (14-day soak) | TBD — soak run not started (Phase 5) |
+| p95 fetch latency | TBD — no metrics sink yet (Phase 4) |
 
 ## Getting started
 

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>DQ report — {{ report.site_id }} — {{ report.run_id }}</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 860px; margin: 2rem auto; padding: 0 1rem; color: #1a1a1a; }
+  h1 { font-size: 1.4rem; margin-bottom: 0.25rem; }
+  .meta { color: #555; font-size: 0.9rem; margin-bottom: 1.5rem; }
+  .badge { display: inline-block; padding: 0.15rem 0.6rem; border-radius: 999px; font-weight: 600; font-size: 0.85rem; }
+  .badge.pass { background: #d4f4dd; color: #146c2e; }
+  .badge.warn { background: #fdecc8; color: #8a5a00; }
+  .badge.fail { background: #fbd5d5; color: #9b1c1c; }
+  table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+  th, td { text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid #e2e2e2; font-size: 0.92rem; }
+  th { color: #555; font-weight: 600; }
+  td.score { font-variant-numeric: tabular-nums; }
+</style>
+</head>
+<body>
+  <h1>Data-quality report</h1>
+  <p class="meta">
+    site <strong>{{ report.site_id }}</strong> ·
+    run <strong>{{ report.run_id }}</strong> ·
+    generated {{ report.generated_at }} ·
+    {{ report.total_records }} record(s) ·
+    gate <span class="badge {{ report.gate_status }}">{{ report.gate_status | upper }}</span>
+  </p>
+  <table>
+    <thead>
+      <tr>
+        <th>Dimension</th>
+        <th>Score</th>
+        <th>Warn threshold</th>
+        <th>Fail threshold</th>
+        <th>Status</th>
+        <th>Detail</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for dimension in report.dimensions %}
+      <tr>
+        <td>{{ dimension.dimension }}</td>
+        <td class="score">{{ "%.4f" | format(dimension.score) }}</td>
+        <td class="score">{{ "%.3f" | format(dimension.warn_threshold) }}</td>
+        <td class="score">{{ "%.3f" | format(dimension.fail_threshold) }}</td>
+        <td><span class="badge {{ dimension.status }}">{{ dimension.status | upper }}</span></td>
+        <td>{{ dimension.detail }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</body>
+</html>

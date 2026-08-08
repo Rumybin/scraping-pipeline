@@ -43,8 +43,32 @@ def test_load_missing_file_raises_configuration_error() -> None:
 
 def test_load_repo_root_sites_yaml_registers_books_sandbox() -> None:
     config = load_sites_config(REPO_ROOT_SITES_YAML)
+    sites_by_id = {site.id: site for site in config.sites}
 
-    assert len(config.sites) == 1
-    assert config.sites[0].id == "books_sandbox"
-    assert config.sites[0].module == "scrapers.books_sandbox:BooksScraper"
+    assert "books_sandbox" in sites_by_id
+    assert sites_by_id["books_sandbox"].module == "scrapers.books_sandbox:BooksScraper"
+
+
+def test_load_repo_root_sites_yaml_registers_quotes_js() -> None:
+    config = load_sites_config(REPO_ROOT_SITES_YAML)
+    sites_by_id = {site.id: site for site in config.sites}
+
+    assert "quotes_js" in sites_by_id
+    assert sites_by_id["quotes_js"].strategy == "browser"
+
+
+def test_load_repo_root_sites_yaml_registers_quotes_scroll() -> None:
+    config = load_sites_config(REPO_ROOT_SITES_YAML)
+    sites_by_id = {site.id: site for site in config.sites}
+
+    assert "quotes_scroll" in sites_by_id
+    assert sites_by_id["quotes_scroll"].strategy == "browser"
+
+
+def test_load_repo_root_sites_yaml_registers_wikipedia_tech() -> None:
+    config = load_sites_config(REPO_ROOT_SITES_YAML)
+    sites_by_id = {site.id: site for site in config.sites}
+
+    assert "wikipedia_tech" in sites_by_id
+    assert sites_by_id["wikipedia_tech"].strategy == "http"
     assert config.sites[0].enabled is True

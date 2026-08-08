@@ -8,3 +8,27 @@ sites:
     strategy: http
     rate_limit: { rps: 2.0, burst: 5, respect_crawl_delay: true }
     dq_profile: strict
+
+  - id: quotes_js
+    module: scrapers.quotes_js:QuotesJsScraper
+    enabled: true
+    schedule: "0 2 * * *"
+    strategy: browser
+    rate_limit: { rps: 2.0, burst: 5, respect_crawl_delay: true }
+    dq_profile: strict
+
+  - id: quotes_scroll
+    module: scrapers.quotes_scroll:QuotesScrollScraper
+    enabled: true
+    schedule: "0 2 * * *"
+    strategy: browser
+    rate_limit: { rps: 2.0, burst: 5, respect_crawl_delay: true }
+    dq_profile: strict
+
+  - id: wikipedia_tech
+    module: scrapers.wikipedia_tech:WikipediaScraper
+    enabled: true
+    schedule: "0 2 * * *"
+    strategy: http
+    rate_limit: { rps: 1.0, burst: 1, respect_crawl_delay: true }
+    dq_profile: strict

@@ -18,6 +18,8 @@ def _result(gate_status: str) -> RunResult:
         quarantined_count=0,
         gate_status=gate_status,  # type: ignore[arg-type]  # test passes a plain str for the Literal
         dq_report=report,
+        http_only_fetch_count=1000,
+        escalated_fetch_count=0,
     )
 
 
@@ -44,6 +46,8 @@ def test_main_returns_zero_and_prints_summary_on_passing_gate(
     out = capsys.readouterr().out
     assert "1000 records" in out
     assert "gate=pass" in out
+    assert "1000 http-only" in out
+    assert "0 escalated to browser" in out
 
 
 def test_main_returns_one_when_the_dq_gate_fails(monkeypatch: pytest.MonkeyPatch) -> None:

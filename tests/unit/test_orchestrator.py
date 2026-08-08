@@ -1,6 +1,7 @@
 """Tests for `pipeline.orchestrator.run` — the Phase 1 single-site orchestrator."""
 
 import re
+from contextlib import AsyncExitStack
 from datetime import UTC, datetime
 from decimal import Decimal
 from pathlib import Path
@@ -12,10 +13,13 @@ import respx
 
 from pipeline.core.config import Backend, Settings
 from pipeline.core.exceptions import ConfigurationError
-from pipeline.core.models import RateLimitConfig, ScrapedRecord
+from pipeline.core.models import RateLimitConfig, ScrapedRecord, Target
 from pipeline.core.sites import load_sites_config
+from pipeline.fetchers.browser import BrowserFetcher
+from pipeline.fetchers.escalating import EscalatingFetcher
 from pipeline.orchestrator.run import (
     RunResult,
+    _build_fetcher,
     _dedupe,
     _load_scraper_class,
     _raw_key,
@@ -208,6 +212,8 @@ async def test_run_site_executes_the_full_pipeline_against_a_mocked_site(
     assert result.record_count == 100  # 50 pages x 2 articles, all unique content hashes
     assert result.quarantined_count == 0
     assert result.gate_status == "pass"
+    assert result.http_only_fetch_count == 50  # one fetch per page, none ever escalated
+    assert result.escalated_fetch_count == 0
 
     root = tmp_path / "data"
     raw_files = list((root / "raw").rglob("*.html.gz"))
@@ -216,3 +222,41 @@ async def test_run_site_executes_the_full_pipeline_against_a_mocked_site(
     assert len(curated_files) == 1
     assert (root / "reports" / "dq_report.html").exists()
     assert list((root / "reports").glob("run=*/dq_report.html"))
+
+
+class TestBuildFetcher:
+    async def test_http_strategy_returns_an_escalating_fetcher(self) -> None:
+        async with httpx.AsyncClient() as client, AsyncExitStack() as stack:
+            fetcher, escalating = await _build_fetcher("http", client, "test-ua/1.0", stack)
+
+        assert isinstance(fetcher, EscalatingFetcher)
+        assert escalating is fetcher
+
+    async def test_browser_strategy_returns_a_browser_fetcher_with_no_escalation_wrapper(
+        self,
+    ) -> None:
+        async with httpx.AsyncClient() as client, AsyncExitStack() as stack:
+            fetcher, escalating = await _build_fetcher("browser", client, "test-ua/1.0", stack)
+
+            assert isinstance(fetcher, BrowserFetcher)
+            assert escalating is None
+
+    async def test_http_strategy_escalation_lazily_launches_a_browser_on_demand(self) -> None:
+        from tests.resilience.conftest import hostile_server
+
+        async with (
+            hostile_server() as base_url,
+            httpx.AsyncClient() as client,
+            AsyncExitStack() as stack,
+        ):
+            fetcher, escalating = await _build_fetcher("http", client, "test-ua/1.0", stack)
+            assert escalating is not None
+
+            raw = await fetcher.fetch(
+                Target(url=f"{base_url}/js-rendered"),
+                rate_limit=RateLimitConfig(rps=1000.0, burst=1000),
+            )
+
+        assert "rendered by JS" in raw.body.decode("utf-8")
+        assert escalating.escalated_count == 1
+        assert escalating.http_only_count == 0

@@ -1,8 +1,13 @@
 """Minimal single-site orchestrator: discover → fetch → parse → dedupe → DQ gate → persist.
 
-This is the Phase 1 vertical-slice orchestrator (`CLAUDE.md` §9, Phase 1 DoD): one site, run
-sequentially end to end on the `local` backend. Fan-out across sites, retries, and per-domain
-circuit breaking are Phase 2 concerns and are intentionally not built here.
+This is the Phase 1 vertical-slice orchestrator (`CLAUDE.md` §9, Phase 1 DoD), extended in Phase
+2 for a second fetch strategy: one site, run sequentially end to end on the `local` backend.
+Fan-out across sites is a later Phase 2/3 concern and is intentionally not built here.
+
+A `browser`-strategy scraper gets a `BrowserFetcher` directly — no escalation needed, since the
+scraper already declares it needs JS. An `http`-strategy scraper gets an `EscalatingFetcher`
+wrapping `HttpFetcher`, which only ever launches a browser if a fetch's response turns out to be
+an empty/JS-shell page (FR-2) — most runs never pay for a browser at all.
 
 Assumes the process's working directory is the repository root, matching how the documented CLI
 invocation (`python -m pipeline run --site <id>`) and CI both run it.
@@ -19,12 +24,14 @@ import json
 import subprocess
 import uuid
 from collections.abc import Sequence
+from contextlib import AsyncExitStack
 from dataclasses import dataclass
 from datetime import UTC, datetime
 from pathlib import Path
 
 import httpx
 import polars as pl
+from playwright.async_api import Browser, async_playwright
 
 from pipeline.backends import build_backend_set
 from pipeline.backends.base import ObjectStore, StateStore
@@ -34,11 +41,24 @@ from pipeline.core.exceptions import ConfigurationError
 from pipeline.core.models import QuarantinedRecord, RunManifest, ScrapedRecord
 from pipeline.core.scraper import BaseScraper
 from pipeline.core.sites import SiteConfig, SitesConfig, load_sites_config
+from pipeline.fetchers.browser import BrowserFetcher
+from pipeline.fetchers.circuit_breaker import DomainCircuitBreaker
+from pipeline.fetchers.escalating import EscalatingFetcher, Fetcher
 from pipeline.fetchers.http import HttpFetcher
+from pipeline.fetchers.robots import RobotsChecker
 from pipeline.quality.dq_engine import DqReport, GateStatus, evaluate, resolve_profile
 from pipeline.quality.report import render_html
 
 _DEDUPE_TTL_DAYS = 90
+
+
+@dataclass(frozen=True)
+class FetchStats:
+    """Escalation savings for one run (FR-2): how many fetches were served cheaply over plain
+    HTTP versus how many needed a browser launch."""
+
+    http_only_count: int
+    escalated_count: int
 
 
 @dataclass(frozen=True)
@@ -51,6 +71,8 @@ class RunResult:
     quarantined_count: int
     gate_status: GateStatus
     dq_report: DqReport
+    http_only_fetch_count: int
+    escalated_fetch_count: int
 
 
 async def run_site(
@@ -80,7 +102,7 @@ async def run_site(
     run_date = ctx.started_at.date().isoformat()
 
     backend_set = build_backend_set(settings, local_root=local_root)
-    fetched_records = await _fetch_and_parse(
+    fetched_records, fetch_stats = await _fetch_and_parse(
         scraper, ctx, backend_set.object_store, run_date, settings.user_agent
     )
     deduped = await _dedupe(fetched_records, backend_set.state_store)
@@ -113,6 +135,8 @@ async def run_site(
         quarantined_count=len(scraper.quarantined),
         gate_status=report.gate_status,
         dq_report=report,
+        http_only_fetch_count=fetch_stats.http_only_count,
+        escalated_fetch_count=fetch_stats.escalated_count,
     )
 
 
@@ -150,10 +174,10 @@ async def _fetch_and_parse(
     object_store: ObjectStore,
     run_date: str,
     user_agent: str,
-) -> list[ScrapedRecord]:
+) -> tuple[list[ScrapedRecord], FetchStats]:
     records: list[ScrapedRecord] = []
-    async with httpx.AsyncClient(http2=True, timeout=30.0) as client:
-        fetcher = HttpFetcher(user_agent=user_agent, client=client)
+    async with httpx.AsyncClient(http2=True, timeout=30.0) as client, AsyncExitStack() as stack:
+        fetcher, escalating = await _build_fetcher(scraper.strategy, client, user_agent, stack)
         async for target in scraper.discover(ctx):
             raw = await fetcher.fetch(target, rate_limit=scraper.rate_limit)
             await object_store.put(
@@ -164,7 +188,69 @@ async def _fetch_and_parse(
             for item in await scraper.parse(raw, ctx):
                 if isinstance(item, ScrapedRecord):
                     records.append(item)
-    return records
+
+        stats = FetchStats(
+            http_only_count=escalating.http_only_count if escalating else 0,
+            escalated_count=escalating.escalated_count if escalating else 0,
+        )
+    return records, stats
+
+
+async def _build_fetcher(
+    strategy: str,
+    client: httpx.AsyncClient,
+    user_agent: str,
+    stack: AsyncExitStack,
+) -> tuple[Fetcher, EscalatingFetcher | None]:
+    """Build the fetcher a `discover`/`parse` loop should use for `strategy`.
+
+    A `browser` scraper gets a `BrowserFetcher` directly — it already knows it needs JS, so there
+    is nothing to escalate from. An `http` scraper gets an `EscalatingFetcher` (FR-2): a browser
+    is only ever launched, lazily, the first time a fetch actually needs one. Either way, the
+    returned fetcher's own robots checker and circuit breaker are shared with whatever browser
+    fetcher gets built (lazily or eagerly) from the same `stack`, so a domain's health is tracked
+    once, not once per fetch strategy.
+    """
+    robots_checker = RobotsChecker(client, user_agent)
+    circuit_breaker = DomainCircuitBreaker()
+
+    if strategy == "browser":
+        browser = await _launch_browser(stack)
+        return (
+            BrowserFetcher(
+                browser=browser,
+                user_agent=user_agent,
+                robots_checker=robots_checker,
+                circuit_breaker=circuit_breaker,
+            ),
+            None,
+        )
+
+    http_fetcher = HttpFetcher(
+        user_agent=user_agent,
+        client=client,
+        robots_checker=robots_checker,
+        circuit_breaker=circuit_breaker,
+    )
+
+    async def _provide_browser_fetcher() -> Fetcher:
+        browser = await _launch_browser(stack)
+        return BrowserFetcher(
+            browser=browser,
+            user_agent=user_agent,
+            robots_checker=robots_checker,
+            circuit_breaker=circuit_breaker,
+        )
+
+    escalating_fetcher = EscalatingFetcher(http_fetcher, _provide_browser_fetcher)
+    return escalating_fetcher, escalating_fetcher
+
+
+async def _launch_browser(stack: AsyncExitStack) -> Browser:
+    playwright = await stack.enter_async_context(async_playwright())
+    browser = await playwright.chromium.launch()
+    stack.push_async_callback(browser.close)
+    return browser
 
 
 async def _dedupe(

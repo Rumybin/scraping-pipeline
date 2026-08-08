@@ -29,7 +29,9 @@ def main(argv: Sequence[str] | None = None) -> int:
 
     print(
         f"run {result.run_id} ({result.site_id}): {result.record_count} records, "
-        f"{result.quarantined_count} quarantined, gate={result.gate_status}"
+        f"{result.quarantined_count} quarantined, gate={result.gate_status}, "
+        f"fetches: {result.http_only_fetch_count} http-only / "
+        f"{result.escalated_fetch_count} escalated to browser"
     )
     return 0 if result.gate_status != "fail" else 1
 

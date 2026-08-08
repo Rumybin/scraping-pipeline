@@ -69,6 +69,10 @@ class Target(BaseModel):
     """One URL yielded by `BaseScraper.discover` for a fetcher to retrieve."""
 
     url: str
+    max_scroll_rounds: int = 0
+    """Hint for `BrowserFetcher` only: scroll-and-wait up to this many rounds before extracting
+    content, for infinite-scroll pages. `0` (default) means no scrolling. `HttpFetcher` ignores
+    this field entirely, since a plain HTTP GET cannot trigger scroll-loaded content anyway."""
 
 
 class RawResponse(BaseModel):

@@ -107,6 +107,24 @@ def test_evaluate_price_without_currency_fails_consistency() -> None:
     assert consistency.status == "fail"
 
 
+def test_evaluate_passes_validity_when_every_record_has_no_price_or_currency() -> None:
+    # Regression: an all-null price/currency column (any non-e-commerce entity, e.g. a Wikipedia
+    # article) made polars infer dtype `Null` instead of `Float64`/`String`, which failed
+    # pandera's schema validation on a dtype mismatch even though every value legitimately
+    # satisfies `nullable=True`.
+    records = [
+        _record(record_id=f"r{i}", content_hash=f"hash-{i}", price=None, currency=None)
+        for i in range(3)
+    ]
+
+    report = evaluate(records, run_id="run-1", site_id="wikipedia_tech", profile=STRICT_PROFILE)
+
+    validity = next(d for d in report.dimensions if d.dimension == "validity")
+    assert validity.score == 1.0
+    assert validity.status == "pass"
+    assert report.gate_status == "pass"
+
+
 def test_evaluate_low_completeness_fails_that_dimension() -> None:
     records = [
         _record(record_id="r1", content_hash="h1", completeness_score=1.0),

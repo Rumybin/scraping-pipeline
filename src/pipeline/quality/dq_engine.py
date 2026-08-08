@@ -158,7 +158,12 @@ def _score_validity(records: Sequence[ScrapedRecord], profile: DqProfile) -> Dim
                 float(record.price) if record.price is not None else None for record in records
             ],
             "currency": [record.currency for record in records],
-        }
+        },
+        # Explicit dtypes: when every record's price/currency is None (any non-e-commerce
+        # entity, e.g. Wikipedia articles), polars infers an all-null column as dtype `Null`
+        # rather than `Float64`/`String`, which fails pandera's schema validation on a dtype
+        # mismatch even though every value legitimately satisfies `nullable=True`.
+        schema={"title": pl.Utf8, "price": pl.Float64, "currency": pl.Utf8},
     )
     try:
         _VALIDITY_SCHEMA.validate(frame, lazy=True)

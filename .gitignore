@@ -59,3 +59,8 @@ infra/terraform/.terraform/
 infra/terraform/*.tfstate
 infra/terraform/*.tfstate.*
 infra/terraform/.terraform.lock.hcl
+
+# Local-only project brief and PRD (kept on disk, not published)
+/CLAUDE.md
+/PRD-Scraping-Pipeline.md
+/docs/prd.md

@@ -61,6 +61,6 @@ mypy_path = "src"
 explicit_package_bases = true
 
 [tool.pytest.ini_options]
-addopts = "--cov=src/pipeline --cov-fail-under=0"
+addopts = "--cov=src/pipeline --cov-fail-under=60"
 asyncio_mode = "auto"
 testpaths = ["tests"]

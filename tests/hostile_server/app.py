@@ -129,4 +129,21 @@ def create_app(*, flaky_seed: int = 0, drift_after_requests: int = 3) -> FastAPI
 
         return StreamingResponse(_chunks(), media_type="application/octet-stream")
 
+    @app.get("/js-rendered")
+    async def js_rendered() -> Response:
+        """Not one of the nine PRD scenarios — proves a browser fetcher actually executes
+        JavaScript and waits for it, unlike a plain HTTP fetch. The server-rendered body is an
+        empty shell; the real content only exists after the inline script runs, and the script
+        also fires a `fetch()` call so a browser fetcher's XHR capture has something to see."""
+        html = """<!doctype html>
+        <html><body>
+        <div id="root">loading...</div>
+        <script>
+          fetch('/strict-rate-limit').then(r => r.text()).then(() => {
+            document.getElementById('root').textContent = 'rendered by JS';
+          });
+        </script>
+        </body></html>"""
+        return Response(content=html, media_type="text/html")
+
     return app

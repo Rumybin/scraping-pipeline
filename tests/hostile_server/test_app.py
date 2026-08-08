@@ -130,3 +130,12 @@ async def test_huge_streams_the_requested_size_without_buffering_it_all_up_front
     response = await client.get("/huge", params={"size_mb": 2})
 
     assert len(response.content) == 2 * 1024 * 1024
+
+
+async def test_js_rendered_serves_a_shell_with_a_placeholder_div(
+    client: httpx.AsyncClient,
+) -> None:
+    response = await client.get("/js-rendered")
+
+    assert response.status_code == 200
+    assert '<div id="root">loading...</div>' in response.text

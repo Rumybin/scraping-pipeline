@@ -94,6 +94,17 @@ class TestEmptyOrJsShell:
 
         assert classify_response(raw) == ResponseClassification.EMPTY_OR_JS_SHELL
 
+    def test_a_js_shell_with_a_long_hydration_script_is_still_detected(self) -> None:
+        # Regression: a JS-shell page's whole defining trait is that its script is often longer
+        # than the "content" it renders -- the script's own source text must not count toward
+        # the visible-content length check, or exactly the pages this exists to catch slip past.
+        script = "console.log('hydrating');" * 20
+        raw = _raw(
+            f'<html><body><div id="root">loading...</div><script>{script}</script></body></html>'
+        )
+
+        assert classify_response(raw) == ResponseClassification.EMPTY_OR_JS_SHELL
+
     def test_a_body_with_only_whitespace_is_an_empty_js_shell(self) -> None:
         raw = _raw("<html><body>   \n   </body></html>")
 

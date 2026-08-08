@@ -51,13 +51,18 @@ def classify_response(raw: RawResponse) -> ResponseClassification:
     if raw.content_type and "html" not in raw.content_type.lower():
         return ResponseClassification.OK
 
-    text = raw.body.decode("utf-8", errors="replace")
-    lowered = text.lower()
+    # `<script>`/`<style>` content must not count as visible text — a JS-shell page's whole
+    # defining trait is that its hydration script is often longer than the "content" it renders,
+    # which would otherwise defeat the length check below on exactly the pages it exists to catch.
+    tree = HTMLParser(raw.body)
+    tree.strip_tags(["script", "style"])
+    body_node = tree.body
+    visible_text = body_node.text(deep=True, strip=True) if body_node is not None else ""
+
+    lowered = visible_text.lower()
     if any(marker in lowered for marker in _SOFT_BLOCK_MARKERS):
         return ResponseClassification.SOFT_BLOCK
 
-    body_node = HTMLParser(raw.body).body
-    visible_text = body_node.text(deep=True, strip=True) if body_node is not None else ""
     if len(visible_text) < _MIN_CONTENT_TEXT_LENGTH:
         return ResponseClassification.EMPTY_OR_JS_SHELL
 

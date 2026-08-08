@@ -41,7 +41,10 @@ def test_load_missing_file_raises_configuration_error() -> None:
         load_sites_config(FIXTURES / "does_not_exist.yaml")
 
 
-def test_load_repo_root_sites_yaml_is_empty_until_a_scraper_is_registered() -> None:
+def test_load_repo_root_sites_yaml_registers_books_sandbox() -> None:
     config = load_sites_config(REPO_ROOT_SITES_YAML)
 
-    assert config.sites == []
+    assert len(config.sites) == 1
+    assert config.sites[0].id == "books_sandbox"
+    assert config.sites[0].module == "scrapers.books_sandbox:BooksScraper"
+    assert config.sites[0].enabled is True

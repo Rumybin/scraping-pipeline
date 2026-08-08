@@ -1,0 +1,8 @@
+sites:
+  - id: books_sandbox
+    module: scrapers.books_sandbox:BooksScraper
+    enabled: true
+    schedule: "0 2 * * *"
+    strategy: quantum
+    rate_limit: { rps: 2.0, burst: 5, respect_crawl_delay: true }
+    dq_profile: strict

@@ -1,0 +1,4 @@
+# Registry of scraper plugins the orchestrator fans out to. Empty until Phase 1.4 registers the
+# first scraper (books_sandbox); see docs/adr/0001-backend-abstraction.md and
+# src/pipeline/core/sites.py for the loader and schema.
+sites: []

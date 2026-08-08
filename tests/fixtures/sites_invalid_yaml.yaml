@@ -1,0 +1,4 @@
+sites:
+  - id: books_sandbox
+   module: scrapers.books_sandbox:BooksScraper
+    bad indentation: [unclosed

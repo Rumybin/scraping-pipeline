@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>DQ report — books_sandbox — 20260808T122320Z-e05355f3</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 860px; margin: 2rem auto; padding: 0 1rem; color: #1a1a1a; }
+  h1 { font-size: 1.4rem; margin-bottom: 0.25rem; }
+  .meta { color: #555; font-size: 0.9rem; margin-bottom: 1.5rem; }
+  .badge { display: inline-block; padding: 0.15rem 0.6rem; border-radius: 999px; font-weight: 600; font-size: 0.85rem; }
+  .badge.pass { background: #d4f4dd; color: #146c2e; }
+  .badge.warn { background: #fdecc8; color: #8a5a00; }
+  .badge.fail { background: #fbd5d5; color: #9b1c1c; }
+  table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+  th, td { text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid #e2e2e2; font-size: 0.92rem; }
+  th { color: #555; font-weight: 600; }
+  td.score { font-variant-numeric: tabular-nums; }
+</style>
+</head>
+<body>
+  <p style="font-size:0.85rem;color:#555;margin-bottom:0.5rem">
+    <a href="https://github.com/Rumybin/scraping-pipeline">← scraping-pipeline</a> ·
+    manually published snapshot of a real local run (Phase 3A will automate this per-run)
+  </p>
+  <h1>Data-quality report</h1>
+  <p class="meta">
+    site <strong>books_sandbox</strong> ·
+    run <strong>20260808T122320Z-e05355f3</strong> ·
+    generated 2026-08-08 12:23:50.320055+00:00 ·
+    1000 record(s) ·
+    gate <span class="badge pass">PASS</span>
+  </p>
+  <table>
+    <thead>
+      <tr>
+        <th>Dimension</th>
+        <th>Score</th>
+        <th>Warn threshold</th>
+        <th>Fail threshold</th>
+        <th>Status</th>
+        <th>Detail</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td>completeness</td>
+        <td class="score">1.0000</td>
+        <td class="score">0.990</td>
+        <td class="score">0.950</td>
+        <td><span class="badge pass">PASS</span></td>
+        <td>mean per-record completeness across 1000 records</td>
+      </tr>
+      
+      <tr>
+        <td>uniqueness</td>
+        <td class="score">1.0000</td>
+        <td class="score">0.995</td>
+        <td class="score">0.980</td>
+        <td><span class="badge pass">PASS</span></td>
+        <td>1000 unique of 1000 content hashes</td>
+      </tr>
+      
+      <tr>
+        <td>validity</td>
+        <td class="score">1.0000</td>
+        <td class="score">0.990</td>
+        <td class="score">0.950</td>
+        <td><span class="badge pass">PASS</span></td>
+        <td>0 of 1000 records failed a validity check</td>
+      </tr>
+      
+      <tr>
+        <td>consistency</td>
+        <td class="score">1.0000</td>
+        <td class="score">0.990</td>
+        <td class="score">0.950</td>
+        <td><span class="badge pass">PASS</span></td>
+        <td>price and currency must both be present or both be absent</td>
+      </tr>
+      
+    </tbody>
+  </table>
+</body>
+</html>

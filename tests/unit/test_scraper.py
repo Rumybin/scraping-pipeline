@@ -41,7 +41,7 @@ def _make_context() -> RunContext:
 
 def test_base_scraper_cannot_be_instantiated_directly() -> None:
     with pytest.raises(TypeError):
-        BaseScraper()  # type: ignore[abstract]
+        BaseScraper()  # type: ignore[abstract]  # instantiating the ABC directly is the point of this test
 
 
 async def test_discover_yields_targets() -> None:

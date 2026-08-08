@@ -9,7 +9,13 @@ from typing import Literal
 from pydantic import BaseModel
 
 from pipeline.core.context import RunContext
-from pipeline.core.models import HealthStatus, RateLimitConfig, RawResponse, Target
+from pipeline.core.models import (
+    HealthStatus,
+    QuarantinedRecord,
+    RateLimitConfig,
+    RawResponse,
+    Target,
+)
 
 
 class BaseScraper(ABC):
@@ -25,6 +31,9 @@ class BaseScraper(ABC):
     rate_limit: RateLimitConfig
     record_model: type[BaseModel]
 
+    def __init__(self) -> None:
+        self.quarantined: list[QuarantinedRecord] = []
+
     @abstractmethod
     def discover(self, ctx: RunContext) -> AsyncIterator[Target]:
         """Yield the URLs/targets to fetch for this run (pagination, sitemap, API index)."""
@@ -34,7 +43,9 @@ class BaseScraper(ABC):
     async def parse(self, raw: RawResponse, ctx: RunContext) -> list[BaseModel]:
         """Turn one raw fetched response into validated records.
 
-        Raises `ParsingError` if the expected structure is not found in `raw`.
+        A record that fails validation is appended to `self.quarantined` with a reason instead of
+        raising (Hard Rule 6) — the whole response is skipped only if its expected structure is
+        entirely absent, in which case this raises `ParsingError`.
         """
         raise NotImplementedError
 

@@ -50,6 +50,9 @@ data/
 .vscode/
 .idea/
 
+# Claude Code session state
+.claude/
+
 # OS
 .DS_Store
 Thumbs.db

@@ -25,3 +25,6 @@ class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", extra="ignore")
 
     pipeline_backend: Backend = Backend.FREE
+    # HTTP header values must be ASCII-encodable (httpx raises otherwise), so this stays plain
+    # ASCII rather than using an em dash or other non-ASCII punctuation.
+    user_agent: str = "scraping-pipeline/0.1 (portfolio project, see repository README)"

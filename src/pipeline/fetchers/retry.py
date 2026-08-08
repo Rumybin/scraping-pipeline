@@ -1,9 +1,10 @@
-"""Per-error-class retry with backoff for HTTP fetches (FR-9).
+"""Per-error-class retry with backoff for both fetch strategies (FR-9).
 
 A single fetch attempt is classified into one of four outcomes, each retried differently: `429`
 honors the server's own `Retry-After` header, `5xx` backs off exponentially with jitter, a
-network/timeout failure retries fast (transient blips resolve quickly or not at all), and any
-other outcome (2xx/3xx, or a 4xx other than 429) is never retried.
+network/timeout failure (`HttpFetchError` or `BrowserFetchError` — the same policy serves both
+`HttpFetcher` and `BrowserFetcher`, ADR 0003) retries fast, and any other outcome (2xx/3xx, or a
+4xx other than 429) is never retried.
 
 This is a hand-rolled loop rather than a single `tenacity` decorator: honoring a *dynamic*
 `Retry-After` value read from the most recent response, while also giving each error class its
@@ -21,8 +22,10 @@ from datetime import UTC, datetime
 from email.utils import parsedate_to_datetime
 from enum import StrEnum
 
-from pipeline.core.exceptions import HttpFetchError
+from pipeline.core.exceptions import BrowserFetchError, HttpFetchError
 from pipeline.core.models import RawResponse
+
+_RETRYABLE_EXCEPTION_TYPES = (HttpFetchError, BrowserFetchError)
 
 _MAX_RETRY_AFTER_SECONDS = 60.0
 _SERVER_ERROR_BASE_SECONDS = 1.0
@@ -36,7 +39,7 @@ class ErrorClass(StrEnum):
 
     RATE_LIMITED = "rate_limited"  # HTTP 429
     SERVER_ERROR = "server_error"  # HTTP 5xx
-    TIMEOUT_OR_NETWORK = "timeout_or_network"  # HttpFetchError
+    TIMEOUT_OR_NETWORK = "timeout_or_network"  # HttpFetchError or BrowserFetchError
     NOT_RETRYABLE = "not_retryable"  # 2xx/3xx, other 4xx, or an unrelated exception
 
 
@@ -54,7 +57,7 @@ def classify(result: RawResponse | None, exception: BaseException | None) -> Err
     if exception is not None:
         return (
             ErrorClass.TIMEOUT_OR_NETWORK
-            if isinstance(exception, HttpFetchError)
+            if isinstance(exception, _RETRYABLE_EXCEPTION_TYPES)
             else ErrorClass.NOT_RETRYABLE
         )
     assert result is not None, "classify() requires a result when no exception was raised"
@@ -122,22 +125,23 @@ async def fetch_with_retry(
 
     Returns the last `RawResponse` obtained, even if it is still a `429`/`5xx` after retries are
     exhausted — a final bad response is data, not an error, matching `HttpFetcher.fetch`'s
-    existing contract (raw responses are always persistable, Hard Rule 5). Raises `HttpFetchError`
-    if every attempt at a network/timeout failure is exhausted. Any exception `attempt` raises
-    other than `HttpFetchError` (e.g. `RobotsDisallowedError`) is not this function's concern to
-    retry and propagates immediately, unmodified, after a single attempt.
+    existing contract (raw responses are always persistable, Hard Rule 5). Raises
+    `HttpFetchError`/`BrowserFetchError` if every attempt at a network/timeout failure is
+    exhausted. Any exception `attempt` raises that is not one of those two (e.g.
+    `RobotsDisallowedError`) is not this function's concern to retry and propagates immediately,
+    unmodified, after a single attempt.
     """
     sleep = sleep or _default_sleep
     rng = rng or random.Random()
     attempt_number = 0
     last_result: RawResponse | None = None
-    last_exception: HttpFetchError | None = None
+    last_exception: HttpFetchError | BrowserFetchError | None = None
 
     while True:
         attempt_number += 1
         try:
             last_result = await attempt()
-        except HttpFetchError as exc:
+        except _RETRYABLE_EXCEPTION_TYPES as exc:
             last_exception = exc
             last_result = None
         else:

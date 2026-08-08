@@ -5,7 +5,7 @@ from email.utils import format_datetime
 
 import pytest
 
-from pipeline.core.exceptions import HttpFetchError, RobotsDisallowedError
+from pipeline.core.exceptions import BrowserFetchError, HttpFetchError, RobotsDisallowedError
 from pipeline.core.models import RawResponse
 from pipeline.fetchers.retry import (
     RETRY_ATTEMPTS_PER_CLASS,
@@ -53,6 +53,9 @@ class TestClassify:
 
     def test_http_fetch_error_is_timeout_or_network(self) -> None:
         assert classify(None, HttpFetchError("boom")) == ErrorClass.TIMEOUT_OR_NETWORK
+
+    def test_browser_fetch_error_is_timeout_or_network(self) -> None:
+        assert classify(None, BrowserFetchError("boom")) == ErrorClass.TIMEOUT_OR_NETWORK
 
     def test_other_exception_is_not_retryable(self) -> None:
         assert classify(None, RobotsDisallowedError("nope")) == ErrorClass.NOT_RETRYABLE
@@ -166,6 +169,23 @@ class TestFetchWithRetry:
 
         assert calls == RETRY_ATTEMPTS_PER_CLASS[ErrorClass.TIMEOUT_OR_NETWORK]
         assert len(sleep.calls) == calls - 1
+
+    async def test_retries_a_browser_fetch_error_like_an_http_fetch_error(self) -> None:
+        sleep = _SleepSpy()
+        calls = 0
+
+        async def attempt() -> RawResponse:
+            nonlocal calls
+            calls += 1
+            if calls == 1:
+                raise BrowserFetchError("navigation timed out")
+            return _raw(200)
+
+        result = await fetch_with_retry(attempt, sleep=sleep)
+
+        assert result.status_code == 200
+        assert calls == 2
+        assert len(sleep.calls) == 1
 
     async def test_recovers_after_a_transient_network_failure(self) -> None:
         sleep = _SleepSpy()
